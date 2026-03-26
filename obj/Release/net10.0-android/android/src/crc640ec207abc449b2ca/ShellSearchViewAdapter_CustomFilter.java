@@ -1,0 +1,53 @@
+package crc640ec207abc449b2ca;
+
+
+public class ShellSearchViewAdapter_CustomFilter
+	extends android.widget.Filter
+	implements
+		mono.android.IGCUserPeer
+{
+
+	public ShellSearchViewAdapter_CustomFilter ()
+	{
+		super ();
+		if (getClass () == ShellSearchViewAdapter_CustomFilter.class) {
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSearchViewAdapter+CustomFilter, Microsoft.Maui.Controls", "", this, new java.lang.Object[] {  });
+		}
+	}
+
+	public ShellSearchViewAdapter_CustomFilter (android.widget.BaseAdapter p0)
+	{
+		super ();
+		if (getClass () == ShellSearchViewAdapter_CustomFilter.class) {
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.Compatibility.ShellSearchViewAdapter+CustomFilter, Microsoft.Maui.Controls", "Android.Widget.BaseAdapter, Mono.Android", this, new java.lang.Object[] { p0 });
+		}
+	}
+
+	public android.widget.Filter.FilterResults performFiltering (java.lang.CharSequence p0)
+	{
+		return n_performFiltering (p0);
+	}
+
+	private native android.widget.Filter.FilterResults n_performFiltering (java.lang.CharSequence p0);
+
+	public void publishResults (java.lang.CharSequence p0, android.widget.Filter.FilterResults p1)
+	{
+		n_publishResults (p0, p1);
+	}
+
+	private native void n_publishResults (java.lang.CharSequence p0, android.widget.Filter.FilterResults p1);
+
+	private java.util.ArrayList refList;
+	public void monodroidAddReference (java.lang.Object obj)
+	{
+		if (refList == null)
+			refList = new java.util.ArrayList ();
+		refList.add (obj);
+	}
+
+	public void monodroidClearReferences ()
+	{
+		if (refList != null)
+			refList.clear ();
+	}
+}

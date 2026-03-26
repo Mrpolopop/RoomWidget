@@ -1,0 +1,10 @@
+<api type="release" assembly-name="Xamarin.Google.Guava.ListenableFuture" mvid="c8381a7f3a934b8585141a17628d4ee4">
+  <module assembly-name="Xamarin.Google.Guava.ListenableFuture" mvid="c8381a7f3a934b8585141a17628d4ee4" mvid-bytes="fxo4yJM6hUuFFBoXYo1O5A==">
+    <duplicates>
+      <entry java-name="com/google/common/util/concurrent/ListenableFuture" managed-type-name="Google.Common.Util.Concurrent.IListenableFutureInvoker" token="33554440" />
+    </duplicates>
+    <types-scratch>
+      <entry key="com/google/common/util/concurrent/ListenableFuture" java-name="com/google/common/util/concurrent/ListenableFuture" managed-type-name="Google.Common.Util.Concurrent.IListenableFuture" token="33554439" skip-in-java-to-managed="True" />
+    </types-scratch>
+  </module>
+</api>

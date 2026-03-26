@@ -1,0 +1,68 @@
+<api type="release" assembly-name="Xamarin.AndroidX.Work.Runtime" mvid="1f66c03816d74a66bbb167fd2934af4a">
+  <module assembly-name="Xamarin.AndroidX.Work.Runtime" mvid="1f66c03816d74a66bbb167fd2934af4a" mvid-bytes="OMBmH9cWZkq7sWf9KTSvSg==">
+    <duplicates>
+      <entry java-name="androidx/work/Clock" managed-type-name="AndroidX.Work.IClockInvoker" token="33554456" />
+      <entry java-name="androidx/work/ForegroundUpdater" managed-type-name="AndroidX.Work.IForegroundUpdaterInvoker" token="33554458" />
+      <entry java-name="androidx/work/InputMerger" managed-type-name="AndroidX.Work.InputMergerInvoker" token="33554460" />
+      <entry java-name="androidx/work/InputMergerFactory" managed-type-name="AndroidX.Work.InputMergerFactoryInvoker" token="33554462" />
+      <entry java-name="androidx/work/Operation$State" managed-type-name="AndroidX.Work.OperationStateInvoker" token="33554466" />
+      <entry java-name="androidx/work/Operation" managed-type-name="AndroidX.Work.IOperationInvoker" token="33554468" />
+      <entry java-name="androidx/work/ProgressUpdater" managed-type-name="AndroidX.Work.IProgressUpdaterInvoker" token="33554470" />
+      <entry java-name="androidx/work/RunnableScheduler" managed-type-name="AndroidX.Work.IRunnableSchedulerInvoker" token="33554472" />
+      <entry java-name="androidx/work/Tracer" managed-type-name="AndroidX.Work.ITracerInvoker" token="33554474" />
+      <entry java-name="androidx/work/ListenableWorker$Result" managed-type-name="AndroidX.Work.ListenableWorker/ResultInvoker" token="33554477" />
+      <entry java-name="androidx/work/ListenableWorker" managed-type-name="AndroidX.Work.ListenableWorkerInvoker" token="33554478" />
+      <entry java-name="androidx/work/WorkContinuation" managed-type-name="AndroidX.Work.WorkContinuationInvoker" token="33554482" />
+      <entry java-name="androidx/work/Worker" managed-type-name="AndroidX.Work.WorkerInvoker" token="33554484" />
+      <entry java-name="androidx/work/WorkerFactory" managed-type-name="AndroidX.Work.WorkerFactoryInvoker" token="33554486" />
+      <entry java-name="androidx/work/WorkManager" managed-type-name="AndroidX.Work.WorkManagerInvoker" token="33554493" />
+      <entry java-name="androidx/work/WorkRequest$Builder" managed-type-name="AndroidX.Work.WorkRequest/BuilderInvoker" token="33554497" />
+      <entry java-name="androidx/work/WorkRequest" managed-type-name="AndroidX.Work.WorkRequestInvoker" token="33554498" />
+      <entry java-name="androidx/work/impl/utils/taskexecutor/SerialExecutor" managed-type-name="AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutorInvoker" token="33554500" />
+      <entry java-name="androidx/work/impl/utils/taskexecutor/TaskExecutor" managed-type-name="AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutorInvoker" token="33554502" />
+    </duplicates>
+    <types-scratch>
+      <entry key="androidx/work/OneTimeWorkRequest" java-name="androidx/work/OneTimeWorkRequest" managed-type-name="AndroidX.Work.OneTimeWorkRequest" token="33554444" />
+      <entry key="androidx/work/OneTimeWorkRequest$Builder" java-name="androidx/work/OneTimeWorkRequest$Builder" managed-type-name="AndroidX.Work.OneTimeWorkRequest/Builder" token="33554445" />
+      <entry key="androidx/work/PeriodicWorkRequest" java-name="androidx/work/PeriodicWorkRequest" managed-type-name="AndroidX.Work.PeriodicWorkRequest" token="33554446" />
+      <entry key="androidx/work/Constraints" java-name="androidx/work/Constraints" managed-type-name="AndroidX.Work.Constraints" token="33554447" />
+      <entry key="androidx/work/Constraints$ContentUriTrigger" java-name="androidx/work/Constraints$ContentUriTrigger" managed-type-name="AndroidX.Work.Constraints/ContentUriTrigger" token="33554448" />
+      <entry key="androidx/work/BackoffPolicy" java-name="androidx/work/BackoffPolicy" managed-type-name="AndroidX.Work.BackoffPolicy" token="33554449" />
+      <entry key="androidx/work/Configuration" java-name="androidx/work/Configuration" managed-type-name="AndroidX.Work.Configuration" token="33554450" />
+      <entry key="androidx/work/Data" java-name="androidx/work/Data" managed-type-name="AndroidX.Work.Data" token="33554451" />
+      <entry key="androidx/work/ExistingPeriodicWorkPolicy" java-name="androidx/work/ExistingPeriodicWorkPolicy" managed-type-name="AndroidX.Work.ExistingPeriodicWorkPolicy" token="33554452" />
+      <entry key="androidx/work/ExistingWorkPolicy" java-name="androidx/work/ExistingWorkPolicy" managed-type-name="AndroidX.Work.ExistingWorkPolicy" token="33554453" />
+      <entry key="androidx/work/ForegroundInfo" java-name="androidx/work/ForegroundInfo" managed-type-name="AndroidX.Work.ForegroundInfo" token="33554454" />
+      <entry key="androidx/work/Clock" java-name="androidx/work/Clock" managed-type-name="AndroidX.Work.IClock" token="33554455" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/ForegroundUpdater" java-name="androidx/work/ForegroundUpdater" managed-type-name="AndroidX.Work.IForegroundUpdater" token="33554457" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/InputMerger" java-name="androidx/work/InputMerger" managed-type-name="AndroidX.Work.InputMerger" token="33554459" />
+      <entry key="androidx/work/InputMergerFactory" java-name="androidx/work/InputMergerFactory" managed-type-name="AndroidX.Work.InputMergerFactory" token="33554461" />
+      <entry key="androidx/work/Operation$State" java-name="androidx/work/Operation$State" managed-type-name="AndroidX.Work.OperationState" token="33554463" />
+      <entry key="androidx/work/Operation$State$IN_PROGRESS" java-name="androidx/work/Operation$State$IN_PROGRESS" managed-type-name="AndroidX.Work.OperationState/IN_PROGRESS" token="33554464" />
+      <entry key="androidx/work/Operation$State$SUCCESS" java-name="androidx/work/Operation$State$SUCCESS" managed-type-name="AndroidX.Work.OperationState/SUCCESS" token="33554465" />
+      <entry key="androidx/work/Operation" java-name="androidx/work/Operation" managed-type-name="AndroidX.Work.IOperation" token="33554467" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/ProgressUpdater" java-name="androidx/work/ProgressUpdater" managed-type-name="AndroidX.Work.IProgressUpdater" token="33554469" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/RunnableScheduler" java-name="androidx/work/RunnableScheduler" managed-type-name="AndroidX.Work.IRunnableScheduler" token="33554471" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/Tracer" java-name="androidx/work/Tracer" managed-type-name="AndroidX.Work.ITracer" token="33554473" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/ListenableWorker" java-name="androidx/work/ListenableWorker" managed-type-name="AndroidX.Work.ListenableWorker" token="33554475" />
+      <entry key="androidx/work/ListenableWorker$Result" java-name="androidx/work/ListenableWorker$Result" managed-type-name="AndroidX.Work.ListenableWorker/Result" token="33554476" />
+      <entry key="androidx/work/NetworkType" java-name="androidx/work/NetworkType" managed-type-name="AndroidX.Work.NetworkType" token="33554479" />
+      <entry key="androidx/work/OutOfQuotaPolicy" java-name="androidx/work/OutOfQuotaPolicy" managed-type-name="AndroidX.Work.OutOfQuotaPolicy" token="33554480" />
+      <entry key="androidx/work/WorkContinuation" java-name="androidx/work/WorkContinuation" managed-type-name="AndroidX.Work.WorkContinuation" token="33554481" />
+      <entry key="androidx/work/Worker" java-name="androidx/work/Worker" managed-type-name="AndroidX.Work.Worker" token="33554483" />
+      <entry key="androidx/work/WorkerFactory" java-name="androidx/work/WorkerFactory" managed-type-name="AndroidX.Work.WorkerFactory" token="33554485" />
+      <entry key="androidx/work/WorkerParameters" java-name="androidx/work/WorkerParameters" managed-type-name="AndroidX.Work.WorkerParameters" token="33554487" />
+      <entry key="androidx/work/WorkerParameters$RuntimeExtras" java-name="androidx/work/WorkerParameters$RuntimeExtras" managed-type-name="AndroidX.Work.WorkerParameters/RuntimeExtras" token="33554488" />
+      <entry key="androidx/work/WorkInfo" java-name="androidx/work/WorkInfo" managed-type-name="AndroidX.Work.WorkInfo" token="33554489" />
+      <entry key="androidx/work/WorkInfo$PeriodicityInfo" java-name="androidx/work/WorkInfo$PeriodicityInfo" managed-type-name="AndroidX.Work.WorkInfo/PeriodicityInfo" token="33554490" />
+      <entry key="androidx/work/WorkInfo$State" java-name="androidx/work/WorkInfo$State" managed-type-name="AndroidX.Work.WorkInfo/State" token="33554491" />
+      <entry key="androidx/work/WorkManager" java-name="androidx/work/WorkManager" managed-type-name="AndroidX.Work.WorkManager" token="33554492" />
+      <entry key="androidx/work/WorkQuery" java-name="androidx/work/WorkQuery" managed-type-name="AndroidX.Work.WorkQuery" token="33554494" />
+      <entry key="androidx/work/WorkRequest" java-name="androidx/work/WorkRequest" managed-type-name="AndroidX.Work.WorkRequest" token="33554495" />
+      <entry key="androidx/work/WorkRequest$Builder" java-name="androidx/work/WorkRequest$Builder" managed-type-name="AndroidX.Work.WorkRequest/Builder" token="33554496" />
+      <entry key="androidx/work/impl/utils/taskexecutor/SerialExecutor" java-name="androidx/work/impl/utils/taskexecutor/SerialExecutor" managed-type-name="AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutor" token="33554499" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/impl/utils/taskexecutor/TaskExecutor" java-name="androidx/work/impl/utils/taskexecutor/TaskExecutor" managed-type-name="AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor" token="33554501" skip-in-java-to-managed="True" />
+      <entry key="androidx/work/impl/model/WorkSpec" java-name="androidx/work/impl/model/WorkSpec" managed-type-name="AndroidX.Work.Impl.Model.WorkSpec" token="33554503" />
+    </types-scratch>
+  </module>
+</api>

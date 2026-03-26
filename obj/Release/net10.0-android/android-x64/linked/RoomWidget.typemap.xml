@@ -1,0 +1,10 @@
+<api type="release" assembly-name="RoomWidget" mvid="41f0afc7c0c2412bb4bcd23c76fc2010">
+  <module assembly-name="RoomWidget" mvid="41f0afc7c0c2412bb4bcd23c76fc2010" mvid-bytes="x6/wQcLAK0G0vNI8dvwgEA==">
+    <types-scratch>
+      <entry key="crc647a63b22ff57ccb32/MainActivity" java-name="crc647a63b22ff57ccb32/MainActivity" managed-type-name="RoomWidget.MainActivity" token="33554442" />
+      <entry key="crc647a63b22ff57ccb32/MainApplication" java-name="crc647a63b22ff57ccb32/MainApplication" managed-type-name="RoomWidget.MainApplication" token="33554443" />
+      <entry key="crc6497da801d5190a566/CalendarWorker" java-name="crc6497da801d5190a566/CalendarWorker" managed-type-name="RoomWidget.Platforms.Android.CalendarWorker" token="33554449" />
+      <entry key="crc6497da801d5190a566/MyWidget" java-name="crc6497da801d5190a566/MyWidget" managed-type-name="RoomWidget.Platforms.Android.MyWidget" token="33554452" />
+    </types-scratch>
+  </module>
+</api>

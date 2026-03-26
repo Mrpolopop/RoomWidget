@@ -1,0 +1,24 @@
+<api type="release" assembly-name="Xamarin.KotlinX.Coroutines.Core.Jvm" mvid="0bcb746e63fb450d8b0d01a42ea251ae">
+  <module assembly-name="Xamarin.KotlinX.Coroutines.Core.Jvm" mvid="0bcb746e63fb450d8b0d01a42ea251ae" mvid-bytes="bnTLC/tjDUWLDQGkLqJRrg==">
+    <duplicates>
+      <entry java-name="kotlinx/coroutines/CoroutineDispatcher" managed-type-name="Xamarin.KotlinX.Coroutines.CoroutineDispatcherInvoker" token="33554444" />
+      <entry java-name="kotlinx/coroutines/CoroutineScope" managed-type-name="Xamarin.KotlinX.Coroutines.ICoroutineScopeInvoker" token="33554446" />
+      <entry java-name="kotlinx/coroutines/flow/Flow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IFlowInvoker" token="33554448" />
+      <entry java-name="kotlinx/coroutines/flow/FlowCollector" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IFlowCollectorInvoker" token="33554450" />
+      <entry java-name="kotlinx/coroutines/flow/MutableSharedFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlowInvoker" token="33554452" />
+      <entry java-name="kotlinx/coroutines/flow/MutableStateFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlowInvoker" token="33554454" />
+      <entry java-name="kotlinx/coroutines/flow/SharedFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.ISharedFlowInvoker" token="33554456" />
+      <entry java-name="kotlinx/coroutines/flow/StateFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IStateFlowInvoker" token="33554458" />
+    </duplicates>
+    <types-scratch>
+      <entry key="kotlinx/coroutines/CoroutineDispatcher" java-name="kotlinx/coroutines/CoroutineDispatcher" managed-type-name="Xamarin.KotlinX.Coroutines.CoroutineDispatcher" token="33554443" />
+      <entry key="kotlinx/coroutines/CoroutineScope" java-name="kotlinx/coroutines/CoroutineScope" managed-type-name="Xamarin.KotlinX.Coroutines.ICoroutineScope" token="33554445" skip-in-java-to-managed="True" />
+      <entry key="kotlinx/coroutines/flow/Flow" java-name="kotlinx/coroutines/flow/Flow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IFlow" token="33554447" skip-in-java-to-managed="True" />
+      <entry key="kotlinx/coroutines/flow/FlowCollector" java-name="kotlinx/coroutines/flow/FlowCollector" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IFlowCollector" token="33554449" skip-in-java-to-managed="True" />
+      <entry key="kotlinx/coroutines/flow/MutableSharedFlow" java-name="kotlinx/coroutines/flow/MutableSharedFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IMutableSharedFlow" token="33554451" skip-in-java-to-managed="True" />
+      <entry key="kotlinx/coroutines/flow/MutableStateFlow" java-name="kotlinx/coroutines/flow/MutableStateFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IMutableStateFlow" token="33554453" skip-in-java-to-managed="True" />
+      <entry key="kotlinx/coroutines/flow/SharedFlow" java-name="kotlinx/coroutines/flow/SharedFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.ISharedFlow" token="33554455" skip-in-java-to-managed="True" />
+      <entry key="kotlinx/coroutines/flow/StateFlow" java-name="kotlinx/coroutines/flow/StateFlow" managed-type-name="Xamarin.KotlinX.Coroutines.Flow.IStateFlow" token="33554457" skip-in-java-to-managed="True" />
+    </types-scratch>
+  </module>
+</api>

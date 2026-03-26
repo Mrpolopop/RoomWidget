@@ -1,0 +1,33 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc647a63b22ff57ccb32" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="RoomWidget.MainActivity, RoomWidget">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc647a63b22ff57ccb32" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="RoomWidget.MainApplication, RoomWidget" application_constructor="MainApplication" />
+    <type name="CalendarWorker" package="crc6497da801d5190a566" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.work.Worker" partial_assembly_qualified_name="RoomWidget.Platforms.Android.CalendarWorker, RoomWidget">
+      <constructors>
+        <constructor name="CalendarWorker" method="n_.ctor:(Landroid/content/Context;Landroidx/work/WorkerParameters;)V:" jni_signature="(Landroid/content/Context;Landroidx/work/WorkerParameters;)V" managed_parameters="Android.Content.Context, Mono.Android:AndroidX.Work.WorkerParameters, Xamarin.AndroidX.Work.Runtime" params="android.content.Context p0, androidx.work.WorkerParameters p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </constructors>
+      <methods>
+        <method name="doWork" method="n_doWork:()Landroidx/work/ListenableWorker$Result;:GetDoWorkHandler" jni_signature="()Landroidx/work/ListenableWorker$Result;" retval="androidx.work.ListenableWorker.Result" />
+      </methods>
+    </type>
+    <type name="MyWidget" package="crc6497da801d5190a566" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.appwidget.AppWidgetProvider" partial_assembly_qualified_name="RoomWidget.Platforms.Android.MyWidget, RoomWidget">
+      <constructors>
+        <constructor name="MyWidget" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onUpdate" method="n_onUpdate:(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V:GetOnUpdate_Landroid_content_Context_Landroid_appwidget_AppWidgetManager_arrayIHandler" jni_signature="(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V" params="android.content.Context p0, android.appwidget.AppWidgetManager p1, int[] p2" retval="void" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="RoomWidget" module-name="RoomWidget.dll">
+    <type assembly-qualified-name="RoomWidget.MainActivity, RoomWidget, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="roomwidget.MainActivity" java-key="crc647a63b22ff57ccb32.MainActivity" managed-key="RoomWidget.MainActivity" partial-assembly-qualified-name="RoomWidget.MainActivity, RoomWidget" />
+    <type assembly-qualified-name="RoomWidget.MainApplication, RoomWidget, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="roomwidget.MainApplication" java-key="crc647a63b22ff57ccb32.MainApplication" managed-key="RoomWidget.MainApplication" partial-assembly-qualified-name="RoomWidget.MainApplication, RoomWidget" />
+    <type assembly-qualified-name="RoomWidget.Platforms.Android.CalendarWorker, RoomWidget, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="roomwidget.platforms.android.CalendarWorker" java-key="crc6497da801d5190a566.CalendarWorker" managed-key="RoomWidget.Platforms.Android.CalendarWorker" partial-assembly-qualified-name="RoomWidget.Platforms.Android.CalendarWorker, RoomWidget" />
+    <type assembly-qualified-name="RoomWidget.Platforms.Android.MyWidget, RoomWidget, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="roomwidget.platforms.android.MyWidget" java-key="crc6497da801d5190a566.MyWidget" managed-key="RoomWidget.Platforms.Android.MyWidget" partial-assembly-qualified-name="RoomWidget.Platforms.Android.MyWidget, RoomWidget" />
+  </acw-types>
+</api>

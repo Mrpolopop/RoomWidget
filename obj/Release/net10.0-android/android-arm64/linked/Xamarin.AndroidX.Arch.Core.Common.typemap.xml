@@ -1,0 +1,10 @@
+<api type="release" assembly-name="Xamarin.AndroidX.Arch.Core.Common" mvid="b9439ac4e5f647cba47de78310a67866">
+  <module assembly-name="Xamarin.AndroidX.Arch.Core.Common" mvid="b9439ac4e5f647cba47de78310a67866" mvid-bytes="xJpDufbly0ekfeeDEKZ4Zg==">
+    <duplicates>
+      <entry java-name="androidx/arch/core/util/Function" managed-type-name="AndroidX.Arch.Core.Util.IFunctionInvoker" token="33554436" />
+    </duplicates>
+    <types-scratch>
+      <entry key="androidx/arch/core/util/Function" java-name="androidx/arch/core/util/Function" managed-type-name="AndroidX.Arch.Core.Util.IFunction" token="33554435" skip-in-java-to-managed="True" />
+    </types-scratch>
+  </module>
+</api>

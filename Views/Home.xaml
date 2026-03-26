@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<ContentPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			  xmlns:vm="clr-namespace:RoomWidget.ViewModels"
+              xmlns:local="clr-namespace:RoomWidget.Views"
+              xmlns:model="clr-namespace:RoomWidget.Models"
+			  x:Class="RoomWidget.Views.Home">
+
+    <Grid Padding="30"
+          RowSpacing="15"
+          RowDefinitions="Auto, Auto, *">
+
+        <HorizontalStackLayout Padding="30" 
+                               Spacing="15"
+                               IsVisible="{Binding IsBusy}" 
+                               Grid.Row="0">
+
+            <Ellipse WidthRequest="12" 
+                 HeightRequest="12" 
+                 Fill="LimeGreen" 
+                 
+                 VerticalOptions="Center"/>
+
+            <Label Text="Chargement du calendrier..." 
+               VerticalOptions="Center"/>
+
+        </HorizontalStackLayout>
+
+        <Grid RowDefinitions="Auto"
+              ColumnDefinitions="75*, 25*"
+              ColumnSpacing="15"
+              Grid.Row="1">
+            
+            <Entry Placeholder="lien d'un calendrier ICS"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+
+            <Button Text="Ajouter"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Command="{Binding UpdateContentCommand}"/>
+        </Grid>
+
+        <CollectionView ItemsSource="{Binding OnGoingEvents}"
+                        EmptyView="Rien dans les 12 prochaines heures ..."
+                        Grid.Row="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:OnGoingEvent">
+                    <Border Stroke="Grey"
+                            BackgroundColor="Transparent">
+                        <VerticalStackLayout Margin="10"
+                                             Padding="30"
+                                             Spacing="15">
+                            <Label Text="{Binding CalendarName}"/>
+                            <Label Text="{Binding Title}"/>
+                            <Label Text="{Binding Start}"/>
+                            <Label Text="{Binding End}"/>
+                            <Label Text="{Binding Location}"/>
+                            <Label Text="{Binding Guests}"/>
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+</ContentPage>
