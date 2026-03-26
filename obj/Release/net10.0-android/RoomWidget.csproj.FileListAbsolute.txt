@@ -500,3 +500,4 @@ C:\Users\paulg\Documents\Code\RoomWidget\obj\Release\net10.0-android\android\src
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Release\net10.0-android\android\src\androidx\tracing\ktx\R.java
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Release\net10.0-android\android\src\androidx\work\R.java
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Release\net10.0-android\android\src\crc6497da801d5190a566\CalendarWorker.java
+C:\Users\paulg\Documents\Code\RoomWidget\obj\Release\net10.0-android\RoomWidget.sourcelink.json

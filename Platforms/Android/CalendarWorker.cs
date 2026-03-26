@@ -47,12 +47,15 @@ namespace RoomWidget.Platforms.Android
                 views.SetTextViewText(Resource.Id.currentRoom, currentEvent != null ? currentEvent.Location : "Champ libre !");
                 views.SetTextViewText(Resource.Id.debug, "update : " + DateTime.Now.ToString("HH:mm"));
                 manager.UpdateAppWidget(widget, views);
-
+                if (currentEvent != null) {
+                    MyWidget.ScheduleUpdate(context, currentEvent.End.AddMinutes(-10));
+                }
             }
             catch (Exception e)
             {
                 views.SetTextViewText(Resource.Id.debug, e.Message + " \n" + DateTime.Now.ToString("HH:mm"));
                 manager.UpdateAppWidget(widget, views);
+                MyWidget.ScheduleUpdate(context, DateTime.Now.AddHours(1));
             }
         }
     }

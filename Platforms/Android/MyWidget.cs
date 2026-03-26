@@ -28,44 +28,22 @@ namespace RoomWidget.Platforms.Android
             WorkManager.GetInstance(context).Enqueue(workRequest);
         }
 
-        private async void UpdateWidget(Context context, AppWidgetManager appWidgetManager, int widgetId)
+        public static void ScheduleUpdate(Context context, DateTime triggerTime)
         {
-            // 1. Préparer le Layout via RemoteViews
-            // Note : On utilise le nom du package de l'application
-            var views = new RemoteViews(context.PackageName, Resource.Layout.widget_layout);
-            views.SetTextViewText(Resource.Id.calendarName, "chargement ...");
+            var intent = new Intent(context, typeof(MyWidget));
+            intent.SetAction(AppWidgetManager.ActionAppwidgetUpdate);
 
-            appWidgetManager.UpdateAppWidget(widgetId, views);
+            // On récupère les IDs pour forcer OnUpdate
+            var ids = AppWidgetManager.GetInstance(context).GetAppWidgetIds(new ComponentName(context, Java.Lang.Class.FromType(typeof(MyWidget))));
+            intent.PutExtra(AppWidgetManager.ExtraAppwidgetIds, ids);
 
-            CalendarModel calendar = new CalendarModel("i2g4", "https://edt-v2.univ-nantes.fr/calendar/ics?timetables[0]=106109");
-            OnGoingEvent? currentEvent = null;
+            var pendingIntent = PendingIntent.GetBroadcast(context, 0, intent, PendingIntentFlags.UpdateCurrent | PendingIntentFlags.Immutable);
+            var alarmManager = (AlarmManager)context.GetSystemService(Context.AlarmService);
 
-            // 2. Modifier le texte (Exemple : mettre l'heure actuelle)
-            views.SetTextViewText(Resource.Id.calendarName, calendar.name);
+            long triggerMs = new DateTimeOffset(triggerTime).ToUnixTimeMilliseconds();
 
-            var pendingResult = GoAsync();
-
-            try
-            {
-                currentEvent = await calendar.GetOnGoingEvent();
-
-                views.SetTextViewText(Resource.Id.currentRoom, currentEvent != null ? currentEvent.Location : "Champ libre !");
-                views.SetTextViewText(Resource.Id.debug,"update : " + DateTime.Now.ToString("HH:mm"));
-                appWidgetManager.UpdateAppWidget(widgetId, views);
-
-            } 
-            catch (Exception e) 
-            {
-                views.SetTextViewText(Resource.Id.debug, e.Message + " \n" +DateTime.Now.ToString("HH:mm"));
-                appWidgetManager.UpdateAppWidget(widgetId, views);
-            }
-            finally
-            {
-                pendingResult.Finish();
-            }
-
-            // 4. Appliquer les changements
-            appWidgetManager.UpdateAppWidget(widgetId, views);
+            // SetExactAndAllowWhileIdle est crucial pour que ça marche même si le téléphone "dort"
+            alarmManager.SetExactAndAllowWhileIdle(AlarmType.RtcWakeup, triggerMs, pendingIntent);
         }
     }
 }

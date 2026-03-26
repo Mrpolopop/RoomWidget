@@ -56,7 +56,7 @@ namespace RoomWidget.Models
                 var start = vEvent.Start!.AsUtc.ToLocalTime();
                 var end = vEvent.End!.AsUtc.ToLocalTime();
 
-                if (start <= time && end < time.AddHours(24))
+                if (start >= time.AddMinutes(-15) && start < time.AddHours(12))
                 {
                     currentEvent = new OnGoingEvent
                     {

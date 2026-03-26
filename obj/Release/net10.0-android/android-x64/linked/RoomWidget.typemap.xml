@@ -1,5 +1,5 @@
-<api type="release" assembly-name="RoomWidget" mvid="41f0afc7c0c2412bb4bcd23c76fc2010">
-  <module assembly-name="RoomWidget" mvid="41f0afc7c0c2412bb4bcd23c76fc2010" mvid-bytes="x6/wQcLAK0G0vNI8dvwgEA==">
+<api type="release" assembly-name="RoomWidget" mvid="033fb6ebe5f74ad78718ac95067fdcab">
+  <module assembly-name="RoomWidget" mvid="033fb6ebe5f74ad78718ac95067fdcab" mvid-bytes="67Y/A/fl10qHGKyVBn/cqw==">
     <types-scratch>
       <entry key="crc647a63b22ff57ccb32/MainActivity" java-name="crc647a63b22ff57ccb32/MainActivity" managed-type-name="RoomWidget.MainActivity" token="33554442" />
       <entry key="crc647a63b22ff57ccb32/MainApplication" java-name="crc647a63b22ff57ccb32/MainApplication" managed-type-name="RoomWidget.MainApplication" token="33554443" />
