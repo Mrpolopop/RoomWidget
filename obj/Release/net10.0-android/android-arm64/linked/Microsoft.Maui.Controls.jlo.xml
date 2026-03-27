@@ -326,13 +326,12 @@
         <method name="onOffsetChanged" method="n_onOffsetChanged:(Lcom/google/android/material/appbar/AppBarLayout;I)V:GetOnOffsetChanged_Lcom_google_android_material_appbar_AppBarLayout_IHandler:Google.Android.Material.AppBar.AppBarLayout+IOnOffsetChangedListenerInvoker, Xamarin.Google.Android.Material" jni_signature="(Lcom/google/android/material/appbar/AppBarLayout;I)V" params="com.google.android.material.appbar.AppBarLayout p0, int p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
       </methods>
     </type>
-    <type name="ShellFlyoutTemplatedContentRenderer_WindowsListener" package="crc640ec207abc449b2ca" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls">
+    <type name="ShellFlyoutTemplatedContentRenderer_WindowsListener" package="crc640ec207abc449b2ca" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6452ffdc5b34af3a0f.MauiWindowInsetListener" partial_assembly_qualified_name="Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls">
       <implemented_interfaces>
         <interface name="androidx.core.view.OnApplyWindowInsetsListener" />
       </implemented_interfaces>
       <constructors>
-        <constructor name="ShellFlyoutTemplatedContentRenderer_WindowsListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
-        <constructor name="ShellFlyoutTemplatedContentRenderer_WindowsListener" method="n_.ctor:(Landroid/widget/ImageView;)V:" jni_signature="(Landroid/widget/ImageView;)V" managed_parameters="Android.Widget.ImageView, Mono.Android" params="android.widget.ImageView p0" retval="void" is_dynamically_registered="True" super_call="" activate_call="p0" />
+        <constructor name="ShellFlyoutTemplatedContentRenderer_WindowsListener" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
       </constructors>
       <methods>
         <method name="onApplyWindowInsets" method="n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Handler:AndroidX.Core.View.IOnApplyWindowInsetsListenerInvoker, Xamarin.AndroidX.Core" jni_signature="(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;" params="android.view.View p0, androidx.core.view.WindowInsetsCompat p1" retval="androidx.core.view.WindowInsetsCompat" super_call="p0, p1" activate_call="p0, p1" />
@@ -375,7 +374,6 @@
       <methods>
         <method name="onCreateView" method="n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler" jni_signature="(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;" params="android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2" retval="android.view.View" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
         <method name="onDestroyView" method="n_onDestroyView:()V:GetOnDestroyViewHandler" jni_signature="()V" retval="void" />
-        <method name="onDestroy" method="n_onDestroy:()V:GetOnDestroyHandler" jni_signature="()V" retval="void" />
       </methods>
     </type>
     <type name="ShellFragmentStateAdapter" package="crc640ec207abc449b2ca" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.viewpager2.adapter.FragmentStateAdapter" partial_assembly_qualified_name="Microsoft.Maui.Controls.Platform.Compatibility.ShellFragmentStateAdapter, Microsoft.Maui.Controls">

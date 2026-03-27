@@ -37,13 +37,6 @@ public class ShellFragmentContainer
 
 	private native void n_onDestroyView ();
 
-	public void onDestroy ()
-	{
-		n_onDestroy ();
-	}
-
-	private native void n_onDestroy ();
-
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{

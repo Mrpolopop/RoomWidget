@@ -56,6 +56,7 @@ namespace RoomWidget.Platforms.Android
                 views.SetTextViewText(Resource.Id.debug, e.Message + " \n" + DateTime.Now.ToString("HH:mm"));
                 manager.UpdateAppWidget(widget, views);
                 MyWidget.ScheduleUpdate(context, DateTime.Now.AddHours(1));
+                
             }
         }
     }

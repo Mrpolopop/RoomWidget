@@ -2,25 +2,17 @@ package crc640ec207abc449b2ca;
 
 
 public class ShellFlyoutTemplatedContentRenderer_WindowsListener
-	extends java.lang.Object
+	extends crc6452ffdc5b34af3a0f.MauiWindowInsetListener
 	implements
 		mono.android.IGCUserPeer,
 		androidx.core.view.OnApplyWindowInsetsListener
 {
 
-	public ShellFlyoutTemplatedContentRenderer_WindowsListener ()
+	public ShellFlyoutTemplatedContentRenderer_WindowsListener (int p0)
 	{
-		super ();
+		super (p0);
 		if (getClass () == ShellFlyoutTemplatedContentRenderer_WindowsListener.class) {
-			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls", "", this, new java.lang.Object[] {  });
-		}
-	}
-
-	public ShellFlyoutTemplatedContentRenderer_WindowsListener (android.widget.ImageView p0)
-	{
-		super ();
-		if (getClass () == ShellFlyoutTemplatedContentRenderer_WindowsListener.class) {
-			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls", "Android.Widget.ImageView, Mono.Android", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
 		}
 	}
 
