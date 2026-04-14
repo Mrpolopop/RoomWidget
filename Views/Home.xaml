@@ -26,26 +26,51 @@
 
         </HorizontalStackLayout>
 
-        <Grid RowDefinitions="Auto"
+        <Grid RowDefinitions="Auto, Auto, Auto"
+              RowSpacing="10"
               ColumnDefinitions="75*, 25*"
               ColumnSpacing="15"
               Grid.Row="1">
-            
-            <Entry Placeholder="lien d'un calendrier ICS"
+
+            <Entry Placeholder="nom du claendrier"
                    Grid.Row="0"
-                   Grid.Column="0"/>
+                   Grid.Column="0"
+                   Text="{Binding CalendarName, Mode=TwoWay}"/>
+
+            <Entry Placeholder="lien d'un calendrier ICS"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Text="{Binding CalendarUrl, Mode=TwoWay}"/>
 
             <Button Text="Ajouter"
                     Grid.Row="0"
+                    Grid.RowSpan="2"
                     Grid.Column="1"
-                    Command="{Binding UpdateContentCommand}"/>
+                    Command="{Binding AddCalendarCommand}"/>
+
+
+            <HorizontalStackLayout IsVisible="{Binding ErrorOccured}"
+                                   Grid.Row="2"
+                                   Grid.Column="0"
+                                   Grid.ColumnSpan="2"
+                                   Spacing="10">
+
+                <Ellipse WidthRequest="12" 
+                         HeightRequest="12" 
+                         Fill="Red" 
+                         VerticalOptions="Center"/>
+
+                <Label Text="{Binding ErrorMessage}" 
+                       VerticalOptions="Center"/>
+                
+            </HorizontalStackLayout>
         </Grid>
 
         <CollectionView ItemsSource="{Binding OnGoingEvents}"
                         EmptyView="Rien dans les 12 prochaines heures ..."
                         Grid.Row="2">
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="model:OnGoingEvent">
+                <DataTemplate x:DataType="model:CalendarEvent">
                     <Border Stroke="Grey"
                             BackgroundColor="Transparent">
                         <VerticalStackLayout Margin="10"

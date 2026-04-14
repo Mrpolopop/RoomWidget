@@ -1,14 +1,15 @@
 ﻿using Ical.Net;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace RoomWidget.Models
 {
     class CalendarModel
     {
-        public string url;
-        public string name;
+        public string url { get; set; }
+        public string name { get; set; }
 
         public CalendarModel(string name, string url)
         {
@@ -16,10 +17,10 @@ namespace RoomWidget.Models
             this.name = name;
         }
 
-        public async Task<OnGoingEvent?> GetOnGoingEvent()
+        public async Task<CalendarEvent?> GetOnGoingEvent()
         {
-            var downloadedCalendar = await CalendarModel.GetCalendarFromHttp(this.url);
-            OnGoingEvent? currentEvent = null;
+            var downloadedCalendar = await GetCalendarFromHttp(this.url);
+            CalendarEvent? currentEvent = null;
 
             foreach (var vEvent in downloadedCalendar.Events)
             {
@@ -29,7 +30,7 @@ namespace RoomWidget.Models
 
                 if (start <= time && end > time)
                 {
-                    currentEvent = new OnGoingEvent
+                    currentEvent = new CalendarEvent
                     {
                         CalendarName = this.name,
                         Title = vEvent.Summary,
@@ -45,10 +46,10 @@ namespace RoomWidget.Models
             return currentEvent;
         }
 
-        public async Task<OnGoingEvent> GetNextEvent()
+        public async Task<CalendarEvent> GetNextEvent()
         {
-            var downloadedCalendar = await CalendarModel.GetCalendarFromHttp(this.url);
-            OnGoingEvent? currentEvent = null;
+            var downloadedCalendar = await GetCalendarFromHttp(this.url);
+            CalendarEvent? currentEvent = null;
 
             foreach (var vEvent in downloadedCalendar.Events)
             {
@@ -58,7 +59,7 @@ namespace RoomWidget.Models
 
                 if (start >= time.AddMinutes(-15) && start < time.AddHours(12))
                 {
-                    currentEvent = new OnGoingEvent
+                    currentEvent = new CalendarEvent
                     {
                         CalendarName = this.name,
                         Title = vEvent.Summary,
@@ -74,13 +75,26 @@ namespace RoomWidget.Models
             return currentEvent;
         }
 
-        public static async Task<Calendar> GetCalendarFromHttp(string url)
+        private async Task<Calendar> GetCalendarFromHttp(string url)
         {
             using (HttpClient client = new HttpClient())
             {
                 string content = await client.GetStringAsync(url);
 
                 return Calendar.Load(content);
+            }
+        }
+
+        public static async Task CheckUrlAsync(string url)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string content = await client.GetStringAsync(url);
+
+                if (Calendar.Load(content) == null)
+                {
+                    throw new Exception("Bad Url");
+                }
             }
         }
     }

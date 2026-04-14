@@ -57,8 +57,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Datas\data.json" />
 	  <None Remove="Platforms\Android\Resources\xml\network_security_config.xml" />
 	  <None Remove="Platforms\Android\Resources\xml\widget_info.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Datas\data.json" />
 	</ItemGroup>
 
 	<ItemGroup>

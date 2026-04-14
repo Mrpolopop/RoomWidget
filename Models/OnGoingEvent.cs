@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RoomWidget.Models
 {
-    public class OnGoingEvent
+    public class CalendarEvent
     {
         public string CalendarName { get; set; }
         public string Title { get; set; }

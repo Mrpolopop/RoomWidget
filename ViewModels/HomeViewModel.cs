@@ -5,24 +5,33 @@ using RoomWidget.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Text;
 
 namespace RoomWidget.ViewModels
 {
     public partial class HomeViewModel : ObservableObject
     {
-
-        private CalendarModel[] calendarList = { 
-            new CalendarModel("i2g4", "http://edt-v2.univ-nantes.fr/calendar/ics?timetables[0]=106109"),
-            new CalendarModel("i2g1", "http://edt-v2.univ-nantes.fr/calendar/ics?timetables[0]=106116"),
-            new CalendarModel("i2g2", "http://edt-v2.univ-nantes.fr/calendar/ics?timetables[0]=106162"),
-        };
+        private CalendarDAO dao;
+        private List<CalendarModel> calendarList;
 
         [ObservableProperty]
-        private ObservableCollection<OnGoingEvent> onGoingEvents = new();
+        private ObservableCollection<CalendarEvent> onGoingEvents = new();
 
         [ObservableProperty]
         private bool isBusy = false;
+
+        [ObservableProperty]
+        private string calendarName = string.Empty;
+
+        [ObservableProperty]
+        private string calendarUrl = string.Empty;
+
+        [ObservableProperty]
+        private bool errorOccured = false;
+
+        [ObservableProperty]
+        private string errorMessage = string.Empty;
 
         public HomeViewModel()
         {
@@ -32,6 +41,11 @@ namespace RoomWidget.ViewModels
         [RelayCommand]
         private async Task UpdateContent()
         {
+            using(CalendarDAO dao = new CalendarDAO())
+            {
+                this.calendarList = dao.getCalendarsList();
+            }
+
             IsBusy = true;
 
             OnGoingEvents.Clear();
@@ -45,6 +59,47 @@ namespace RoomWidget.ViewModels
             }
 
             IsBusy = false;
+        }
+
+        [RelayCommand]
+        private async Task AddCalendar()
+        {
+            ErrorOccured = false;
+            Debug.WriteLine(CalendarName);
+            Debug.WriteLine(CalendarUrl);
+            bool exceptionOccured = false;
+            try
+            {
+                await CalendarModel.CheckUrlAsync(CalendarUrl);
+            }
+            catch (Exception e)
+            {
+                ErrorOccured = true;
+                ErrorMessage = "Url Invalide";
+                exceptionOccured = true;
+            }
+
+            if (!exceptionOccured)
+            {
+                CalendarModel calendar = new CalendarModel(CalendarName, CalendarUrl);
+
+                try
+                {
+                    using(CalendarDAO dao = new CalendarDAO())
+                    {
+                        dao.AddCalendar(calendar);
+                    }
+                }
+                catch(Exception e)
+                {
+                    ErrorOccured = true;
+                    ErrorMessage = "Calendrier de même nom déjà existant";
+                }
+            }
+
+            CalendarName = string.Empty;
+            CalendarUrl = string.Empty;
+            await this.UpdateContent();
         }
     }
 }

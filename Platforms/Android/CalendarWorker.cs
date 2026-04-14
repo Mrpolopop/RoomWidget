@@ -36,7 +36,7 @@ namespace RoomWidget.Platforms.Android
             manager.UpdateAppWidget(widget, views);
 
             CalendarModel calendar = new CalendarModel("i2g4", "https://edt-v2.univ-nantes.fr/calendar/ics?timetables[0]=106109");
-            OnGoingEvent? currentEvent = null;
+            CalendarEvent? currentEvent = null;
 
             views.SetTextViewText(Resource.Id.calendarName, calendar.name);
 
