@@ -35,28 +35,45 @@ namespace RoomWidget.Platforms.Android
             views.SetTextViewText(Resource.Id.calendarName, "chargement ...");
             manager.UpdateAppWidget(widget, views);
 
-            CalendarModel calendar = new CalendarModel("i2g4", "https://edt-v2.univ-nantes.fr/calendar/ics?timetables[0]=106109");
+            CalendarModel? calendar = null;
             CalendarEvent? currentEvent = null;
 
-            views.SetTextViewText(Resource.Id.calendarName, calendar.name);
-
-            try
+            using (CalendarDAO dao = new CalendarDAO())
             {
-                currentEvent = await calendar.GetNextEvent();
+                calendar = dao.getSelectedCalendar();
+            }
 
-                views.SetTextViewText(Resource.Id.currentRoom, currentEvent != null ? currentEvent.Location : "Champ libre !");
+            if (calendar == null)
+            {
+                views.SetTextViewText(Resource.Id.calendarName, "Aucun calendrier séléctionné.");
+                views.SetTextViewText(Resource.Id.currentRoom, "");
                 views.SetTextViewText(Resource.Id.debug, "update : " + DateTime.Now.ToString("HH:mm"));
                 manager.UpdateAppWidget(widget, views);
-                if (currentEvent != null) {
-                    MyWidget.ScheduleUpdate(context, currentEvent.End.AddMinutes(-10));
-                }
-            }
-            catch (Exception e)
-            {
-                views.SetTextViewText(Resource.Id.debug, e.Message + " \n" + DateTime.Now.ToString("HH:mm"));
-                manager.UpdateAppWidget(widget, views);
                 MyWidget.ScheduleUpdate(context, DateTime.Now.AddHours(1));
-                
+
+            }else
+            {
+                views.SetTextViewText(Resource.Id.calendarName, calendar.name);
+
+                try
+                {
+                    currentEvent = await calendar.GetNextEvent();
+
+                    views.SetTextViewText(Resource.Id.currentRoom, currentEvent != null ? currentEvent.Location : "Champ libre !");
+                    views.SetTextViewText(Resource.Id.debug, "update : " + DateTime.Now.ToString("HH:mm"));
+                    manager.UpdateAppWidget(widget, views);
+                    if (currentEvent != null)
+                    {
+                        MyWidget.ScheduleUpdate(context, currentEvent.End.AddMinutes(-10));
+                    }
+                }
+                catch (Exception e)
+                {
+                    views.SetTextViewText(Resource.Id.debug, e.Message + " \n" + DateTime.Now.ToString("HH:mm"));
+                    manager.UpdateAppWidget(widget, views);
+                    MyWidget.ScheduleUpdate(context, DateTime.Now.AddHours(1));
+
+                }
             }
         }
     }

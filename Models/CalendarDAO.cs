@@ -2,8 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Text;
 using System.Text.Json;
+using Microsoft.Maui.Storage; // Requis pour FileSystem
 
 namespace RoomWidget.Models
 {
@@ -13,10 +15,24 @@ namespace RoomWidget.Models
         private CalendarDataContainer data;
         public Boolean saveOnChange;
 
-        public CalendarDAO(string fileName = "data.json", Boolean saveOnChange = true) {
-            
+        public CalendarDAO(string fileName = "data.json", Boolean saveOnChange = true)
+        {
             this.saveOnChange = saveOnChange;
-            this.filePath = this.filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Datas", fileName); ;
+
+            // CORRECTION : Utilisation du dossier de données de l'application partagé avec le Widget
+            this.filePath = Path.Combine(FileSystem.Current.AppDataDirectory, fileName);
+
+            // SÉCURITÉ : Si le fichier n'existe pas encore (premier lancement), on le crée vide
+            if (!File.Exists(this.filePath))
+            {
+                var emptyData = new CalendarDataContainer
+                {
+                    calendars = new List<CalendarModel>(),
+                    widgetCalendar = -1
+                };
+                string emptyJson = JsonSerializer.Serialize(emptyData);
+                File.WriteAllText(this.filePath, emptyJson);
+            }
 
             string json = File.ReadAllText(this.filePath);
             this.data = JsonSerializer.Deserialize<CalendarDataContainer>(json)!;
@@ -34,7 +50,7 @@ namespace RoomWidget.Models
 
         public void SelectCalendar(int id)
         {
-            if (id >= this.data.calendars.Count()) 
+            if (id >= this.data.calendars.Count())
             {
                 throw new Exception("unexisting calendar");
             }
@@ -52,6 +68,11 @@ namespace RoomWidget.Models
             if (id >= this.data.calendars.Count())
             {
                 throw new Exception("unexisting calendar");
+            }
+
+            if (this.data.widgetCalendar == id)
+            {
+                this.data.widgetCalendar = -1;
             }
 
             this.data.calendars.RemoveAt(id);
@@ -80,7 +101,20 @@ namespace RoomWidget.Models
             }
         }
 
-        public void Save() {
+        public int GetCalendarIdByName(string name)
+        {
+            int index = this.data.calendars.FindIndex(element => element.name == name);
+
+            if (index == -1)
+            {
+                throw new Exception("Calendrier introuvable");
+            }
+
+            return index;
+        }
+
+        public void Save()
+        {
             string json = JsonSerializer.Serialize(this.data);
             File.WriteAllText(filePath, json);
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomWidget")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6550627392dbb614224ae99d6813a56de4eea6a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+00ffa2279659ed5377ef77fda05f02e73bfb9344")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomWidget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomWidget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

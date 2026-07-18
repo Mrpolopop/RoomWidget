@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q9he4s4ByJM=",
+  "dgSpecHash": "OIVYd6em0pI=",
   "success": true,
   "projectFilePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\paulg\\.nuget\\packages\\microsoft.maui.graphics\\10.0.20\\microsoft.maui.graphics.10.0.20.nupkg.sha512",
     "C:\\Users\\paulg\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\10.0.20\\microsoft.maui.graphics.win2d.winui.desktop.10.0.20.nupkg.sha512",
     "C:\\Users\\paulg\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.20\\microsoft.maui.resizetizer.10.0.20.nupkg.sha512",
-    "C:\\Users\\paulg\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.5\\microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
+    "C:\\Users\\paulg\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.9\\microsoft.net.illink.tasks.10.0.9.nupkg.sha512",
     "C:\\Users\\paulg\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\paulg\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\paulg\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250909003\\microsoft.windowsappsdk.1.7.250909003.nupkg.sha512",
@@ -153,12 +153,12 @@
       "filePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
       "libraryId": "Xamarin.AndroidX.Lifecycle.Common",
       "targetGraphs": [
-        "net10.0-android36.0",
-        "net10.0-android36.0/android-arm64",
-        "net10.0-android36.0/android-x64",
-        "net10.0-android36.0/iossimulator-x64",
-        "net10.0-android36.0/maccatalyst-x64",
-        "net10.0-android36.0/win-x64"
+        "net10.0-android",
+        "net10.0-android/android-arm64",
+        "net10.0-android/android-x64",
+        "net10.0-android/iossimulator-x64",
+        "net10.0-android/maccatalyst-x64",
+        "net10.0-android/win-x64"
       ]
     },
     {
@@ -170,12 +170,12 @@
       "filePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
       "libraryId": "Xamarin.AndroidX.Lifecycle.Common",
       "targetGraphs": [
-        "net10.0-android36.0",
-        "net10.0-android36.0/android-arm64",
-        "net10.0-android36.0/android-x64",
-        "net10.0-android36.0/iossimulator-x64",
-        "net10.0-android36.0/maccatalyst-x64",
-        "net10.0-android36.0/win-x64"
+        "net10.0-android",
+        "net10.0-android/android-arm64",
+        "net10.0-android/android-x64",
+        "net10.0-android/iossimulator-x64",
+        "net10.0-android/maccatalyst-x64",
+        "net10.0-android/win-x64"
       ]
     },
     {
@@ -187,12 +187,12 @@
       "filePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
       "libraryId": "Xamarin.AndroidX.Lifecycle.LiveData.Core",
       "targetGraphs": [
-        "net10.0-android36.0",
-        "net10.0-android36.0/android-arm64",
-        "net10.0-android36.0/android-x64",
-        "net10.0-android36.0/iossimulator-x64",
-        "net10.0-android36.0/maccatalyst-x64",
-        "net10.0-android36.0/win-x64"
+        "net10.0-android",
+        "net10.0-android/android-arm64",
+        "net10.0-android/android-x64",
+        "net10.0-android/iossimulator-x64",
+        "net10.0-android/maccatalyst-x64",
+        "net10.0-android/win-x64"
       ]
     },
     {
@@ -204,12 +204,12 @@
       "filePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
       "libraryId": "Xamarin.AndroidX.Lifecycle.Runtime.Android",
       "targetGraphs": [
-        "net10.0-android36.0",
-        "net10.0-android36.0/android-arm64",
-        "net10.0-android36.0/android-x64",
-        "net10.0-android36.0/iossimulator-x64",
-        "net10.0-android36.0/maccatalyst-x64",
-        "net10.0-android36.0/win-x64"
+        "net10.0-android",
+        "net10.0-android/android-arm64",
+        "net10.0-android/android-x64",
+        "net10.0-android/iossimulator-x64",
+        "net10.0-android/maccatalyst-x64",
+        "net10.0-android/win-x64"
       ]
     },
     {
@@ -221,12 +221,12 @@
       "filePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
       "libraryId": "Xamarin.AndroidX.Lifecycle.Runtime",
       "targetGraphs": [
-        "net10.0-android36.0",
-        "net10.0-android36.0/android-arm64",
-        "net10.0-android36.0/android-x64",
-        "net10.0-android36.0/iossimulator-x64",
-        "net10.0-android36.0/maccatalyst-x64",
-        "net10.0-android36.0/win-x64"
+        "net10.0-android",
+        "net10.0-android/android-arm64",
+        "net10.0-android/android-x64",
+        "net10.0-android/iossimulator-x64",
+        "net10.0-android/maccatalyst-x64",
+        "net10.0-android/win-x64"
       ]
     },
     {
@@ -238,12 +238,12 @@
       "filePath": "C:\\Users\\paulg\\Documents\\Code\\RoomWidget\\RoomWidget.csproj",
       "libraryId": "Xamarin.AndroidX.Lifecycle.Runtime",
       "targetGraphs": [
-        "net10.0-android36.0",
-        "net10.0-android36.0/android-arm64",
-        "net10.0-android36.0/android-x64",
-        "net10.0-android36.0/iossimulator-x64",
-        "net10.0-android36.0/maccatalyst-x64",
-        "net10.0-android36.0/win-x64"
+        "net10.0-android",
+        "net10.0-android/android-arm64",
+        "net10.0-android/android-x64",
+        "net10.0-android/iossimulator-x64",
+        "net10.0-android/maccatalyst-x64",
+        "net10.0-android/win-x64"
       ]
     }
   ]

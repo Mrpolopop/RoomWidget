@@ -6,7 +6,7 @@ using System.Text;
 
 namespace RoomWidget.Models
 {
-    class CalendarModel
+    public class CalendarModel
     {
         public string url { get; set; }
         public string name { get; set; }

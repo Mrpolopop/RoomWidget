@@ -7,11 +7,6 @@ C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\w
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-400.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\OpenSans-Regular.ttf
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\OpenSans-Semibold.ttf
-C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-400.png
-C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-200.png
-C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-150.png
-C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-125.png
-C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-100.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLargeTile.scale-400.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLargeTile.scale-200.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLargeTile.scale-150.png
@@ -58,6 +53,11 @@ C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\w
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLogo.scale-125.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLogo.scale-100.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appicon.ico
+C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-400.png
+C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-200.png
+C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-150.png
+C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-125.png
+C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dotnet_bot.scale-100.png
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Datas\data.json
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CoreMessagingXP.dll
 C:\Users\paulg\Documents\Code\RoomWidget\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dcompi.dll
@@ -442,11 +442,6 @@ C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\w
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauifont.stamp
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-400.png
-C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-200.png
-C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-150.png
-C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-125.png
-C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -493,6 +488,11 @@ C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\w
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-125.png
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appicon.ico
+C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-200.png
+C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-150.png
+C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-125.png
+C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauiimage.stamp
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauiimage.outputs
 C:\Users\paulg\Documents\Code\RoomWidget\obj\Debug\net10.0-windows10.0.19041.0\win-x64\RoomWidget.AssemblyInfoInputs.cache

@@ -1,0 +1,562 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Work.Runtime" mvid="a462109f82f043a39d94088cc7579a91">
+  <java-to-managed>
+    <entry java-name="androidx/work/OneTimeWorkRequest" managed-name="AndroidX.Work.OneTimeWorkRequest, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554465" />
+    <entry java-name="androidx/work/OneTimeWorkRequest$Builder" managed-name="AndroidX.Work.OneTimeWorkRequest+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554694" />
+    <entry java-name="androidx/work/OneTimeWorkRequest$Companion" managed-name="AndroidX.Work.OneTimeWorkRequest+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554695" />
+    <entry java-name="androidx/work/PeriodicWorkRequest" managed-name="AndroidX.Work.PeriodicWorkRequest, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554466" />
+    <entry java-name="androidx/work/PeriodicWorkRequest$Builder" managed-name="AndroidX.Work.PeriodicWorkRequest+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554696" />
+    <entry java-name="androidx/work/PeriodicWorkRequest$Companion" managed-name="AndroidX.Work.PeriodicWorkRequest+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554697" />
+    <entry java-name="androidx/work/Constraints" managed-name="AndroidX.Work.Constraints, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554467" />
+    <entry java-name="androidx/work/Constraints$Builder" managed-name="AndroidX.Work.Constraints+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554698" />
+    <entry java-name="androidx/work/Constraints$Companion" managed-name="AndroidX.Work.Constraints+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554699" />
+    <entry java-name="androidx/work/Constraints$ContentUriTrigger" managed-name="AndroidX.Work.Constraints+ContentUriTrigger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554700" />
+    <entry java-name="androidx/work/ArrayCreatingInputMerger" managed-name="AndroidX.Work.ArrayCreatingInputMerger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554468" />
+    <entry java-name="androidx/work/BackoffPolicy" managed-name="AndroidX.Work.BackoffPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554469" />
+    <entry java-name="androidx/work/Configuration" managed-name="AndroidX.Work.Configuration, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554470" />
+    <entry java-name="androidx/work/Configuration$Builder" managed-name="AndroidX.Work.Configuration+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554701" />
+    <entry java-name="androidx/work/Configuration$Companion" managed-name="AndroidX.Work.Configuration+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554702" />
+    <entry java-name="androidx/work/Configuration$Provider" managed-name="AndroidX.Work.Configuration+IProvider, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554703" />
+    <entry java-name="androidx/work/Configuration$Provider" managed-name="AndroidX.Work.Configuration+IProviderInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554704" />
+    <entry java-name="androidx/work/ConfigurationKt" managed-name="AndroidX.Work.ConfigurationKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554471" />
+    <entry java-name="androidx/work/ConstraintsKt" managed-name="AndroidX.Work.ConstraintsKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554472" />
+    <entry java-name="androidx/work/CoroutineWorker" managed-name="AndroidX.Work.CoroutineWorker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554473" />
+    <entry java-name="androidx/work/CoroutineWorker" managed-name="AndroidX.Work.CoroutineWorkerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554474" />
+    <entry java-name="androidx/work/Data" managed-name="AndroidX.Work.Data, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554475" />
+    <entry java-name="androidx/work/Data$Builder" managed-name="AndroidX.Work.Data+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554705" />
+    <entry java-name="androidx/work/Data$Companion" managed-name="AndroidX.Work.Data+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554706" />
+    <entry java-name="androidx/work/DataKt" managed-name="AndroidX.Work.DataKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554476" />
+    <entry java-name="androidx/work/Data_Kt" managed-name="AndroidX.Work.Data_Kt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554477" />
+    <entry java-name="androidx/work/DefaultWorkerFactory" managed-name="AndroidX.Work.DefaultWorkerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554478" />
+    <entry java-name="androidx/work/DelegatingWorkerFactory" managed-name="AndroidX.Work.DelegatingWorkerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554479" />
+    <entry java-name="androidx/work/DelegatingWorkerFactoryKt" managed-name="AndroidX.Work.DelegatingWorkerFactoryKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554480" />
+    <entry java-name="androidx/work/DirectExecutor" managed-name="AndroidX.Work.DirectExecutor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554481" />
+    <entry java-name="androidx/work/ExistingPeriodicWorkPolicy" managed-name="AndroidX.Work.ExistingPeriodicWorkPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554482" />
+    <entry java-name="androidx/work/ExistingWorkPolicy" managed-name="AndroidX.Work.ExistingWorkPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554483" />
+    <entry java-name="androidx/work/ForegroundInfo" managed-name="AndroidX.Work.ForegroundInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554486" />
+    <entry java-name="androidx/work/Clock" managed-name="AndroidX.Work.IClock, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554487" />
+    <entry java-name="androidx/work/Clock" managed-name="AndroidX.Work.IClockInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554488" />
+    <entry java-name="androidx/work/ExperimentalConfigurationApi" managed-name="AndroidX.Work.IExperimentalConfigurationApi, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554489" />
+    <entry java-name="androidx/work/ExperimentalConfigurationApi" managed-name="AndroidX.Work.IExperimentalConfigurationApiInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554490" />
+    <entry java-name="androidx/work/ExperimentalWorkRequestBuilderApi" managed-name="AndroidX.Work.IExperimentalWorkRequestBuilderApi, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554491" />
+    <entry java-name="androidx/work/ExperimentalWorkRequestBuilderApi" managed-name="AndroidX.Work.IExperimentalWorkRequestBuilderApiInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554492" />
+    <entry java-name="androidx/work/ForegroundUpdater" managed-name="AndroidX.Work.IForegroundUpdater, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554493" />
+    <entry java-name="androidx/work/ForegroundUpdater" managed-name="AndroidX.Work.IForegroundUpdaterInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554494" />
+    <entry java-name="androidx/work/InputMerger" managed-name="AndroidX.Work.InputMerger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554495" />
+    <entry java-name="androidx/work/InputMerger" managed-name="AndroidX.Work.InputMergerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554496" />
+    <entry java-name="androidx/work/InputMergerFactory" managed-name="AndroidX.Work.InputMergerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554497" />
+    <entry java-name="androidx/work/InputMergerFactory" managed-name="AndroidX.Work.InputMergerFactoryInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554498" />
+    <entry java-name="androidx/work/InputMergerKt" managed-name="AndroidX.Work.InputMergerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554499" />
+    <entry java-name="androidx/work/Operation$State" managed-name="AndroidX.Work.OperationState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554500" />
+    <entry java-name="androidx/work/Operation$State$FAILURE" managed-name="AndroidX.Work.OperationState+FAILURE, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554707" />
+    <entry java-name="androidx/work/Operation$State$IN_PROGRESS" managed-name="AndroidX.Work.OperationState+IN_PROGRESS, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554708" />
+    <entry java-name="androidx/work/Operation$State$SUCCESS" managed-name="AndroidX.Work.OperationState+SUCCESS, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554709" />
+    <entry java-name="androidx/work/Operation$State" managed-name="AndroidX.Work.OperationStateInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554501" />
+    <entry java-name="mono/internal/androidx/work/Operation" managed-name="AndroidX.Work.Operation, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554502" />
+    <entry java-name="mono/internal/androidx/work/Operation" managed-name="AndroidX.Work.OperationConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554503" />
+    <entry java-name="androidx/work/Operation" managed-name="AndroidX.Work.IOperation, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554504" />
+    <entry java-name="androidx/work/Operation" managed-name="AndroidX.Work.IOperationInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554505" />
+    <entry java-name="androidx/work/ProgressUpdater" managed-name="AndroidX.Work.IProgressUpdater, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554506" />
+    <entry java-name="androidx/work/ProgressUpdater" managed-name="AndroidX.Work.IProgressUpdaterInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554507" />
+    <entry java-name="androidx/work/RunnableScheduler" managed-name="AndroidX.Work.IRunnableScheduler, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554508" />
+    <entry java-name="androidx/work/RunnableScheduler" managed-name="AndroidX.Work.IRunnableSchedulerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554509" />
+    <entry java-name="androidx/work/Tracer" managed-name="AndroidX.Work.ITracer, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554510" />
+    <entry java-name="androidx/work/Tracer" managed-name="AndroidX.Work.ITracerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554511" />
+    <entry java-name="androidx/work/ListenableFutureKt" managed-name="AndroidX.Work.ListenableFutureKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554512" />
+    <entry java-name="androidx/work/ListenableWorker" managed-name="AndroidX.Work.ListenableWorker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554513" />
+    <entry java-name="androidx/work/ListenableWorker$Result" managed-name="AndroidX.Work.ListenableWorker+Result, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554710" />
+    <entry java-name="androidx/work/ListenableWorker$Result$Failure" managed-name="AndroidX.Work.ListenableWorker+Result+Failure, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554751" />
+    <entry java-name="androidx/work/ListenableWorker$Result$Retry" managed-name="AndroidX.Work.ListenableWorker+Result+Retry, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554752" />
+    <entry java-name="androidx/work/ListenableWorker$Result$Success" managed-name="AndroidX.Work.ListenableWorker+Result+Success, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554753" />
+    <entry java-name="androidx/work/ListenableWorker$Result" managed-name="AndroidX.Work.ListenableWorker+ResultInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554711" />
+    <entry java-name="androidx/work/ListenableWorker" managed-name="AndroidX.Work.ListenableWorkerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554514" />
+    <entry java-name="androidx/work/Logger" managed-name="AndroidX.Work.Logger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554515" />
+    <entry java-name="androidx/work/Logger$LogcatLogger" managed-name="AndroidX.Work.Logger+LogcatLogger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554712" />
+    <entry java-name="androidx/work/Logger" managed-name="AndroidX.Work.LoggerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554516" />
+    <entry java-name="androidx/work/LoggerExtKt" managed-name="AndroidX.Work.LoggerExtKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554517" />
+    <entry java-name="androidx/work/NetworkType" managed-name="AndroidX.Work.NetworkType, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554518" />
+    <entry java-name="androidx/work/OneTimeWorkRequestKt" managed-name="AndroidX.Work.OneTimeWorkRequestKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554519" />
+    <entry java-name="androidx/work/OperationKt" managed-name="AndroidX.Work.OperationKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554520" />
+    <entry java-name="androidx/work/OutOfQuotaPolicy" managed-name="AndroidX.Work.OutOfQuotaPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554521" />
+    <entry java-name="androidx/work/OverwritingInputMerger" managed-name="AndroidX.Work.OverwritingInputMerger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554522" />
+    <entry java-name="androidx/work/PeriodicWorkRequestKt" managed-name="AndroidX.Work.PeriodicWorkRequestKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554523" />
+    <entry java-name="androidx/work/SystemClock" managed-name="AndroidX.Work.SystemClock, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554524" />
+    <entry java-name="androidx/work/TracerKt" managed-name="AndroidX.Work.TracerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554525" />
+    <entry java-name="androidx/work/WorkContinuation" managed-name="AndroidX.Work.WorkContinuation, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554526" />
+    <entry java-name="androidx/work/WorkContinuation" managed-name="AndroidX.Work.WorkContinuationInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554527" />
+    <entry java-name="androidx/work/Worker" managed-name="AndroidX.Work.Worker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554528" />
+    <entry java-name="androidx/work/Worker" managed-name="AndroidX.Work.WorkerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554529" />
+    <entry java-name="androidx/work/WorkerExceptionInfo" managed-name="AndroidX.Work.WorkerExceptionInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554530" />
+    <entry java-name="androidx/work/WorkerFactory" managed-name="AndroidX.Work.WorkerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554531" />
+    <entry java-name="androidx/work/WorkerFactory" managed-name="AndroidX.Work.WorkerFactoryInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554532" />
+    <entry java-name="androidx/work/WorkerFactoryKt" managed-name="AndroidX.Work.WorkerFactoryKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554533" />
+    <entry java-name="androidx/work/WorkerKt" managed-name="AndroidX.Work.WorkerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554534" />
+    <entry java-name="androidx/work/WorkerParameters" managed-name="AndroidX.Work.WorkerParameters, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554535" />
+    <entry java-name="androidx/work/WorkerParameters$RuntimeExtras" managed-name="AndroidX.Work.WorkerParameters+RuntimeExtras, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554713" />
+    <entry java-name="androidx/work/WorkerParametersExtensions" managed-name="AndroidX.Work.WorkerParametersExtensions, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554536" />
+    <entry java-name="androidx/work/WorkInfo" managed-name="AndroidX.Work.WorkInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554537" />
+    <entry java-name="androidx/work/WorkInfo$Companion" managed-name="AndroidX.Work.WorkInfo+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554714" />
+    <entry java-name="androidx/work/WorkInfo$PeriodicityInfo" managed-name="AndroidX.Work.WorkInfo+PeriodicityInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554715" />
+    <entry java-name="androidx/work/WorkInfo$State" managed-name="AndroidX.Work.WorkInfo+State, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554716" />
+    <entry java-name="androidx/work/WorkManager" managed-name="AndroidX.Work.WorkManager, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554538" />
+    <entry java-name="androidx/work/WorkManager$Companion" managed-name="AndroidX.Work.WorkManager+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554717" />
+    <entry java-name="androidx/work/WorkManager$UpdateResult" managed-name="AndroidX.Work.WorkManager+UpdateResult, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554718" />
+    <entry java-name="androidx/work/WorkManager" managed-name="AndroidX.Work.WorkManagerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554539" />
+    <entry java-name="androidx/work/WorkManagerInitializer" managed-name="AndroidX.Work.WorkManagerInitializer, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554540" />
+    <entry java-name="androidx/work/WorkQuery" managed-name="AndroidX.Work.WorkQuery, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554541" />
+    <entry java-name="androidx/work/WorkQuery$Builder" managed-name="AndroidX.Work.WorkQuery+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554719" />
+    <entry java-name="androidx/work/WorkQuery$Builder$Companion" managed-name="AndroidX.Work.WorkQuery+Builder+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554754" />
+    <entry java-name="androidx/work/WorkQuery$Companion" managed-name="AndroidX.Work.WorkQuery+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554720" />
+    <entry java-name="androidx/work/WorkRequest" managed-name="AndroidX.Work.WorkRequest, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554542" />
+    <entry java-name="androidx/work/WorkRequest$Builder" managed-name="AndroidX.Work.WorkRequest+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554721" />
+    <entry java-name="androidx/work/WorkRequest$Builder" managed-name="AndroidX.Work.WorkRequest+BuilderInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554722" />
+    <entry java-name="androidx/work/WorkRequest$Companion" managed-name="AndroidX.Work.WorkRequest+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554723" />
+    <entry java-name="androidx/work/WorkRequest" managed-name="AndroidX.Work.WorkRequestInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554543" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl$Default" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplDefault, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554544" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplStub, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554545" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplStubInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554546" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImpl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554547" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554548" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.IListenableWorkerImpl, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554549" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.IListenableWorkerImplInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554550" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl$Default" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplDefault, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554551" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplStub, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554552" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplStubInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554553" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.WorkManagerImpl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554554" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554555" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImpl, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554556" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImplInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554557" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback$Default" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackDefault, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554558" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackStub, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554559" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackStubInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554560" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallback, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554561" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554562" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImplCallback, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554563" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImplCallbackInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554564" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkContinuation" managed-name="AndroidX.Work.MultiProcess.RemoteWorkContinuation, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554565" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkContinuation" managed-name="AndroidX.Work.MultiProcess.RemoteWorkContinuationInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554566" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkManager" managed-name="AndroidX.Work.MultiProcess.RemoteWorkManager, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554567" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkManager" managed-name="AndroidX.Work.MultiProcess.RemoteWorkManagerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554568" />
+    <entry java-name="androidx/work/impl/workers/ConstraintTrackingWorker" managed-name="AndroidX.Work.Impl.Workers.ConstraintTrackingWorker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554569" />
+    <entry java-name="androidx/work/impl/workers/ConstraintTrackingWorkerKt" managed-name="AndroidX.Work.Impl.Workers.ConstraintTrackingWorkerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554570" />
+    <entry java-name="androidx/work/impl/workers/DiagnosticsWorkerKt" managed-name="AndroidX.Work.Impl.Workers.DiagnosticsWorkerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554571" />
+    <entry java-name="androidx/work/impl/utils/CancelWorkRunnable" managed-name="AndroidX.Work.Impl.Utils.CancelWorkRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554572" />
+    <entry java-name="androidx/work/impl/utils/EnqueueRunnable" managed-name="AndroidX.Work.Impl.Utils.EnqueueRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554573" />
+    <entry java-name="androidx/work/impl/utils/EnqueueUtilsKt" managed-name="AndroidX.Work.Impl.Utils.EnqueueUtilsKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554574" />
+    <entry java-name="androidx/work/impl/utils/ForceStopRunnable" managed-name="AndroidX.Work.Impl.Utils.ForceStopRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554575" />
+    <entry java-name="androidx/work/impl/utils/ForceStopRunnable$BroadcastReceiver" managed-name="AndroidX.Work.Impl.Utils.ForceStopRunnable+BroadcastReceiver, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554730" />
+    <entry java-name="androidx/work/impl/utils/IdGenerator" managed-name="AndroidX.Work.Impl.Utils.IdGenerator, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554576" />
+    <entry java-name="androidx/work/impl/utils/IdGeneratorKt" managed-name="AndroidX.Work.Impl.Utils.IdGeneratorKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554577" />
+    <entry java-name="androidx/work/impl/utils/LiveDataUtils" managed-name="AndroidX.Work.Impl.Utils.LiveDataUtils, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554578" />
+    <entry java-name="androidx/work/impl/utils/NetworkRequest28" managed-name="AndroidX.Work.Impl.Utils.NetworkRequest28, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554579" />
+    <entry java-name="androidx/work/impl/utils/NetworkRequestCompatKt" managed-name="AndroidX.Work.Impl.Utils.NetworkRequestCompatKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554580" />
+    <entry java-name="androidx/work/impl/utils/PackageManagerHelper" managed-name="AndroidX.Work.Impl.Utils.PackageManagerHelper, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554581" />
+    <entry java-name="androidx/work/impl/utils/PreferenceUtils" managed-name="AndroidX.Work.Impl.Utils.PreferenceUtils, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554582" />
+    <entry java-name="androidx/work/impl/utils/ProcessUtils" managed-name="AndroidX.Work.Impl.Utils.ProcessUtils, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554583" />
+    <entry java-name="androidx/work/impl/utils/PruneWorkRunnableKt" managed-name="AndroidX.Work.Impl.Utils.PruneWorkRunnableKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554584" />
+    <entry java-name="androidx/work/impl/utils/RawQueries" managed-name="AndroidX.Work.Impl.Utils.RawQueries, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554585" />
+    <entry java-name="androidx/work/impl/utils/SerialExecutorImpl" managed-name="AndroidX.Work.Impl.Utils.SerialExecutorImpl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554586" />
+    <entry java-name="androidx/work/impl/utils/StatusRunnable" managed-name="AndroidX.Work.Impl.Utils.StatusRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554587" />
+    <entry java-name="androidx/work/impl/utils/StopWorkRunnable" managed-name="AndroidX.Work.Impl.Utils.StopWorkRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554588" />
+    <entry java-name="androidx/work/impl/utils/SynchronousExecutor" managed-name="AndroidX.Work.Impl.Utils.SynchronousExecutor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554589" />
+    <entry java-name="androidx/work/impl/utils/WakeLocks" managed-name="AndroidX.Work.Impl.Utils.WakeLocks, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554590" />
+    <entry java-name="androidx/work/impl/utils/WorkerExceptionUtilsKt" managed-name="AndroidX.Work.Impl.Utils.WorkerExceptionUtilsKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554591" />
+    <entry java-name="androidx/work/impl/utils/WorkForegroundKt" managed-name="AndroidX.Work.Impl.Utils.WorkForegroundKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554592" />
+    <entry java-name="androidx/work/impl/utils/WorkForegroundUpdater" managed-name="AndroidX.Work.Impl.Utils.WorkForegroundUpdater, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554593" />
+    <entry java-name="androidx/work/impl/utils/WorkProgressUpdater" managed-name="AndroidX.Work.Impl.Utils.WorkProgressUpdater, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554594" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer" managed-name="AndroidX.Work.Impl.Utils.WorkTimer, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554595" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer$TimeLimitExceededListener" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListener, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554731" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer$TimeLimitExceededListener" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListenerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554732" />
+    <entry java-name="mono/androidx/work/impl/utils/WorkTimer_TimeLimitExceededListenerImplementor" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListenerImplementor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554734" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer$WorkTimerRunnable" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+WorkTimerRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554735" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/SerialExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutor, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554596" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/SerialExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutorInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554597" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/TaskExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554598" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/TaskExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutorInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554599" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/WorkManagerTaskExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.WorkManagerTaskExecutor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554600" />
+    <entry java-name="androidx/work/impl/utils/futures/AbstractFuture" managed-name="AndroidX.Work.Impl.Utils.Futures.AbstractFuture, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554601" />
+    <entry java-name="androidx/work/impl/utils/futures/AbstractFuture" managed-name="AndroidX.Work.Impl.Utils.Futures.AbstractFutureInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554602" />
+    <entry java-name="androidx/work/impl/utils/futures/SettableFuture" managed-name="AndroidX.Work.Impl.Utils.Futures.SettableFuture, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554603" />
+    <entry java-name="androidx/work/impl/model/Dependency" managed-name="AndroidX.Work.Impl.Model.Dependency, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554604" />
+    <entry java-name="androidx/work/impl/model/DependencyDao_Impl" managed-name="AndroidX.Work.Impl.Model.DependencyDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554605" />
+    <entry java-name="androidx/work/impl/model/DependencyDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.DependencyDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554736" />
+    <entry java-name="androidx/work/impl/model/DependencyDao" managed-name="AndroidX.Work.Impl.Model.IDependencyDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554606" />
+    <entry java-name="androidx/work/impl/model/DependencyDao" managed-name="AndroidX.Work.Impl.Model.IDependencyDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554607" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao" managed-name="AndroidX.Work.Impl.Model.IPreferenceDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554608" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao" managed-name="AndroidX.Work.Impl.Model.IPreferenceDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554609" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao" managed-name="AndroidX.Work.Impl.Model.IRawWorkInfoDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554610" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao" managed-name="AndroidX.Work.Impl.Model.IRawWorkInfoDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554611" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao$DefaultImpls" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoDaoDefaultImpls, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554612" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao" managed-name="AndroidX.Work.Impl.Model.ISystemIdInfoDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554613" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao" managed-name="AndroidX.Work.Impl.Model.ISystemIdInfoDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554614" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao" managed-name="AndroidX.Work.Impl.Model.IWorkNameDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554615" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao" managed-name="AndroidX.Work.Impl.Model.IWorkNameDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554616" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao" managed-name="AndroidX.Work.Impl.Model.IWorkProgressDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554617" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao" managed-name="AndroidX.Work.Impl.Model.IWorkProgressDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554618" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao" managed-name="AndroidX.Work.Impl.Model.IWorkSpecDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554619" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao" managed-name="AndroidX.Work.Impl.Model.IWorkSpecDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554620" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao$DefaultImpls" managed-name="AndroidX.Work.Impl.Model.WorkTagDaoDefaultImpls, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554621" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao" managed-name="AndroidX.Work.Impl.Model.IWorkTagDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554622" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao" managed-name="AndroidX.Work.Impl.Model.IWorkTagDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554623" />
+    <entry java-name="androidx/work/impl/model/Preference" managed-name="AndroidX.Work.Impl.Model.Preference, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554624" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao_Impl" managed-name="AndroidX.Work.Impl.Model.PreferenceDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554625" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.PreferenceDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554737" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDaoKt" managed-name="AndroidX.Work.Impl.Model.RawWorkInfoDaoKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554626" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao_Impl" managed-name="AndroidX.Work.Impl.Model.RawWorkInfoDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554627" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.RawWorkInfoDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554738" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfo" managed-name="AndroidX.Work.Impl.Model.SystemIdInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554628" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao_Impl" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554629" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554739" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoKt" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554630" />
+    <entry java-name="androidx/work/impl/model/WorkGenerationalId" managed-name="AndroidX.Work.Impl.Model.WorkGenerationalId, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554631" />
+    <entry java-name="androidx/work/impl/model/WorkName" managed-name="AndroidX.Work.Impl.Model.WorkName, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554632" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkNameDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554633" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkNameDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554740" />
+    <entry java-name="androidx/work/impl/model/WorkProgress" managed-name="AndroidX.Work.Impl.Model.WorkProgress, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554634" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkProgressDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554635" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkProgressDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554741" />
+    <entry java-name="androidx/work/impl/model/WorkSpec" managed-name="AndroidX.Work.Impl.Model.WorkSpec, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554636" />
+    <entry java-name="androidx/work/impl/model/WorkSpec$Companion" managed-name="AndroidX.Work.Impl.Model.WorkSpec+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554742" />
+    <entry java-name="androidx/work/impl/model/WorkSpec$IdAndState" managed-name="AndroidX.Work.Impl.Model.WorkSpec+IdAndState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554743" />
+    <entry java-name="androidx/work/impl/model/WorkSpec$WorkInfoPojo" managed-name="AndroidX.Work.Impl.Model.WorkSpec+WorkInfoPojo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554744" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDaoKt" managed-name="AndroidX.Work.Impl.Model.WorkSpecDaoKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554637" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkSpecDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554638" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkSpecDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554745" />
+    <entry java-name="androidx/work/impl/model/WorkSpecKt" managed-name="AndroidX.Work.Impl.Model.WorkSpecKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554639" />
+    <entry java-name="androidx/work/impl/model/WorkTag" managed-name="AndroidX.Work.Impl.Model.WorkTag, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554640" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkTagDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554641" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkTagDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554746" />
+    <entry java-name="androidx/work/impl/model/WorkTypeConverters" managed-name="AndroidX.Work.Impl.Model.WorkTypeConverters, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554642" />
+    <entry java-name="androidx/work/impl/model/WorkTypeConverters$StateIds" managed-name="AndroidX.Work.Impl.Model.WorkTypeConverters+StateIds, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554747" />
+    <entry java-name="androidx/work/impl/model/WorkTypeConverters$WhenMappings" managed-name="AndroidX.Work.Impl.Model.WorkTypeConverters+WhenMappings, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554748" />
+    <entry java-name="androidx/work/impl/foreground/ForegroundProcessor" managed-name="AndroidX.Work.Impl.Foreground.IForegroundProcessor, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554643" />
+    <entry java-name="androidx/work/impl/foreground/ForegroundProcessor" managed-name="AndroidX.Work.Impl.Foreground.IForegroundProcessorInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554644" />
+    <entry java-name="androidx/work/impl/foreground/SystemForegroundDispatcher" managed-name="AndroidX.Work.Impl.Foreground.SystemForegroundDispatcher, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554645" />
+    <entry java-name="androidx/work/impl/foreground/SystemForegroundService" managed-name="AndroidX.Work.Impl.Foreground.SystemForegroundService, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554646" />
+    <entry java-name="androidx/work/impl/diagnostics/DiagnosticsReceiver" managed-name="AndroidX.Work.Impl.Diagnostics.DiagnosticsReceiver, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554647" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554648" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState$ConstraintsMet" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsState+ConstraintsMet, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554749" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState$ConstraintsNotMet" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsState+ConstraintsNotMet, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554750" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsStateInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554649" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintListener" managed-name="AndroidX.Work.Impl.Constraints.IConstraintListener, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554650" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintListener" managed-name="AndroidX.Work.Impl.Constraints.IConstraintListenerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554651" />
+    <entry java-name="mono/androidx/work/impl/constraints/ConstraintListenerImplementor" managed-name="AndroidX.Work.Impl.Constraints.IConstraintListenerImplementor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554653" />
+    <entry java-name="androidx/work/impl/constraints/OnConstraintsStateChangedListener" managed-name="AndroidX.Work.Impl.Constraints.IOnConstraintsStateChangedListener, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554654" />
+    <entry java-name="androidx/work/impl/constraints/OnConstraintsStateChangedListener" managed-name="AndroidX.Work.Impl.Constraints.IOnConstraintsStateChangedListenerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554655" />
+    <entry java-name="mono/androidx/work/impl/constraints/OnConstraintsStateChangedListenerImplementor" managed-name="AndroidX.Work.Impl.Constraints.IOnConstraintsStateChangedListenerImplementor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554657" />
+    <entry java-name="androidx/work/impl/constraints/NetworkRequestConstraintController" managed-name="AndroidX.Work.Impl.Constraints.NetworkRequestConstraintController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554658" />
+    <entry java-name="androidx/work/impl/constraints/NetworkState" managed-name="AndroidX.Work.Impl.Constraints.NetworkState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554659" />
+    <entry java-name="androidx/work/impl/constraints/WorkConstraintsTracker" managed-name="AndroidX.Work.Impl.Constraints.WorkConstraintsTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554660" />
+    <entry java-name="androidx/work/impl/constraints/WorkConstraintsTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.WorkConstraintsTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554661" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryChargingTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryChargingTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554662" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryChargingTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryChargingTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554663" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryNotLowTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryNotLowTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554664" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryNotLowTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryNotLowTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554665" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BroadcastReceiverConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BroadcastReceiverConstraintTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554666" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BroadcastReceiverConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BroadcastReceiverConstraintTrackerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554667" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BroadcastReceiverConstraintTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BroadcastReceiverConstraintTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554668" />
+    <entry java-name="androidx/work/impl/constraints/trackers/ConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.ConstraintTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554669" />
+    <entry java-name="androidx/work/impl/constraints/trackers/ConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.ConstraintTrackerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554670" />
+    <entry java-name="androidx/work/impl/constraints/trackers/ConstraintTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.ConstraintTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554671" />
+    <entry java-name="androidx/work/impl/constraints/trackers/NetworkStateTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.NetworkStateTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554672" />
+    <entry java-name="androidx/work/impl/constraints/trackers/StorageNotLowTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.StorageNotLowTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554673" />
+    <entry java-name="androidx/work/impl/constraints/trackers/StorageNotLowTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.StorageNotLowTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554674" />
+    <entry java-name="androidx/work/impl/constraints/trackers/Trackers" managed-name="AndroidX.Work.Impl.Constraints.Trackers.Trackers, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554675" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BaseConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BaseConstraintController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554676" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BaseConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BaseConstraintControllerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554677" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BatteryChargingController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BatteryChargingController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554678" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BatteryNotLowController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BatteryNotLowController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554679" />
+    <entry java-name="androidx/work/impl/constraints/controllers/ConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.IConstraintController, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554680" />
+    <entry java-name="androidx/work/impl/constraints/controllers/ConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.IConstraintControllerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554681" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkConnectedController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkConnectedController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554682" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkMeteredController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkMeteredController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554683" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkNotRoamingController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkNotRoamingController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554684" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkUnmeteredController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkUnmeteredController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554685" />
+    <entry java-name="androidx/work/impl/constraints/controllers/StorageNotLowController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.StorageNotLowController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554686" />
+    <entry java-name="androidx/work/impl/background/systemjob/JobSchedulerExtKt" managed-name="AndroidX.Work.Impl.Background.SystemJob.JobSchedulerExtKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554687" />
+    <entry java-name="androidx/work/impl/background/systemjob/SystemJobInfoConverterExtKt" managed-name="AndroidX.Work.Impl.Background.SystemJob.SystemJobInfoConverterExtKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554688" />
+    <entry java-name="androidx/work/impl/background/systemjob/SystemJobScheduler" managed-name="AndroidX.Work.Impl.Background.SystemJob.SystemJobScheduler, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554689" />
+    <entry java-name="androidx/work/impl/background/systemjob/SystemJobService" managed-name="AndroidX.Work.Impl.Background.SystemJob.SystemJobService, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554690" />
+    <entry java-name="androidx/work/impl/background/greedy/DelayedWorkTracker" managed-name="AndroidX.Work.Impl.Background.Greedy.DelayedWorkTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554691" />
+    <entry java-name="androidx/work/impl/background/greedy/GreedyScheduler" managed-name="AndroidX.Work.Impl.Background.Greedy.GreedyScheduler, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554692" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/work/OneTimeWorkRequest" managed-name="AndroidX.Work.OneTimeWorkRequest, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554465" />
+    <entry java-name="androidx/work/OneTimeWorkRequest$Builder" managed-name="AndroidX.Work.OneTimeWorkRequest+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554694" />
+    <entry java-name="androidx/work/OneTimeWorkRequest$Companion" managed-name="AndroidX.Work.OneTimeWorkRequest+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554695" />
+    <entry java-name="androidx/work/PeriodicWorkRequest" managed-name="AndroidX.Work.PeriodicWorkRequest, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554466" />
+    <entry java-name="androidx/work/PeriodicWorkRequest$Builder" managed-name="AndroidX.Work.PeriodicWorkRequest+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554696" />
+    <entry java-name="androidx/work/PeriodicWorkRequest$Companion" managed-name="AndroidX.Work.PeriodicWorkRequest+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554697" />
+    <entry java-name="androidx/work/Constraints" managed-name="AndroidX.Work.Constraints, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554467" />
+    <entry java-name="androidx/work/Constraints$Builder" managed-name="AndroidX.Work.Constraints+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554698" />
+    <entry java-name="androidx/work/Constraints$Companion" managed-name="AndroidX.Work.Constraints+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554699" />
+    <entry java-name="androidx/work/Constraints$ContentUriTrigger" managed-name="AndroidX.Work.Constraints+ContentUriTrigger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554700" />
+    <entry java-name="androidx/work/ArrayCreatingInputMerger" managed-name="AndroidX.Work.ArrayCreatingInputMerger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554468" />
+    <entry java-name="androidx/work/BackoffPolicy" managed-name="AndroidX.Work.BackoffPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554469" />
+    <entry java-name="androidx/work/Configuration" managed-name="AndroidX.Work.Configuration, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554470" />
+    <entry java-name="androidx/work/Configuration$Builder" managed-name="AndroidX.Work.Configuration+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554701" />
+    <entry java-name="androidx/work/Configuration$Companion" managed-name="AndroidX.Work.Configuration+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554702" />
+    <entry java-name="androidx/work/Configuration$Provider" managed-name="AndroidX.Work.Configuration+IProvider, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554703" />
+    <entry java-name="androidx/work/Configuration$Provider" managed-name="AndroidX.Work.Configuration+IProviderInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554704" />
+    <entry java-name="androidx/work/ConfigurationKt" managed-name="AndroidX.Work.ConfigurationKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554471" />
+    <entry java-name="androidx/work/ConstraintsKt" managed-name="AndroidX.Work.ConstraintsKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554472" />
+    <entry java-name="androidx/work/CoroutineWorker" managed-name="AndroidX.Work.CoroutineWorker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554473" />
+    <entry java-name="androidx/work/CoroutineWorker" managed-name="AndroidX.Work.CoroutineWorkerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554474" />
+    <entry java-name="androidx/work/Data" managed-name="AndroidX.Work.Data, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554475" />
+    <entry java-name="androidx/work/Data$Builder" managed-name="AndroidX.Work.Data+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554705" />
+    <entry java-name="androidx/work/Data$Companion" managed-name="AndroidX.Work.Data+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554706" />
+    <entry java-name="androidx/work/DataKt" managed-name="AndroidX.Work.DataKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554476" />
+    <entry java-name="androidx/work/Data_Kt" managed-name="AndroidX.Work.Data_Kt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554477" />
+    <entry java-name="androidx/work/DefaultWorkerFactory" managed-name="AndroidX.Work.DefaultWorkerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554478" />
+    <entry java-name="androidx/work/DelegatingWorkerFactory" managed-name="AndroidX.Work.DelegatingWorkerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554479" />
+    <entry java-name="androidx/work/DelegatingWorkerFactoryKt" managed-name="AndroidX.Work.DelegatingWorkerFactoryKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554480" />
+    <entry java-name="androidx/work/DirectExecutor" managed-name="AndroidX.Work.DirectExecutor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554481" />
+    <entry java-name="androidx/work/ExistingPeriodicWorkPolicy" managed-name="AndroidX.Work.ExistingPeriodicWorkPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554482" />
+    <entry java-name="androidx/work/ExistingWorkPolicy" managed-name="AndroidX.Work.ExistingWorkPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554483" />
+    <entry java-name="androidx/work/ForegroundInfo" managed-name="AndroidX.Work.ForegroundInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554486" />
+    <entry java-name="androidx/work/Clock" managed-name="AndroidX.Work.IClock, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554487" />
+    <entry java-name="androidx/work/Clock" managed-name="AndroidX.Work.IClockInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554488" />
+    <entry java-name="androidx/work/ExperimentalConfigurationApi" managed-name="AndroidX.Work.IExperimentalConfigurationApi, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554489" />
+    <entry java-name="androidx/work/ExperimentalConfigurationApi" managed-name="AndroidX.Work.IExperimentalConfigurationApiInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554490" />
+    <entry java-name="androidx/work/ExperimentalWorkRequestBuilderApi" managed-name="AndroidX.Work.IExperimentalWorkRequestBuilderApi, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554491" />
+    <entry java-name="androidx/work/ExperimentalWorkRequestBuilderApi" managed-name="AndroidX.Work.IExperimentalWorkRequestBuilderApiInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554492" />
+    <entry java-name="androidx/work/ForegroundUpdater" managed-name="AndroidX.Work.IForegroundUpdater, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554493" />
+    <entry java-name="androidx/work/ForegroundUpdater" managed-name="AndroidX.Work.IForegroundUpdaterInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554494" />
+    <entry java-name="androidx/work/InputMerger" managed-name="AndroidX.Work.InputMerger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554495" />
+    <entry java-name="androidx/work/InputMerger" managed-name="AndroidX.Work.InputMergerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554496" />
+    <entry java-name="androidx/work/InputMergerFactory" managed-name="AndroidX.Work.InputMergerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554497" />
+    <entry java-name="androidx/work/InputMergerFactory" managed-name="AndroidX.Work.InputMergerFactoryInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554498" />
+    <entry java-name="androidx/work/InputMergerKt" managed-name="AndroidX.Work.InputMergerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554499" />
+    <entry java-name="androidx/work/Operation$State" managed-name="AndroidX.Work.OperationState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554500" />
+    <entry java-name="androidx/work/Operation$State$FAILURE" managed-name="AndroidX.Work.OperationState+FAILURE, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554707" />
+    <entry java-name="androidx/work/Operation$State$IN_PROGRESS" managed-name="AndroidX.Work.OperationState+IN_PROGRESS, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554708" />
+    <entry java-name="androidx/work/Operation$State$SUCCESS" managed-name="AndroidX.Work.OperationState+SUCCESS, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554709" />
+    <entry java-name="androidx/work/Operation$State" managed-name="AndroidX.Work.OperationStateInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554501" />
+    <entry java-name="mono/internal/androidx/work/Operation" managed-name="AndroidX.Work.Operation, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554502" />
+    <entry java-name="mono/internal/androidx/work/Operation" managed-name="AndroidX.Work.OperationConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554503" />
+    <entry java-name="androidx/work/Operation" managed-name="AndroidX.Work.IOperation, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554504" />
+    <entry java-name="androidx/work/Operation" managed-name="AndroidX.Work.IOperationInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554505" />
+    <entry java-name="androidx/work/ProgressUpdater" managed-name="AndroidX.Work.IProgressUpdater, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554506" />
+    <entry java-name="androidx/work/ProgressUpdater" managed-name="AndroidX.Work.IProgressUpdaterInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554507" />
+    <entry java-name="androidx/work/RunnableScheduler" managed-name="AndroidX.Work.IRunnableScheduler, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554508" />
+    <entry java-name="androidx/work/RunnableScheduler" managed-name="AndroidX.Work.IRunnableSchedulerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554509" />
+    <entry java-name="androidx/work/Tracer" managed-name="AndroidX.Work.ITracer, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554510" />
+    <entry java-name="androidx/work/Tracer" managed-name="AndroidX.Work.ITracerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554511" />
+    <entry java-name="androidx/work/ListenableFutureKt" managed-name="AndroidX.Work.ListenableFutureKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554512" />
+    <entry java-name="androidx/work/ListenableWorker" managed-name="AndroidX.Work.ListenableWorker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554513" />
+    <entry java-name="androidx/work/ListenableWorker$Result" managed-name="AndroidX.Work.ListenableWorker+Result, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554710" />
+    <entry java-name="androidx/work/ListenableWorker$Result$Failure" managed-name="AndroidX.Work.ListenableWorker+Result+Failure, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554751" />
+    <entry java-name="androidx/work/ListenableWorker$Result$Retry" managed-name="AndroidX.Work.ListenableWorker+Result+Retry, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554752" />
+    <entry java-name="androidx/work/ListenableWorker$Result$Success" managed-name="AndroidX.Work.ListenableWorker+Result+Success, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554753" />
+    <entry java-name="androidx/work/ListenableWorker$Result" managed-name="AndroidX.Work.ListenableWorker+ResultInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554711" />
+    <entry java-name="androidx/work/ListenableWorker" managed-name="AndroidX.Work.ListenableWorkerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554514" />
+    <entry java-name="androidx/work/Logger" managed-name="AndroidX.Work.Logger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554515" />
+    <entry java-name="androidx/work/Logger$LogcatLogger" managed-name="AndroidX.Work.Logger+LogcatLogger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554712" />
+    <entry java-name="androidx/work/Logger" managed-name="AndroidX.Work.LoggerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554516" />
+    <entry java-name="androidx/work/LoggerExtKt" managed-name="AndroidX.Work.LoggerExtKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554517" />
+    <entry java-name="androidx/work/NetworkType" managed-name="AndroidX.Work.NetworkType, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554518" />
+    <entry java-name="androidx/work/OneTimeWorkRequestKt" managed-name="AndroidX.Work.OneTimeWorkRequestKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554519" />
+    <entry java-name="androidx/work/OperationKt" managed-name="AndroidX.Work.OperationKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554520" />
+    <entry java-name="androidx/work/OutOfQuotaPolicy" managed-name="AndroidX.Work.OutOfQuotaPolicy, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554521" />
+    <entry java-name="androidx/work/OverwritingInputMerger" managed-name="AndroidX.Work.OverwritingInputMerger, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554522" />
+    <entry java-name="androidx/work/PeriodicWorkRequestKt" managed-name="AndroidX.Work.PeriodicWorkRequestKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554523" />
+    <entry java-name="androidx/work/SystemClock" managed-name="AndroidX.Work.SystemClock, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554524" />
+    <entry java-name="androidx/work/TracerKt" managed-name="AndroidX.Work.TracerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554525" />
+    <entry java-name="androidx/work/WorkContinuation" managed-name="AndroidX.Work.WorkContinuation, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554526" />
+    <entry java-name="androidx/work/WorkContinuation" managed-name="AndroidX.Work.WorkContinuationInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554527" />
+    <entry java-name="androidx/work/Worker" managed-name="AndroidX.Work.Worker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554528" />
+    <entry java-name="androidx/work/Worker" managed-name="AndroidX.Work.WorkerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554529" />
+    <entry java-name="androidx/work/WorkerExceptionInfo" managed-name="AndroidX.Work.WorkerExceptionInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554530" />
+    <entry java-name="androidx/work/WorkerFactory" managed-name="AndroidX.Work.WorkerFactory, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554531" />
+    <entry java-name="androidx/work/WorkerFactory" managed-name="AndroidX.Work.WorkerFactoryInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554532" />
+    <entry java-name="androidx/work/WorkerFactoryKt" managed-name="AndroidX.Work.WorkerFactoryKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554533" />
+    <entry java-name="androidx/work/WorkerKt" managed-name="AndroidX.Work.WorkerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554534" />
+    <entry java-name="androidx/work/WorkerParameters" managed-name="AndroidX.Work.WorkerParameters, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554535" />
+    <entry java-name="androidx/work/WorkerParameters$RuntimeExtras" managed-name="AndroidX.Work.WorkerParameters+RuntimeExtras, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554713" />
+    <entry java-name="androidx/work/WorkerParametersExtensions" managed-name="AndroidX.Work.WorkerParametersExtensions, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554536" />
+    <entry java-name="androidx/work/WorkInfo" managed-name="AndroidX.Work.WorkInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554537" />
+    <entry java-name="androidx/work/WorkInfo$Companion" managed-name="AndroidX.Work.WorkInfo+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554714" />
+    <entry java-name="androidx/work/WorkInfo$PeriodicityInfo" managed-name="AndroidX.Work.WorkInfo+PeriodicityInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554715" />
+    <entry java-name="androidx/work/WorkInfo$State" managed-name="AndroidX.Work.WorkInfo+State, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554716" />
+    <entry java-name="androidx/work/WorkManager" managed-name="AndroidX.Work.WorkManager, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554538" />
+    <entry java-name="androidx/work/WorkManager$Companion" managed-name="AndroidX.Work.WorkManager+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554717" />
+    <entry java-name="androidx/work/WorkManager$UpdateResult" managed-name="AndroidX.Work.WorkManager+UpdateResult, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554718" />
+    <entry java-name="androidx/work/WorkManager" managed-name="AndroidX.Work.WorkManagerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554539" />
+    <entry java-name="androidx/work/WorkManagerInitializer" managed-name="AndroidX.Work.WorkManagerInitializer, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554540" />
+    <entry java-name="androidx/work/WorkQuery" managed-name="AndroidX.Work.WorkQuery, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554541" />
+    <entry java-name="androidx/work/WorkQuery$Builder" managed-name="AndroidX.Work.WorkQuery+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554719" />
+    <entry java-name="androidx/work/WorkQuery$Builder$Companion" managed-name="AndroidX.Work.WorkQuery+Builder+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554754" />
+    <entry java-name="androidx/work/WorkQuery$Companion" managed-name="AndroidX.Work.WorkQuery+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554720" />
+    <entry java-name="androidx/work/WorkRequest" managed-name="AndroidX.Work.WorkRequest, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554542" />
+    <entry java-name="androidx/work/WorkRequest$Builder" managed-name="AndroidX.Work.WorkRequest+Builder, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554721" />
+    <entry java-name="androidx/work/WorkRequest$Builder" managed-name="AndroidX.Work.WorkRequest+BuilderInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554722" />
+    <entry java-name="androidx/work/WorkRequest$Companion" managed-name="AndroidX.Work.WorkRequest+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554723" />
+    <entry java-name="androidx/work/WorkRequest" managed-name="AndroidX.Work.WorkRequestInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554543" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl$Default" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplDefault, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554544" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplStub, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554545" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplStubInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554546" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImpl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554547" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.ListenableWorkerImplConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554548" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.IListenableWorkerImpl, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554549" />
+    <entry java-name="androidx/work/multiprocess/IListenableWorkerImpl" managed-name="AndroidX.Work.MultiProcess.IListenableWorkerImplInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554550" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl$Default" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplDefault, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554551" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplStub, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554552" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplStubInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554553" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.WorkManagerImpl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554554" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554555" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImpl, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554556" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImpl" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImplInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554557" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback$Default" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackDefault, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554558" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackStub, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554559" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback$Stub" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackStubInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554560" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallback, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554561" />
+    <entry java-name="mono/internal/androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.WorkManagerImplCallbackConsts, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554562" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImplCallback, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554563" />
+    <entry java-name="androidx/work/multiprocess/IWorkManagerImplCallback" managed-name="AndroidX.Work.MultiProcess.IWorkManagerImplCallbackInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554564" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkContinuation" managed-name="AndroidX.Work.MultiProcess.RemoteWorkContinuation, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554565" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkContinuation" managed-name="AndroidX.Work.MultiProcess.RemoteWorkContinuationInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554566" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkManager" managed-name="AndroidX.Work.MultiProcess.RemoteWorkManager, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554567" />
+    <entry java-name="androidx/work/multiprocess/RemoteWorkManager" managed-name="AndroidX.Work.MultiProcess.RemoteWorkManagerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554568" />
+    <entry java-name="androidx/work/impl/workers/ConstraintTrackingWorker" managed-name="AndroidX.Work.Impl.Workers.ConstraintTrackingWorker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554569" />
+    <entry java-name="androidx/work/impl/workers/ConstraintTrackingWorkerKt" managed-name="AndroidX.Work.Impl.Workers.ConstraintTrackingWorkerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554570" />
+    <entry java-name="androidx/work/impl/workers/DiagnosticsWorkerKt" managed-name="AndroidX.Work.Impl.Workers.DiagnosticsWorkerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554571" />
+    <entry java-name="androidx/work/impl/utils/CancelWorkRunnable" managed-name="AndroidX.Work.Impl.Utils.CancelWorkRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554572" />
+    <entry java-name="androidx/work/impl/utils/EnqueueRunnable" managed-name="AndroidX.Work.Impl.Utils.EnqueueRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554573" />
+    <entry java-name="androidx/work/impl/utils/EnqueueUtilsKt" managed-name="AndroidX.Work.Impl.Utils.EnqueueUtilsKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554574" />
+    <entry java-name="androidx/work/impl/utils/ForceStopRunnable" managed-name="AndroidX.Work.Impl.Utils.ForceStopRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554575" />
+    <entry java-name="androidx/work/impl/utils/ForceStopRunnable$BroadcastReceiver" managed-name="AndroidX.Work.Impl.Utils.ForceStopRunnable+BroadcastReceiver, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554730" />
+    <entry java-name="androidx/work/impl/utils/IdGenerator" managed-name="AndroidX.Work.Impl.Utils.IdGenerator, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554576" />
+    <entry java-name="androidx/work/impl/utils/IdGeneratorKt" managed-name="AndroidX.Work.Impl.Utils.IdGeneratorKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554577" />
+    <entry java-name="androidx/work/impl/utils/LiveDataUtils" managed-name="AndroidX.Work.Impl.Utils.LiveDataUtils, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554578" />
+    <entry java-name="androidx/work/impl/utils/NetworkRequest28" managed-name="AndroidX.Work.Impl.Utils.NetworkRequest28, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554579" />
+    <entry java-name="androidx/work/impl/utils/NetworkRequestCompatKt" managed-name="AndroidX.Work.Impl.Utils.NetworkRequestCompatKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554580" />
+    <entry java-name="androidx/work/impl/utils/PackageManagerHelper" managed-name="AndroidX.Work.Impl.Utils.PackageManagerHelper, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554581" />
+    <entry java-name="androidx/work/impl/utils/PreferenceUtils" managed-name="AndroidX.Work.Impl.Utils.PreferenceUtils, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554582" />
+    <entry java-name="androidx/work/impl/utils/ProcessUtils" managed-name="AndroidX.Work.Impl.Utils.ProcessUtils, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554583" />
+    <entry java-name="androidx/work/impl/utils/PruneWorkRunnableKt" managed-name="AndroidX.Work.Impl.Utils.PruneWorkRunnableKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554584" />
+    <entry java-name="androidx/work/impl/utils/RawQueries" managed-name="AndroidX.Work.Impl.Utils.RawQueries, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554585" />
+    <entry java-name="androidx/work/impl/utils/SerialExecutorImpl" managed-name="AndroidX.Work.Impl.Utils.SerialExecutorImpl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554586" />
+    <entry java-name="androidx/work/impl/utils/StatusRunnable" managed-name="AndroidX.Work.Impl.Utils.StatusRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554587" />
+    <entry java-name="androidx/work/impl/utils/StopWorkRunnable" managed-name="AndroidX.Work.Impl.Utils.StopWorkRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554588" />
+    <entry java-name="androidx/work/impl/utils/SynchronousExecutor" managed-name="AndroidX.Work.Impl.Utils.SynchronousExecutor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554589" />
+    <entry java-name="androidx/work/impl/utils/WakeLocks" managed-name="AndroidX.Work.Impl.Utils.WakeLocks, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554590" />
+    <entry java-name="androidx/work/impl/utils/WorkerExceptionUtilsKt" managed-name="AndroidX.Work.Impl.Utils.WorkerExceptionUtilsKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554591" />
+    <entry java-name="androidx/work/impl/utils/WorkForegroundKt" managed-name="AndroidX.Work.Impl.Utils.WorkForegroundKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554592" />
+    <entry java-name="androidx/work/impl/utils/WorkForegroundUpdater" managed-name="AndroidX.Work.Impl.Utils.WorkForegroundUpdater, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554593" />
+    <entry java-name="androidx/work/impl/utils/WorkProgressUpdater" managed-name="AndroidX.Work.Impl.Utils.WorkProgressUpdater, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554594" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer" managed-name="AndroidX.Work.Impl.Utils.WorkTimer, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554595" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer$TimeLimitExceededListener" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListener, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554731" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer$TimeLimitExceededListener" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListenerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554732" />
+    <entry java-name="mono/androidx/work/impl/utils/WorkTimer_TimeLimitExceededListenerImplementor" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+ITimeLimitExceededListenerImplementor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554734" />
+    <entry java-name="androidx/work/impl/utils/WorkTimer$WorkTimerRunnable" managed-name="AndroidX.Work.Impl.Utils.WorkTimer+WorkTimerRunnable, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554735" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/SerialExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutor, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554596" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/SerialExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutorInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554597" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/TaskExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554598" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/TaskExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutorInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554599" />
+    <entry java-name="androidx/work/impl/utils/taskexecutor/WorkManagerTaskExecutor" managed-name="AndroidX.Work.Impl.Utils.TaskExecutor.WorkManagerTaskExecutor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554600" />
+    <entry java-name="androidx/work/impl/utils/futures/AbstractFuture" managed-name="AndroidX.Work.Impl.Utils.Futures.AbstractFuture, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554601" />
+    <entry java-name="androidx/work/impl/utils/futures/AbstractFuture" managed-name="AndroidX.Work.Impl.Utils.Futures.AbstractFutureInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554602" />
+    <entry java-name="androidx/work/impl/utils/futures/SettableFuture" managed-name="AndroidX.Work.Impl.Utils.Futures.SettableFuture, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554603" />
+    <entry java-name="androidx/work/impl/model/Dependency" managed-name="AndroidX.Work.Impl.Model.Dependency, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554604" />
+    <entry java-name="androidx/work/impl/model/DependencyDao_Impl" managed-name="AndroidX.Work.Impl.Model.DependencyDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554605" />
+    <entry java-name="androidx/work/impl/model/DependencyDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.DependencyDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554736" />
+    <entry java-name="androidx/work/impl/model/DependencyDao" managed-name="AndroidX.Work.Impl.Model.IDependencyDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554606" />
+    <entry java-name="androidx/work/impl/model/DependencyDao" managed-name="AndroidX.Work.Impl.Model.IDependencyDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554607" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao" managed-name="AndroidX.Work.Impl.Model.IPreferenceDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554608" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao" managed-name="AndroidX.Work.Impl.Model.IPreferenceDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554609" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao" managed-name="AndroidX.Work.Impl.Model.IRawWorkInfoDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554610" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao" managed-name="AndroidX.Work.Impl.Model.IRawWorkInfoDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554611" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao$DefaultImpls" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoDaoDefaultImpls, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554612" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao" managed-name="AndroidX.Work.Impl.Model.ISystemIdInfoDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554613" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao" managed-name="AndroidX.Work.Impl.Model.ISystemIdInfoDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554614" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao" managed-name="AndroidX.Work.Impl.Model.IWorkNameDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554615" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao" managed-name="AndroidX.Work.Impl.Model.IWorkNameDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554616" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao" managed-name="AndroidX.Work.Impl.Model.IWorkProgressDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554617" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao" managed-name="AndroidX.Work.Impl.Model.IWorkProgressDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554618" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao" managed-name="AndroidX.Work.Impl.Model.IWorkSpecDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554619" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao" managed-name="AndroidX.Work.Impl.Model.IWorkSpecDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554620" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao$DefaultImpls" managed-name="AndroidX.Work.Impl.Model.WorkTagDaoDefaultImpls, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554621" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao" managed-name="AndroidX.Work.Impl.Model.IWorkTagDao, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554622" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao" managed-name="AndroidX.Work.Impl.Model.IWorkTagDaoInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554623" />
+    <entry java-name="androidx/work/impl/model/Preference" managed-name="AndroidX.Work.Impl.Model.Preference, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554624" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao_Impl" managed-name="AndroidX.Work.Impl.Model.PreferenceDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554625" />
+    <entry java-name="androidx/work/impl/model/PreferenceDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.PreferenceDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554737" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDaoKt" managed-name="AndroidX.Work.Impl.Model.RawWorkInfoDaoKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554626" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao_Impl" managed-name="AndroidX.Work.Impl.Model.RawWorkInfoDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554627" />
+    <entry java-name="androidx/work/impl/model/RawWorkInfoDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.RawWorkInfoDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554738" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfo" managed-name="AndroidX.Work.Impl.Model.SystemIdInfo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554628" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao_Impl" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554629" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554739" />
+    <entry java-name="androidx/work/impl/model/SystemIdInfoKt" managed-name="AndroidX.Work.Impl.Model.SystemIdInfoKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554630" />
+    <entry java-name="androidx/work/impl/model/WorkGenerationalId" managed-name="AndroidX.Work.Impl.Model.WorkGenerationalId, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554631" />
+    <entry java-name="androidx/work/impl/model/WorkName" managed-name="AndroidX.Work.Impl.Model.WorkName, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554632" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkNameDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554633" />
+    <entry java-name="androidx/work/impl/model/WorkNameDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkNameDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554740" />
+    <entry java-name="androidx/work/impl/model/WorkProgress" managed-name="AndroidX.Work.Impl.Model.WorkProgress, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554634" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkProgressDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554635" />
+    <entry java-name="androidx/work/impl/model/WorkProgressDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkProgressDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554741" />
+    <entry java-name="androidx/work/impl/model/WorkSpec" managed-name="AndroidX.Work.Impl.Model.WorkSpec, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554636" />
+    <entry java-name="androidx/work/impl/model/WorkSpec$Companion" managed-name="AndroidX.Work.Impl.Model.WorkSpec+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554742" />
+    <entry java-name="androidx/work/impl/model/WorkSpec$IdAndState" managed-name="AndroidX.Work.Impl.Model.WorkSpec+IdAndState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554743" />
+    <entry java-name="androidx/work/impl/model/WorkSpec$WorkInfoPojo" managed-name="AndroidX.Work.Impl.Model.WorkSpec+WorkInfoPojo, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554744" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDaoKt" managed-name="AndroidX.Work.Impl.Model.WorkSpecDaoKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554637" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkSpecDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554638" />
+    <entry java-name="androidx/work/impl/model/WorkSpecDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkSpecDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554745" />
+    <entry java-name="androidx/work/impl/model/WorkSpecKt" managed-name="AndroidX.Work.Impl.Model.WorkSpecKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554639" />
+    <entry java-name="androidx/work/impl/model/WorkTag" managed-name="AndroidX.Work.Impl.Model.WorkTag, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554640" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao_Impl" managed-name="AndroidX.Work.Impl.Model.WorkTagDao_Impl, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554641" />
+    <entry java-name="androidx/work/impl/model/WorkTagDao_Impl$Companion" managed-name="AndroidX.Work.Impl.Model.WorkTagDao_Impl+Companion, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554746" />
+    <entry java-name="androidx/work/impl/model/WorkTypeConverters" managed-name="AndroidX.Work.Impl.Model.WorkTypeConverters, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554642" />
+    <entry java-name="androidx/work/impl/model/WorkTypeConverters$StateIds" managed-name="AndroidX.Work.Impl.Model.WorkTypeConverters+StateIds, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554747" />
+    <entry java-name="androidx/work/impl/model/WorkTypeConverters$WhenMappings" managed-name="AndroidX.Work.Impl.Model.WorkTypeConverters+WhenMappings, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554748" />
+    <entry java-name="androidx/work/impl/foreground/ForegroundProcessor" managed-name="AndroidX.Work.Impl.Foreground.IForegroundProcessor, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554643" />
+    <entry java-name="androidx/work/impl/foreground/ForegroundProcessor" managed-name="AndroidX.Work.Impl.Foreground.IForegroundProcessorInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554644" />
+    <entry java-name="androidx/work/impl/foreground/SystemForegroundDispatcher" managed-name="AndroidX.Work.Impl.Foreground.SystemForegroundDispatcher, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554645" />
+    <entry java-name="androidx/work/impl/foreground/SystemForegroundService" managed-name="AndroidX.Work.Impl.Foreground.SystemForegroundService, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554646" />
+    <entry java-name="androidx/work/impl/diagnostics/DiagnosticsReceiver" managed-name="AndroidX.Work.Impl.Diagnostics.DiagnosticsReceiver, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554647" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554648" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState$ConstraintsMet" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsState+ConstraintsMet, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554749" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState$ConstraintsNotMet" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsState+ConstraintsNotMet, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554750" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintsState" managed-name="AndroidX.Work.Impl.Constraints.ConstraintsStateInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554649" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintListener" managed-name="AndroidX.Work.Impl.Constraints.IConstraintListener, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554650" />
+    <entry java-name="androidx/work/impl/constraints/ConstraintListener" managed-name="AndroidX.Work.Impl.Constraints.IConstraintListenerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554651" />
+    <entry java-name="mono/androidx/work/impl/constraints/ConstraintListenerImplementor" managed-name="AndroidX.Work.Impl.Constraints.IConstraintListenerImplementor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554653" />
+    <entry java-name="androidx/work/impl/constraints/OnConstraintsStateChangedListener" managed-name="AndroidX.Work.Impl.Constraints.IOnConstraintsStateChangedListener, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554654" />
+    <entry java-name="androidx/work/impl/constraints/OnConstraintsStateChangedListener" managed-name="AndroidX.Work.Impl.Constraints.IOnConstraintsStateChangedListenerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554655" />
+    <entry java-name="mono/androidx/work/impl/constraints/OnConstraintsStateChangedListenerImplementor" managed-name="AndroidX.Work.Impl.Constraints.IOnConstraintsStateChangedListenerImplementor, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554657" />
+    <entry java-name="androidx/work/impl/constraints/NetworkRequestConstraintController" managed-name="AndroidX.Work.Impl.Constraints.NetworkRequestConstraintController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554658" />
+    <entry java-name="androidx/work/impl/constraints/NetworkState" managed-name="AndroidX.Work.Impl.Constraints.NetworkState, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554659" />
+    <entry java-name="androidx/work/impl/constraints/WorkConstraintsTracker" managed-name="AndroidX.Work.Impl.Constraints.WorkConstraintsTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554660" />
+    <entry java-name="androidx/work/impl/constraints/WorkConstraintsTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.WorkConstraintsTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554661" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryChargingTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryChargingTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554662" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryChargingTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryChargingTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554663" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryNotLowTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryNotLowTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554664" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BatteryNotLowTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BatteryNotLowTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554665" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BroadcastReceiverConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BroadcastReceiverConstraintTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554666" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BroadcastReceiverConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BroadcastReceiverConstraintTrackerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554667" />
+    <entry java-name="androidx/work/impl/constraints/trackers/BroadcastReceiverConstraintTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.BroadcastReceiverConstraintTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554668" />
+    <entry java-name="androidx/work/impl/constraints/trackers/ConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.ConstraintTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554669" />
+    <entry java-name="androidx/work/impl/constraints/trackers/ConstraintTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.ConstraintTrackerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554670" />
+    <entry java-name="androidx/work/impl/constraints/trackers/ConstraintTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.ConstraintTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554671" />
+    <entry java-name="androidx/work/impl/constraints/trackers/NetworkStateTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.NetworkStateTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554672" />
+    <entry java-name="androidx/work/impl/constraints/trackers/StorageNotLowTracker" managed-name="AndroidX.Work.Impl.Constraints.Trackers.StorageNotLowTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554673" />
+    <entry java-name="androidx/work/impl/constraints/trackers/StorageNotLowTrackerKt" managed-name="AndroidX.Work.Impl.Constraints.Trackers.StorageNotLowTrackerKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554674" />
+    <entry java-name="androidx/work/impl/constraints/trackers/Trackers" managed-name="AndroidX.Work.Impl.Constraints.Trackers.Trackers, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554675" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BaseConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BaseConstraintController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554676" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BaseConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BaseConstraintControllerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554677" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BatteryChargingController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BatteryChargingController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554678" />
+    <entry java-name="androidx/work/impl/constraints/controllers/BatteryNotLowController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.BatteryNotLowController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554679" />
+    <entry java-name="androidx/work/impl/constraints/controllers/ConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.IConstraintController, Xamarin.AndroidX.Work.Runtime" skip-in-java-to-managed="True" managed-type-token-id="33554680" />
+    <entry java-name="androidx/work/impl/constraints/controllers/ConstraintController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.IConstraintControllerInvoker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554681" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkConnectedController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkConnectedController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554682" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkMeteredController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkMeteredController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554683" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkNotRoamingController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkNotRoamingController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554684" />
+    <entry java-name="androidx/work/impl/constraints/controllers/NetworkUnmeteredController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.NetworkUnmeteredController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554685" />
+    <entry java-name="androidx/work/impl/constraints/controllers/StorageNotLowController" managed-name="AndroidX.Work.Impl.Constraints.Controllers.StorageNotLowController, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554686" />
+    <entry java-name="androidx/work/impl/background/systemjob/JobSchedulerExtKt" managed-name="AndroidX.Work.Impl.Background.SystemJob.JobSchedulerExtKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554687" />
+    <entry java-name="androidx/work/impl/background/systemjob/SystemJobInfoConverterExtKt" managed-name="AndroidX.Work.Impl.Background.SystemJob.SystemJobInfoConverterExtKt, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554688" />
+    <entry java-name="androidx/work/impl/background/systemjob/SystemJobScheduler" managed-name="AndroidX.Work.Impl.Background.SystemJob.SystemJobScheduler, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554689" />
+    <entry java-name="androidx/work/impl/background/systemjob/SystemJobService" managed-name="AndroidX.Work.Impl.Background.SystemJob.SystemJobService, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554690" />
+    <entry java-name="androidx/work/impl/background/greedy/DelayedWorkTracker" managed-name="AndroidX.Work.Impl.Background.Greedy.DelayedWorkTracker, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554691" />
+    <entry java-name="androidx/work/impl/background/greedy/GreedyScheduler" managed-name="AndroidX.Work.Impl.Background.Greedy.GreedyScheduler, Xamarin.AndroidX.Work.Runtime" managed-type-token-id="33554692" />
+  </managed-to-java>
+</api>

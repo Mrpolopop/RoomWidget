@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Lifecycle.Service" mvid="dc8a00bde10a420fa0d04258767a442e">
+  <java-to-managed>
+    <entry java-name="androidx/lifecycle/LifecycleService" managed-name="AndroidX.Lifecycle.LifecycleService, Xamarin.AndroidX.Lifecycle.Service" managed-type-token-id="33554438" />
+    <entry java-name="androidx/lifecycle/ServiceLifecycleDispatcher" managed-name="AndroidX.Lifecycle.ServiceLifecycleDispatcher, Xamarin.AndroidX.Lifecycle.Service" managed-type-token-id="33554439" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/lifecycle/LifecycleService" managed-name="AndroidX.Lifecycle.LifecycleService, Xamarin.AndroidX.Lifecycle.Service" managed-type-token-id="33554438" />
+    <entry java-name="androidx/lifecycle/ServiceLifecycleDispatcher" managed-name="AndroidX.Lifecycle.ServiceLifecycleDispatcher, Xamarin.AndroidX.Lifecycle.Service" managed-type-token-id="33554439" />
+  </managed-to-java>
+</api>
