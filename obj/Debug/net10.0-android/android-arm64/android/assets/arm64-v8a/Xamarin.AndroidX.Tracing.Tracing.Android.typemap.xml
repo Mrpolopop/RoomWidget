@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Tracing.Tracing.Android" mvid="923f9fce7cdf4d8dbf67d1c4450b24fc">
+  <java-to-managed>
+    <entry java-name="androidx/tracing/Trace" managed-name="AndroidX.Tracing.Trace, Xamarin.AndroidX.Tracing.Tracing.Android" managed-type-token-id="33554435" />
+    <entry java-name="androidx/tracing/TraceKt" managed-name="AndroidX.Tracing.TraceKt, Xamarin.AndroidX.Tracing.Tracing.Android" managed-type-token-id="33554436" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/tracing/Trace" managed-name="AndroidX.Tracing.Trace, Xamarin.AndroidX.Tracing.Tracing.Android" managed-type-token-id="33554435" />
+    <entry java-name="androidx/tracing/TraceKt" managed-name="AndroidX.Tracing.TraceKt, Xamarin.AndroidX.Tracing.Tracing.Android" managed-type-token-id="33554436" />
+  </managed-to-java>
+</api>

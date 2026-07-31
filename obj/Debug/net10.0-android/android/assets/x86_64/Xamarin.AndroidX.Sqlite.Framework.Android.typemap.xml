@@ -1,0 +1,20 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Sqlite.Framework.Android" mvid="a994f3c58f54471a8cd60b784fb30e82">
+  <java-to-managed>
+    <entry java-name="androidx/sqlite/util/ProcessLock" managed-name="AndroidX.Sqlite.Util.ProcessLock, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554435" />
+    <entry java-name="androidx/sqlite/db/framework/FrameworkSQLiteOpenHelperFactory" managed-name="AndroidX.Sqlite.Db.Framework.FrameworkSQLiteOpenHelperFactory, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554436" />
+    <entry java-name="androidx/sqlite/driver/SupportSQLiteDriver" managed-name="AndroidX.Sqlite.Driver.SupportSQLiteDriver, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554437" />
+    <entry java-name="androidx/sqlite/driver/AndroidSQLiteConnection" managed-name="AndroidX.Sqlite.Driver.AndroidSQLiteConnection, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554438" />
+    <entry java-name="androidx/sqlite/driver/AndroidSQLiteDriver" managed-name="AndroidX.Sqlite.Driver.AndroidSQLiteDriver, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554439" />
+    <entry java-name="androidx/sqlite/driver/SupportSQLiteConnection" managed-name="AndroidX.Sqlite.Driver.SupportSQLiteConnection, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554440" />
+    <entry java-name="androidx/sqlite/driver/SupportSQLiteStatement_androidKt" managed-name="AndroidX.Sqlite.Driver.SupportSQLiteStatement_androidKt, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554441" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/sqlite/util/ProcessLock" managed-name="AndroidX.Sqlite.Util.ProcessLock, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554435" />
+    <entry java-name="androidx/sqlite/db/framework/FrameworkSQLiteOpenHelperFactory" managed-name="AndroidX.Sqlite.Db.Framework.FrameworkSQLiteOpenHelperFactory, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554436" />
+    <entry java-name="androidx/sqlite/driver/SupportSQLiteDriver" managed-name="AndroidX.Sqlite.Driver.SupportSQLiteDriver, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554437" />
+    <entry java-name="androidx/sqlite/driver/AndroidSQLiteConnection" managed-name="AndroidX.Sqlite.Driver.AndroidSQLiteConnection, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554438" />
+    <entry java-name="androidx/sqlite/driver/AndroidSQLiteDriver" managed-name="AndroidX.Sqlite.Driver.AndroidSQLiteDriver, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554439" />
+    <entry java-name="androidx/sqlite/driver/SupportSQLiteConnection" managed-name="AndroidX.Sqlite.Driver.SupportSQLiteConnection, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554440" />
+    <entry java-name="androidx/sqlite/driver/SupportSQLiteStatement_androidKt" managed-name="AndroidX.Sqlite.Driver.SupportSQLiteStatement_androidKt, Xamarin.AndroidX.Sqlite.Framework.Android" managed-type-token-id="33554441" />
+  </managed-to-java>
+</api>
