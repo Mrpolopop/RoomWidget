@@ -1,0 +1,218 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Room.Common.JVM" mvid="ebaff5dc42c4474c9c7e015fc2686bac">
+  <java-to-managed>
+    <entry java-name="androidx/room/AmbiguousColumnResolver" managed-name="AndroidX.Room.AmbiguousColumnResolver, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554439" />
+    <entry java-name="androidx/room/FtsOptions" managed-name="AndroidX.Room.FtsOptions, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554455" />
+    <entry java-name="androidx/room/FtsOptions$MatchInfo" managed-name="AndroidX.Room.FtsOptions+MatchInfo, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554580" />
+    <entry java-name="androidx/room/FtsOptions$Order" managed-name="AndroidX.Room.FtsOptions+Order, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554581" />
+    <entry java-name="androidx/room/AutoMigration" managed-name="AndroidX.Room.IAutoMigration, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554456" />
+    <entry java-name="androidx/room/AutoMigration" managed-name="AndroidX.Room.IAutoMigrationInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554457" />
+    <entry java-name="androidx/room/BuiltInTypeConverters$State" managed-name="AndroidX.Room.BuiltInTypeConvertersState, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554458" />
+    <entry java-name="androidx/room/BuiltInTypeConverters" managed-name="AndroidX.Room.IBuiltInTypeConverters, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554459" />
+    <entry java-name="androidx/room/BuiltInTypeConverters" managed-name="AndroidX.Room.IBuiltInTypeConvertersInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554460" />
+    <entry java-name="androidx/room/ColumnInfo$Collate" managed-name="AndroidX.Room.IColumnInfoCollate, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554461" />
+    <entry java-name="androidx/room/ColumnInfo$Collate" managed-name="AndroidX.Room.IColumnInfoCollateInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554462" />
+    <entry java-name="androidx/room/ColumnInfo$Companion" managed-name="AndroidX.Room.ColumnInfoCompanion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554463" />
+    <entry java-name="androidx/room/ColumnInfo$SQLiteTypeAffinity" managed-name="AndroidX.Room.IColumnInfoSQLiteTypeAffinity, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554464" />
+    <entry java-name="androidx/room/ColumnInfo$SQLiteTypeAffinity" managed-name="AndroidX.Room.IColumnInfoSQLiteTypeAffinityInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554465" />
+    <entry java-name="mono/internal/androidx/room/ColumnInfo" managed-name="AndroidX.Room.ColumnInfo, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554466" />
+    <entry java-name="mono/internal/androidx/room/ColumnInfo" managed-name="AndroidX.Room.ColumnInfoConsts, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554467" />
+    <entry java-name="androidx/room/ColumnInfo" managed-name="AndroidX.Room.IColumnInfo, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554468" />
+    <entry java-name="androidx/room/ColumnInfo" managed-name="AndroidX.Room.IColumnInfoInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554469" />
+    <entry java-name="androidx/room/ConstructedBy" managed-name="AndroidX.Room.IConstructedBy, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="androidx/room/ConstructedBy" managed-name="AndroidX.Room.IConstructedByInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554471" />
+    <entry java-name="androidx/room/Dao" managed-name="AndroidX.Room.IDao, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/room/Dao" managed-name="AndroidX.Room.IDaoInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554473" />
+    <entry java-name="androidx/room/Database" managed-name="AndroidX.Room.IDatabase, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="androidx/room/Database" managed-name="AndroidX.Room.IDatabaseInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554475" />
+    <entry java-name="androidx/room/DatabaseView" managed-name="AndroidX.Room.IDatabaseView, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/room/DatabaseView" managed-name="AndroidX.Room.IDatabaseViewInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554477" />
+    <entry java-name="androidx/room/Delete" managed-name="AndroidX.Room.IDelete, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="androidx/room/Delete" managed-name="AndroidX.Room.IDeleteInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554479" />
+    <entry java-name="androidx/room/DeleteColumn$Entries" managed-name="AndroidX.Room.IDeleteColumnEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554480" />
+    <entry java-name="androidx/room/DeleteColumn$Entries" managed-name="AndroidX.Room.IDeleteColumnEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554481" />
+    <entry java-name="androidx/room/DeleteColumn" managed-name="AndroidX.Room.IDeleteColumn, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554482" />
+    <entry java-name="androidx/room/DeleteColumn" managed-name="AndroidX.Room.IDeleteColumnInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554483" />
+    <entry java-name="androidx/room/DeleteTable$Entries" managed-name="AndroidX.Room.IDeleteTableEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="androidx/room/DeleteTable$Entries" managed-name="AndroidX.Room.IDeleteTableEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554485" />
+    <entry java-name="androidx/room/DeleteTable" managed-name="AndroidX.Room.IDeleteTable, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554486" />
+    <entry java-name="androidx/room/DeleteTable" managed-name="AndroidX.Room.IDeleteTableInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554487" />
+    <entry java-name="androidx/room/Embedded" managed-name="AndroidX.Room.IEmbedded, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="androidx/room/Embedded" managed-name="AndroidX.Room.IEmbeddedInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554489" />
+    <entry java-name="androidx/room/Entity" managed-name="AndroidX.Room.IEntity, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="androidx/room/Entity" managed-name="AndroidX.Room.IEntityInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554491" />
+    <entry java-name="androidx/room/ForeignKey$Action" managed-name="AndroidX.Room.IForeignKeyAction, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="androidx/room/ForeignKey$Action" managed-name="AndroidX.Room.IForeignKeyActionInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554493" />
+    <entry java-name="androidx/room/ForeignKey$Companion" managed-name="AndroidX.Room.ForeignKeyCompanion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554494" />
+    <entry java-name="mono/internal/androidx/room/ForeignKey" managed-name="AndroidX.Room.ForeignKey, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554495" />
+    <entry java-name="mono/internal/androidx/room/ForeignKey" managed-name="AndroidX.Room.ForeignKeyConsts, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554496" />
+    <entry java-name="androidx/room/ForeignKey" managed-name="AndroidX.Room.IForeignKey, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554497" />
+    <entry java-name="androidx/room/ForeignKey" managed-name="AndroidX.Room.IForeignKeyInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554498" />
+    <entry java-name="androidx/room/Fts3" managed-name="AndroidX.Room.IFts3, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554499" />
+    <entry java-name="androidx/room/Fts3" managed-name="AndroidX.Room.IFts3Invoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554500" />
+    <entry java-name="androidx/room/Fts4" managed-name="AndroidX.Room.IFts4, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554501" />
+    <entry java-name="androidx/room/Fts4" managed-name="AndroidX.Room.IFts4Invoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554502" />
+    <entry java-name="androidx/room/Ignore" managed-name="AndroidX.Room.IIgnore, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554504" />
+    <entry java-name="androidx/room/Ignore" managed-name="AndroidX.Room.IIgnoreInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554505" />
+    <entry java-name="androidx/room/Index$Order" managed-name="AndroidX.Room.IndexOrder, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554506" />
+    <entry java-name="androidx/room/Index" managed-name="AndroidX.Room.IIndex, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554507" />
+    <entry java-name="androidx/room/Index" managed-name="AndroidX.Room.IIndexInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554508" />
+    <entry java-name="androidx/room/Insert" managed-name="AndroidX.Room.IInsert, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554509" />
+    <entry java-name="androidx/room/Insert" managed-name="AndroidX.Room.IInsertInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554510" />
+    <entry java-name="androidx/room/Junction" managed-name="AndroidX.Room.IJunction, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554511" />
+    <entry java-name="androidx/room/Junction" managed-name="AndroidX.Room.IJunctionInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554512" />
+    <entry java-name="androidx/room/MapColumn" managed-name="AndroidX.Room.IMapColumn, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554513" />
+    <entry java-name="androidx/room/MapColumn" managed-name="AndroidX.Room.IMapColumnInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554514" />
+    <entry java-name="androidx/room/MapInfo" managed-name="AndroidX.Room.IMapInfo, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554515" />
+    <entry java-name="androidx/room/MapInfo" managed-name="AndroidX.Room.IMapInfoInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554516" />
+    <entry java-name="androidx/room/OnConflictStrategy$Companion" managed-name="AndroidX.Room.OnConflictStrategyCompanion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554519" />
+    <entry java-name="mono/internal/androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.OnConflictStrategy, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554520" />
+    <entry java-name="mono/internal/androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.OnConflictStrategyConsts, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554521" />
+    <entry java-name="androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.IOnConflictStrategy, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554522" />
+    <entry java-name="androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.IOnConflictStrategyInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554523" />
+    <entry java-name="androidx/room/PrimaryKey" managed-name="AndroidX.Room.IPrimaryKey, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554524" />
+    <entry java-name="androidx/room/PrimaryKey" managed-name="AndroidX.Room.IPrimaryKeyInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554525" />
+    <entry java-name="androidx/room/ProvidedAutoMigrationSpec" managed-name="AndroidX.Room.IProvidedAutoMigrationSpec, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554526" />
+    <entry java-name="androidx/room/ProvidedAutoMigrationSpec" managed-name="AndroidX.Room.IProvidedAutoMigrationSpecInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554527" />
+    <entry java-name="androidx/room/ProvidedTypeConverter" managed-name="AndroidX.Room.IProvidedTypeConverter, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554528" />
+    <entry java-name="androidx/room/ProvidedTypeConverter" managed-name="AndroidX.Room.IProvidedTypeConverterInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554529" />
+    <entry java-name="androidx/room/Query" managed-name="AndroidX.Room.IQuery, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554530" />
+    <entry java-name="androidx/room/Query" managed-name="AndroidX.Room.IQueryInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554531" />
+    <entry java-name="androidx/room/RawQuery" managed-name="AndroidX.Room.IRawQuery, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554532" />
+    <entry java-name="androidx/room/RawQuery" managed-name="AndroidX.Room.IRawQueryInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554533" />
+    <entry java-name="androidx/room/Relation" managed-name="AndroidX.Room.IRelation, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554534" />
+    <entry java-name="androidx/room/Relation" managed-name="AndroidX.Room.IRelationInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554535" />
+    <entry java-name="androidx/room/RenameColumn$Entries" managed-name="AndroidX.Room.IRenameColumnEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554536" />
+    <entry java-name="androidx/room/RenameColumn$Entries" managed-name="AndroidX.Room.IRenameColumnEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554537" />
+    <entry java-name="androidx/room/RenameColumn" managed-name="AndroidX.Room.IRenameColumn, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554538" />
+    <entry java-name="androidx/room/RenameColumn" managed-name="AndroidX.Room.IRenameColumnInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554539" />
+    <entry java-name="androidx/room/RenameTable$Entries" managed-name="AndroidX.Room.IRenameTableEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554540" />
+    <entry java-name="androidx/room/RenameTable$Entries" managed-name="AndroidX.Room.IRenameTableEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554541" />
+    <entry java-name="androidx/room/RenameTable" managed-name="AndroidX.Room.IRenameTable, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554542" />
+    <entry java-name="androidx/room/RenameTable" managed-name="AndroidX.Room.IRenameTableInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554543" />
+    <entry java-name="androidx/room/RewriteQueriesToDropUnusedColumns" managed-name="AndroidX.Room.IRewriteQueriesToDropUnusedColumns, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554544" />
+    <entry java-name="androidx/room/RewriteQueriesToDropUnusedColumns" managed-name="AndroidX.Room.IRewriteQueriesToDropUnusedColumnsInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554545" />
+    <entry java-name="androidx/room/SkipQueryVerification" managed-name="AndroidX.Room.ISkipQueryVerification, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554546" />
+    <entry java-name="androidx/room/SkipQueryVerification" managed-name="AndroidX.Room.ISkipQueryVerificationInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554547" />
+    <entry java-name="androidx/room/Transaction" managed-name="AndroidX.Room.ITransaction, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554548" />
+    <entry java-name="androidx/room/Transaction" managed-name="AndroidX.Room.ITransactionInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554549" />
+    <entry java-name="androidx/room/TypeConverter" managed-name="AndroidX.Room.ITypeConverter, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554550" />
+    <entry java-name="androidx/room/TypeConverter" managed-name="AndroidX.Room.ITypeConverterInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554551" />
+    <entry java-name="androidx/room/TypeConverters" managed-name="AndroidX.Room.ITypeConverters, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554552" />
+    <entry java-name="androidx/room/TypeConverters" managed-name="AndroidX.Room.ITypeConvertersInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554553" />
+    <entry java-name="androidx/room/Update" managed-name="AndroidX.Room.IUpdate, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554554" />
+    <entry java-name="androidx/room/Update" managed-name="AndroidX.Room.IUpdateInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554555" />
+    <entry java-name="androidx/room/Upsert" managed-name="AndroidX.Room.IUpsert, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554556" />
+    <entry java-name="androidx/room/Upsert" managed-name="AndroidX.Room.IUpsertInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554557" />
+    <entry java-name="androidx/room/RoomMasterTable" managed-name="AndroidX.Room.RoomMasterTable, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554571" />
+    <entry java-name="androidx/room/RoomWarnings" managed-name="AndroidX.Room.RoomWarnings, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554572" />
+    <entry java-name="androidx/room/RoomWarnings$Companion" managed-name="AndroidX.Room.RoomWarnings+Companion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554582" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/room/AmbiguousColumnResolver" managed-name="AndroidX.Room.AmbiguousColumnResolver, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554439" />
+    <entry java-name="androidx/room/FtsOptions" managed-name="AndroidX.Room.FtsOptions, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554455" />
+    <entry java-name="androidx/room/FtsOptions$MatchInfo" managed-name="AndroidX.Room.FtsOptions+MatchInfo, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554580" />
+    <entry java-name="androidx/room/FtsOptions$Order" managed-name="AndroidX.Room.FtsOptions+Order, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554581" />
+    <entry java-name="androidx/room/AutoMigration" managed-name="AndroidX.Room.IAutoMigration, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554456" />
+    <entry java-name="androidx/room/AutoMigration" managed-name="AndroidX.Room.IAutoMigrationInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554457" />
+    <entry java-name="androidx/room/BuiltInTypeConverters$State" managed-name="AndroidX.Room.BuiltInTypeConvertersState, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554458" />
+    <entry java-name="androidx/room/BuiltInTypeConverters" managed-name="AndroidX.Room.IBuiltInTypeConverters, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554459" />
+    <entry java-name="androidx/room/BuiltInTypeConverters" managed-name="AndroidX.Room.IBuiltInTypeConvertersInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554460" />
+    <entry java-name="androidx/room/ColumnInfo$Collate" managed-name="AndroidX.Room.IColumnInfoCollate, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554461" />
+    <entry java-name="androidx/room/ColumnInfo$Collate" managed-name="AndroidX.Room.IColumnInfoCollateInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554462" />
+    <entry java-name="androidx/room/ColumnInfo$Companion" managed-name="AndroidX.Room.ColumnInfoCompanion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554463" />
+    <entry java-name="androidx/room/ColumnInfo$SQLiteTypeAffinity" managed-name="AndroidX.Room.IColumnInfoSQLiteTypeAffinity, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554464" />
+    <entry java-name="androidx/room/ColumnInfo$SQLiteTypeAffinity" managed-name="AndroidX.Room.IColumnInfoSQLiteTypeAffinityInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554465" />
+    <entry java-name="mono/internal/androidx/room/ColumnInfo" managed-name="AndroidX.Room.ColumnInfo, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554466" />
+    <entry java-name="mono/internal/androidx/room/ColumnInfo" managed-name="AndroidX.Room.ColumnInfoConsts, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554467" />
+    <entry java-name="androidx/room/ColumnInfo" managed-name="AndroidX.Room.IColumnInfo, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554468" />
+    <entry java-name="androidx/room/ColumnInfo" managed-name="AndroidX.Room.IColumnInfoInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554469" />
+    <entry java-name="androidx/room/ConstructedBy" managed-name="AndroidX.Room.IConstructedBy, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554470" />
+    <entry java-name="androidx/room/ConstructedBy" managed-name="AndroidX.Room.IConstructedByInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554471" />
+    <entry java-name="androidx/room/Dao" managed-name="AndroidX.Room.IDao, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/room/Dao" managed-name="AndroidX.Room.IDaoInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554473" />
+    <entry java-name="androidx/room/Database" managed-name="AndroidX.Room.IDatabase, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554474" />
+    <entry java-name="androidx/room/Database" managed-name="AndroidX.Room.IDatabaseInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554475" />
+    <entry java-name="androidx/room/DatabaseView" managed-name="AndroidX.Room.IDatabaseView, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554476" />
+    <entry java-name="androidx/room/DatabaseView" managed-name="AndroidX.Room.IDatabaseViewInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554477" />
+    <entry java-name="androidx/room/Delete" managed-name="AndroidX.Room.IDelete, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554478" />
+    <entry java-name="androidx/room/Delete" managed-name="AndroidX.Room.IDeleteInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554479" />
+    <entry java-name="androidx/room/DeleteColumn$Entries" managed-name="AndroidX.Room.IDeleteColumnEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554480" />
+    <entry java-name="androidx/room/DeleteColumn$Entries" managed-name="AndroidX.Room.IDeleteColumnEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554481" />
+    <entry java-name="androidx/room/DeleteColumn" managed-name="AndroidX.Room.IDeleteColumn, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554482" />
+    <entry java-name="androidx/room/DeleteColumn" managed-name="AndroidX.Room.IDeleteColumnInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554483" />
+    <entry java-name="androidx/room/DeleteTable$Entries" managed-name="AndroidX.Room.IDeleteTableEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554484" />
+    <entry java-name="androidx/room/DeleteTable$Entries" managed-name="AndroidX.Room.IDeleteTableEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554485" />
+    <entry java-name="androidx/room/DeleteTable" managed-name="AndroidX.Room.IDeleteTable, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554486" />
+    <entry java-name="androidx/room/DeleteTable" managed-name="AndroidX.Room.IDeleteTableInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554487" />
+    <entry java-name="androidx/room/Embedded" managed-name="AndroidX.Room.IEmbedded, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="androidx/room/Embedded" managed-name="AndroidX.Room.IEmbeddedInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554489" />
+    <entry java-name="androidx/room/Entity" managed-name="AndroidX.Room.IEntity, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="androidx/room/Entity" managed-name="AndroidX.Room.IEntityInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554491" />
+    <entry java-name="androidx/room/ForeignKey$Action" managed-name="AndroidX.Room.IForeignKeyAction, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="androidx/room/ForeignKey$Action" managed-name="AndroidX.Room.IForeignKeyActionInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554493" />
+    <entry java-name="androidx/room/ForeignKey$Companion" managed-name="AndroidX.Room.ForeignKeyCompanion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554494" />
+    <entry java-name="mono/internal/androidx/room/ForeignKey" managed-name="AndroidX.Room.ForeignKey, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554495" />
+    <entry java-name="mono/internal/androidx/room/ForeignKey" managed-name="AndroidX.Room.ForeignKeyConsts, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554496" />
+    <entry java-name="androidx/room/ForeignKey" managed-name="AndroidX.Room.IForeignKey, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554497" />
+    <entry java-name="androidx/room/ForeignKey" managed-name="AndroidX.Room.IForeignKeyInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554498" />
+    <entry java-name="androidx/room/Fts3" managed-name="AndroidX.Room.IFts3, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554499" />
+    <entry java-name="androidx/room/Fts3" managed-name="AndroidX.Room.IFts3Invoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554500" />
+    <entry java-name="androidx/room/Fts4" managed-name="AndroidX.Room.IFts4, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554501" />
+    <entry java-name="androidx/room/Fts4" managed-name="AndroidX.Room.IFts4Invoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554502" />
+    <entry java-name="androidx/room/Ignore" managed-name="AndroidX.Room.IIgnore, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554504" />
+    <entry java-name="androidx/room/Ignore" managed-name="AndroidX.Room.IIgnoreInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554505" />
+    <entry java-name="androidx/room/Index$Order" managed-name="AndroidX.Room.IndexOrder, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554506" />
+    <entry java-name="androidx/room/Index" managed-name="AndroidX.Room.IIndex, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554507" />
+    <entry java-name="androidx/room/Index" managed-name="AndroidX.Room.IIndexInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554508" />
+    <entry java-name="androidx/room/Insert" managed-name="AndroidX.Room.IInsert, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554509" />
+    <entry java-name="androidx/room/Insert" managed-name="AndroidX.Room.IInsertInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554510" />
+    <entry java-name="androidx/room/Junction" managed-name="AndroidX.Room.IJunction, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554511" />
+    <entry java-name="androidx/room/Junction" managed-name="AndroidX.Room.IJunctionInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554512" />
+    <entry java-name="androidx/room/MapColumn" managed-name="AndroidX.Room.IMapColumn, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554513" />
+    <entry java-name="androidx/room/MapColumn" managed-name="AndroidX.Room.IMapColumnInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554514" />
+    <entry java-name="androidx/room/MapInfo" managed-name="AndroidX.Room.IMapInfo, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554515" />
+    <entry java-name="androidx/room/MapInfo" managed-name="AndroidX.Room.IMapInfoInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554516" />
+    <entry java-name="androidx/room/OnConflictStrategy$Companion" managed-name="AndroidX.Room.OnConflictStrategyCompanion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554519" />
+    <entry java-name="mono/internal/androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.OnConflictStrategy, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554520" />
+    <entry java-name="mono/internal/androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.OnConflictStrategyConsts, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554521" />
+    <entry java-name="androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.IOnConflictStrategy, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554522" />
+    <entry java-name="androidx/room/OnConflictStrategy" managed-name="AndroidX.Room.IOnConflictStrategyInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554523" />
+    <entry java-name="androidx/room/PrimaryKey" managed-name="AndroidX.Room.IPrimaryKey, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554524" />
+    <entry java-name="androidx/room/PrimaryKey" managed-name="AndroidX.Room.IPrimaryKeyInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554525" />
+    <entry java-name="androidx/room/ProvidedAutoMigrationSpec" managed-name="AndroidX.Room.IProvidedAutoMigrationSpec, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554526" />
+    <entry java-name="androidx/room/ProvidedAutoMigrationSpec" managed-name="AndroidX.Room.IProvidedAutoMigrationSpecInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554527" />
+    <entry java-name="androidx/room/ProvidedTypeConverter" managed-name="AndroidX.Room.IProvidedTypeConverter, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554528" />
+    <entry java-name="androidx/room/ProvidedTypeConverter" managed-name="AndroidX.Room.IProvidedTypeConverterInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554529" />
+    <entry java-name="androidx/room/Query" managed-name="AndroidX.Room.IQuery, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554530" />
+    <entry java-name="androidx/room/Query" managed-name="AndroidX.Room.IQueryInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554531" />
+    <entry java-name="androidx/room/RawQuery" managed-name="AndroidX.Room.IRawQuery, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554532" />
+    <entry java-name="androidx/room/RawQuery" managed-name="AndroidX.Room.IRawQueryInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554533" />
+    <entry java-name="androidx/room/Relation" managed-name="AndroidX.Room.IRelation, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554534" />
+    <entry java-name="androidx/room/Relation" managed-name="AndroidX.Room.IRelationInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554535" />
+    <entry java-name="androidx/room/RenameColumn$Entries" managed-name="AndroidX.Room.IRenameColumnEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554536" />
+    <entry java-name="androidx/room/RenameColumn$Entries" managed-name="AndroidX.Room.IRenameColumnEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554537" />
+    <entry java-name="androidx/room/RenameColumn" managed-name="AndroidX.Room.IRenameColumn, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554538" />
+    <entry java-name="androidx/room/RenameColumn" managed-name="AndroidX.Room.IRenameColumnInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554539" />
+    <entry java-name="androidx/room/RenameTable$Entries" managed-name="AndroidX.Room.IRenameTableEntries, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554540" />
+    <entry java-name="androidx/room/RenameTable$Entries" managed-name="AndroidX.Room.IRenameTableEntriesInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554541" />
+    <entry java-name="androidx/room/RenameTable" managed-name="AndroidX.Room.IRenameTable, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554542" />
+    <entry java-name="androidx/room/RenameTable" managed-name="AndroidX.Room.IRenameTableInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554543" />
+    <entry java-name="androidx/room/RewriteQueriesToDropUnusedColumns" managed-name="AndroidX.Room.IRewriteQueriesToDropUnusedColumns, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554544" />
+    <entry java-name="androidx/room/RewriteQueriesToDropUnusedColumns" managed-name="AndroidX.Room.IRewriteQueriesToDropUnusedColumnsInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554545" />
+    <entry java-name="androidx/room/SkipQueryVerification" managed-name="AndroidX.Room.ISkipQueryVerification, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554546" />
+    <entry java-name="androidx/room/SkipQueryVerification" managed-name="AndroidX.Room.ISkipQueryVerificationInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554547" />
+    <entry java-name="androidx/room/Transaction" managed-name="AndroidX.Room.ITransaction, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554548" />
+    <entry java-name="androidx/room/Transaction" managed-name="AndroidX.Room.ITransactionInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554549" />
+    <entry java-name="androidx/room/TypeConverter" managed-name="AndroidX.Room.ITypeConverter, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554550" />
+    <entry java-name="androidx/room/TypeConverter" managed-name="AndroidX.Room.ITypeConverterInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554551" />
+    <entry java-name="androidx/room/TypeConverters" managed-name="AndroidX.Room.ITypeConverters, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554552" />
+    <entry java-name="androidx/room/TypeConverters" managed-name="AndroidX.Room.ITypeConvertersInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554553" />
+    <entry java-name="androidx/room/Update" managed-name="AndroidX.Room.IUpdate, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554554" />
+    <entry java-name="androidx/room/Update" managed-name="AndroidX.Room.IUpdateInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554555" />
+    <entry java-name="androidx/room/Upsert" managed-name="AndroidX.Room.IUpsert, Xamarin.AndroidX.Room.Common.JVM" skip-in-java-to-managed="True" managed-type-token-id="33554556" />
+    <entry java-name="androidx/room/Upsert" managed-name="AndroidX.Room.IUpsertInvoker, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554557" />
+    <entry java-name="androidx/room/RoomMasterTable" managed-name="AndroidX.Room.RoomMasterTable, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554571" />
+    <entry java-name="androidx/room/RoomWarnings" managed-name="AndroidX.Room.RoomWarnings, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554572" />
+    <entry java-name="androidx/room/RoomWarnings$Companion" managed-name="AndroidX.Room.RoomWarnings+Companion, Xamarin.AndroidX.Room.Common.JVM" managed-type-token-id="33554582" />
+  </managed-to-java>
+</api>

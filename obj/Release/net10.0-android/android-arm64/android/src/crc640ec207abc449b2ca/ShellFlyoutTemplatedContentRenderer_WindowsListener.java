@@ -1,0 +1,39 @@
+package crc640ec207abc449b2ca;
+
+
+public class ShellFlyoutTemplatedContentRenderer_WindowsListener
+	extends crc6452ffdc5b34af3a0f.MauiWindowInsetListener
+	implements
+		mono.android.IGCUserPeer,
+		androidx.core.view.OnApplyWindowInsetsListener
+{
+
+	public ShellFlyoutTemplatedContentRenderer_WindowsListener (int p0)
+	{
+		super (p0);
+		if (getClass () == ShellFlyoutTemplatedContentRenderer_WindowsListener.class) {
+			mono.android.TypeManager.Activate ("Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer+WindowsListener, Microsoft.Maui.Controls", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
+		}
+	}
+
+	public androidx.core.view.WindowInsetsCompat onApplyWindowInsets (android.view.View p0, androidx.core.view.WindowInsetsCompat p1)
+	{
+		return n_onApplyWindowInsets (p0, p1);
+	}
+
+	private native androidx.core.view.WindowInsetsCompat n_onApplyWindowInsets (android.view.View p0, androidx.core.view.WindowInsetsCompat p1);
+
+	private java.util.ArrayList refList;
+	public void monodroidAddReference (java.lang.Object obj)
+	{
+		if (refList == null)
+			refList = new java.util.ArrayList ();
+		refList.add (obj);
+	}
+
+	public void monodroidClearReferences ()
+	{
+		if (refList != null)
+			refList.clear ();
+	}
+}

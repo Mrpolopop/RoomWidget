@@ -13,6 +13,9 @@ namespace RoomWidget
 
             builder.Services.AddTransient<HomeViewModel>();
             builder.Services.AddTransient<Home>();
+            
+            builder.Services.AddTransient<SettingsViewModel>();
+            builder.Services.AddTransient<Settings>();
 
             return builder.Build();
         }

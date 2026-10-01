@@ -1,5 +1,5 @@
-<api type="release" assembly-name="Mono.Android" mvid="9bea324915584a6f83c2dca0609f0242">
-  <module assembly-name="Mono.Android" mvid="9bea324915584a6f83c2dca0609f0242" mvid-bytes="STLqm1gVb0qDwtygYJ8CQg==">
+<api type="release" assembly-name="Mono.Android" mvid="b2026234bbda467fb3a3f57c68213902">
+  <module assembly-name="Mono.Android" mvid="b2026234bbda467fb3a3f57c68213902" mvid-bytes="NGICstq7f0azo/V8aCE5Ag==">
     <duplicates>
       <entry java-name="org/xmlpull/v1/XmlPullParser" managed-type-name="Org.XmlPull.V1.IXmlPullParserInvoker" token="33554613" />
       <entry java-name="javax/security/cert/Certificate" managed-type-name="Javax.Security.Cert.CertificateInvoker" token="33554618" />

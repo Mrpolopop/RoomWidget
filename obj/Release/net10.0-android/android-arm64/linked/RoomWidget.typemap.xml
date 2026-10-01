@@ -1,10 +1,10 @@
-<api type="release" assembly-name="RoomWidget" mvid="9cbc3bee4327499298989c521ca718dd">
-  <module assembly-name="RoomWidget" mvid="9cbc3bee4327499298989c521ca718dd" mvid-bytes="7ju8nCdDkkmYmJxSHKcY3Q==">
+<api type="release" assembly-name="RoomWidget" mvid="f8665b2eac1f4c5ca678d39e54cb2acf">
+  <module assembly-name="RoomWidget" mvid="f8665b2eac1f4c5ca678d39e54cb2acf" mvid-bytes="Lltm+B+sXEymeNOeVMsqzw==">
     <types-scratch>
       <entry key="crc647a63b22ff57ccb32/MainActivity" java-name="crc647a63b22ff57ccb32/MainActivity" managed-type-name="RoomWidget.MainActivity" token="33554442" />
       <entry key="crc647a63b22ff57ccb32/MainApplication" java-name="crc647a63b22ff57ccb32/MainApplication" managed-type-name="RoomWidget.MainApplication" token="33554443" />
-      <entry key="crc6497da801d5190a566/CalendarWorker" java-name="crc6497da801d5190a566/CalendarWorker" managed-type-name="RoomWidget.Platforms.Android.CalendarWorker" token="33554449" />
-      <entry key="crc6497da801d5190a566/MyWidget" java-name="crc6497da801d5190a566/MyWidget" managed-type-name="RoomWidget.Platforms.Android.MyWidget" token="33554452" />
+      <entry key="crc6497da801d5190a566/CalendarWorker" java-name="crc6497da801d5190a566/CalendarWorker" managed-type-name="RoomWidget.Platforms.Android.CalendarWorker" token="33554452" />
+      <entry key="crc6497da801d5190a566/MyWidget" java-name="crc6497da801d5190a566/MyWidget" managed-type-name="RoomWidget.Platforms.Android.MyWidget" token="33554455" />
     </types-scratch>
   </module>
 </api>

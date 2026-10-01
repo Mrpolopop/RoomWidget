@@ -172,5 +172,11 @@ namespace RoomWidget.ViewModels
                 dao.SelectCalendar(calendarId);
             }
         }
+
+        [RelayCommand]
+        private async Task GoToSettingsAsync()
+        {
+            await Shell.Current.GoToAsync("Settings");
+        }
     }
 }

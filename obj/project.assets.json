@@ -12502,11 +12502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/paul/Documents/RoomWidget/RoomWidget.csproj",
+      "projectUniqueName": "/home/paul/Documents/Projets/RoomWidget/RoomWidget.csproj",
       "projectName": "RoomWidget",
-      "projectPath": "/home/paul/Documents/RoomWidget/RoomWidget.csproj",
+      "projectPath": "/home/paul/Documents/Projets/RoomWidget/RoomWidget.csproj",
       "packagesPath": "/home/paul/.nuget/packages/",
-      "outputPath": "/home/paul/Documents/RoomWidget/obj/",
+      "outputPath": "/home/paul/Documents/Projets/RoomWidget/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/paul/.nuget/NuGet/NuGet.Config"
