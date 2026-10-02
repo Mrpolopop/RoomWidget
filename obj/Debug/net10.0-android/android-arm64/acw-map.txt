@@ -4000,9 +4000,6 @@ roomwidget.MainActivity;crc647a63b22ff57ccb32.MainActivity
 RoomWidget.MainApplication, RoomWidget;crc647a63b22ff57ccb32.MainApplication
 RoomWidget.MainApplication;crc647a63b22ff57ccb32.MainApplication
 roomwidget.MainApplication;crc647a63b22ff57ccb32.MainApplication
-RoomWidget.Platforms.Android.CalendarWorker, RoomWidget;crc6497da801d5190a566.CalendarWorker
-RoomWidget.Platforms.Android.CalendarWorker;crc6497da801d5190a566.CalendarWorker
-roomwidget.platforms.android.CalendarWorker;crc6497da801d5190a566.CalendarWorker
 RoomWidget.Platforms.Android.MyWidget, RoomWidget;crc6497da801d5190a566.MyWidget
 RoomWidget.Platforms.Android.MyWidget;crc6497da801d5190a566.MyWidget
 roomwidget.platforms.android.MyWidget;crc6497da801d5190a566.MyWidget

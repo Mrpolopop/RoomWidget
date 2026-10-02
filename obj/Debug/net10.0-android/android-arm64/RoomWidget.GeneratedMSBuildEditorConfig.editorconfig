@@ -26,13 +26,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RoomWidget
-build_property.ProjectDir = /home/paul/Documents/RoomWidget/
+build_property.ProjectDir = /home/paul/Documents/Projets/RoomWidget/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/home/paul/Documents/RoomWidget/App.xaml]
+[/home/paul/Documents/Projets/RoomWidget/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoomWidget.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -42,7 +42,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/paul/Documents/RoomWidget/AppShell.xaml]
+[/home/paul/Documents/Projets/RoomWidget/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoomWidget.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -52,7 +52,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/paul/Documents/RoomWidget/Resources/Styles/Colors.xaml]
+[/home/paul/Documents/Projets/RoomWidget/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoomWidget.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
@@ -62,7 +62,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/paul/Documents/RoomWidget/Resources/Styles/Styles.xaml]
+[/home/paul/Documents/Projets/RoomWidget/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoomWidget.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
@@ -72,7 +72,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[/home/paul/Documents/RoomWidget/Views/Home.xaml]
+[/home/paul/Documents/Projets/RoomWidget/Views/Home.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RoomWidget.Views.Home.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/Home.xaml

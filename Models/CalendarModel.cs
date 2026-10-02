@@ -46,33 +46,44 @@ namespace RoomWidget.Models
             return currentEvent;
         }
 
-        public async Task<CalendarEvent> GetNextEvent()
+        public async Task<CalendarEvent?> GetNextEvent()
         {
             var downloadedCalendar = await GetCalendarFromHttp(this.url);
-            CalendarEvent? currentEvent = null;
+            var time = DateTime.Now;
 
-            foreach (var vEvent in downloadedCalendar.Events)
-            {
-                var time = DateTime.Now;
-                var start = vEvent.Start!.AsUtc.ToLocalTime();
-                var end = vEvent.End!.AsUtc.ToLocalTime();
-
-                if (start >= time.AddMinutes(-15) && start < time.AddHours(12))
+            var targetEvent = downloadedCalendar.Events
+                .Where(e => e.Start != null && e.End != null)
+                .Select(e => new 
                 {
-                    currentEvent = new CalendarEvent
-                    {
-                        CalendarName = this.name,
-                        Title = vEvent.Summary,
-                        Start = start,
-                        End = end,
-                        Location = vEvent.Location,
-                        Guests = vEvent.Description
-                    };
-                    break;
+                    Source = e,
+                    StartLocal = e.Start.AsUtc.ToLocalTime(),
+                    EndLocal = e.End.AsUtc.ToLocalTime()
+                })
+                // On conserve les événements jusqu'à 10 minutes avant leur fin réelle
+                .Where(e => e.EndLocal.AddMinutes(-10) > time)
+                .OrderBy(e => e.StartLocal)
+                .FirstOrDefault();
+
+            if (targetEvent != null)
+            {
+                // Si l'événement est trop lointain (plus de 12h), on simule l'absence d'événement
+                if (targetEvent.StartLocal > time.AddHours(12))
+                {
+                    return null;
                 }
+
+                return new CalendarEvent
+                {
+                    CalendarName = this.name,
+                    Title = targetEvent.Source.Summary,
+                    Start = targetEvent.StartLocal,
+                    End = targetEvent.EndLocal,
+                    Location = targetEvent.Source.Location,
+                    Guests = targetEvent.Source.Description
+                };
             }
 
-            return currentEvent;
+            return null;
         }
 
         private async Task<Calendar> GetCalendarFromHttp(string url)
