@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="RoomWidget" mvid="035aaa1116f9468386fdf3e6a3127318">
+<api type="debug" assembly-name="RoomWidget" mvid="7773481bca8e40f299838faef5493417">
   <java-to-managed>
     <entry java-name="crc647a63b22ff57ccb32/MainActivity" managed-name="RoomWidget.MainActivity, RoomWidget" managed-type-token-id="33554443" />
     <entry java-name="crc647a63b22ff57ccb32/MainApplication" managed-name="RoomWidget.MainApplication, RoomWidget" managed-type-token-id="33554444" />

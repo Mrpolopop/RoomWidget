@@ -90,7 +90,7 @@ namespace RoomWidget.Platforms.Android
                 views.SetTextViewText(Resource.Id.debug, "Erreur \n" + DateTime.Now.ToString("HH:mm"));
                 manager.UpdateAppWidget(widget, views);
                 
-                ScheduleSafeUpdate(context, DateTime.Now.AddMinutes(30));
+                ScheduleSafeUpdate(context, DateTime.Now.AddMinutes(15));
             }
         }
 

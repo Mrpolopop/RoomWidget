@@ -1,0 +1,254 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Room.Runtime.Android" mvid="21b21cc719eb474f84b11561afed610b">
+  <java-to-managed>
+    <entry java-name="androidx/room/BaseRoomConnectionManager" managed-name="AndroidX.Room.BaseRoomConnectionManager, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554456" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager$Companion" managed-name="AndroidX.Room.BaseRoomConnectionManager+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554549" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager$DriverWrapper" managed-name="AndroidX.Room.BaseRoomConnectionManager+DriverWrapper, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554550" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager$WhenMappings" managed-name="AndroidX.Room.BaseRoomConnectionManager+WhenMappings, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554551" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager" managed-name="AndroidX.Room.BaseRoomConnectionManagerInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554457" />
+    <entry java-name="androidx/room/CoroutinesRoom" managed-name="AndroidX.Room.CoroutinesRoom, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554458" />
+    <entry java-name="androidx/room/CoroutinesRoom$Companion" managed-name="AndroidX.Room.CoroutinesRoom+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554552" />
+    <entry java-name="androidx/room/DatabaseConfiguration" managed-name="AndroidX.Room.DatabaseConfiguration, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554459" />
+    <entry java-name="androidx/room/EntityDeleteOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeleteOrUpdateAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554460" />
+    <entry java-name="androidx/room/EntityDeleteOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeleteOrUpdateAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554461" />
+    <entry java-name="androidx/room/EntityDeletionOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeletionOrUpdateAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554462" />
+    <entry java-name="androidx/room/EntityDeletionOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeletionOrUpdateAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554463" />
+    <entry java-name="androidx/room/EntityInsertAdapter" managed-name="AndroidX.Room.EntityInsertAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554464" />
+    <entry java-name="androidx/room/EntityInsertAdapter" managed-name="AndroidX.Room.EntityInsertAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554465" />
+    <entry java-name="androidx/room/EntityInsertionAdapter" managed-name="AndroidX.Room.EntityInsertionAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554466" />
+    <entry java-name="androidx/room/EntityInsertionAdapter" managed-name="AndroidX.Room.EntityInsertionAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554467" />
+    <entry java-name="androidx/room/EntityUpsertAdapter" managed-name="AndroidX.Room.EntityUpsertAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554468" />
+    <entry java-name="androidx/room/EntityUpsertAdapter$Companion" managed-name="AndroidX.Room.EntityUpsertAdapter+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554553" />
+    <entry java-name="androidx/room/EntityUpsertionAdapter" managed-name="AndroidX.Room.EntityUpsertionAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554469" />
+    <entry java-name="androidx/room/EntityUpsertionAdapter_androidKt" managed-name="AndroidX.Room.EntityUpsertionAdapter_androidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554470" />
+    <entry java-name="androidx/room/ExperimentalRoomApi" managed-name="AndroidX.Room.IExperimentalRoomApi, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/room/ExperimentalRoomApi" managed-name="AndroidX.Room.IExperimentalRoomApiInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554473" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback$Default" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackDefault, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554474" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackStub, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554475" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackStubInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554476" />
+    <entry java-name="mono/internal/androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.MultiInstanceInvalidationCallback, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554477" />
+    <entry java-name="mono/internal/androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackConsts, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554478" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.IMultiInstanceInvalidationCallback, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554479" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.IMultiInstanceInvalidationCallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554480" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService$Default" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceDefault, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554481" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceStub, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554482" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceStubInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554483" />
+    <entry java-name="mono/internal/androidx/room/IMultiInstanceInvalidationService" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceConsts, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554484" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService" managed-name="AndroidX.Room.IMultiInstanceInvalidationServiceInterface, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554485" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService" managed-name="AndroidX.Room.IMultiInstanceInvalidationServiceInterfaceInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554486" />
+    <entry java-name="androidx/room/InvalidationTracker" managed-name="AndroidX.Room.InvalidationTracker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554487" />
+    <entry java-name="androidx/room/InvalidationTracker$Companion" managed-name="AndroidX.Room.InvalidationTracker+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554558" />
+    <entry java-name="androidx/room/InvalidationTracker$Observer" managed-name="AndroidX.Room.InvalidationTracker+Observer, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554559" />
+    <entry java-name="androidx/room/InvalidationTracker$Observer" managed-name="AndroidX.Room.InvalidationTracker+ObserverInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554560" />
+    <entry java-name="androidx/room/PooledConnection" managed-name="AndroidX.Room.IPooledConnection, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="androidx/room/PooledConnection" managed-name="AndroidX.Room.IPooledConnectionInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554489" />
+    <entry java-name="androidx/room/RoomDatabaseConstructor" managed-name="AndroidX.Room.IRoomDatabaseConstructor, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="androidx/room/RoomDatabaseConstructor" managed-name="AndroidX.Room.IRoomDatabaseConstructorInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554491" />
+    <entry java-name="androidx/room/RoomOpenDelegateMarker" managed-name="AndroidX.Room.IRoomOpenDelegateMarker, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="androidx/room/RoomOpenDelegateMarker" managed-name="AndroidX.Room.IRoomOpenDelegateMarkerInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554493" />
+    <entry java-name="androidx/room/TransactionScope" managed-name="AndroidX.Room.ITransactionScope, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554494" />
+    <entry java-name="androidx/room/TransactionScope" managed-name="AndroidX.Room.ITransactionScopeInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554495" />
+    <entry java-name="androidx/room/Transactor$SQLiteTransactionType" managed-name="AndroidX.Room.TransactorSQLiteTransactionType, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554496" />
+    <entry java-name="androidx/room/Transactor" managed-name="AndroidX.Room.ITransactor, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554497" />
+    <entry java-name="androidx/room/Transactor" managed-name="AndroidX.Room.ITransactorInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554498" />
+    <entry java-name="androidx/room/MultiInstanceInvalidationService" managed-name="AndroidX.Room.MultiInstanceInvalidationService, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554499" />
+    <entry java-name="androidx/room/Room" managed-name="AndroidX.Room.Room, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554500" />
+    <entry java-name="androidx/room/RoomDatabase" managed-name="AndroidX.Room.RoomDatabase, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554501" />
+    <entry java-name="androidx/room/RoomDatabase$Builder" managed-name="AndroidX.Room.RoomDatabase+Builder, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554561" />
+    <entry java-name="androidx/room/RoomDatabase$Callback" managed-name="AndroidX.Room.RoomDatabase+Callback, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554562" />
+    <entry java-name="androidx/room/RoomDatabase$Callback" managed-name="AndroidX.Room.RoomDatabase+CallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554563" />
+    <entry java-name="androidx/room/RoomDatabase$Companion" managed-name="AndroidX.Room.RoomDatabase+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554564" />
+    <entry java-name="androidx/room/RoomDatabase$JournalMode" managed-name="AndroidX.Room.RoomDatabase+JournalMode, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554565" />
+    <entry java-name="androidx/room/RoomDatabase$MigrationContainer" managed-name="AndroidX.Room.RoomDatabase+MigrationContainer, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554566" />
+    <entry java-name="androidx/room/RoomDatabase$PrepackagedDatabaseCallback" managed-name="AndroidX.Room.RoomDatabase+PrepackagedDatabaseCallback, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554567" />
+    <entry java-name="androidx/room/RoomDatabase$PrepackagedDatabaseCallback" managed-name="AndroidX.Room.RoomDatabase+PrepackagedDatabaseCallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554568" />
+    <entry java-name="androidx/room/RoomDatabase$QueryCallback" managed-name="AndroidX.Room.RoomDatabase+IQueryCallback, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554569" />
+    <entry java-name="androidx/room/RoomDatabase$QueryCallback" managed-name="AndroidX.Room.RoomDatabase+IQueryCallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554570" />
+    <entry java-name="androidx/room/RoomDatabase" managed-name="AndroidX.Room.RoomDatabaseInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554502" />
+    <entry java-name="androidx/room/RoomDatabaseKt" managed-name="AndroidX.Room.RoomDatabaseKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554503" />
+    <entry java-name="androidx/room/RoomOpenDelegate" managed-name="AndroidX.Room.RoomOpenDelegate, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554504" />
+    <entry java-name="androidx/room/RoomOpenDelegate$ValidationResult" managed-name="AndroidX.Room.RoomOpenDelegate+ValidationResult, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554571" />
+    <entry java-name="androidx/room/RoomOpenDelegate" managed-name="AndroidX.Room.RoomOpenDelegateInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554505" />
+    <entry java-name="androidx/room/RoomOpenHelper" managed-name="AndroidX.Room.RoomOpenHelper, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554506" />
+    <entry java-name="androidx/room/RoomOpenHelper$Companion" managed-name="AndroidX.Room.RoomOpenHelper+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554572" />
+    <entry java-name="androidx/room/RoomOpenHelper$Delegate" managed-name="AndroidX.Room.RoomOpenHelper+CallbackDelegate, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554573" />
+    <entry java-name="androidx/room/RoomOpenHelper$Delegate" managed-name="AndroidX.Room.RoomOpenHelper+CallbackDelegateInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554574" />
+    <entry java-name="androidx/room/RoomOpenHelper$ValidationResult" managed-name="AndroidX.Room.RoomOpenHelper+ValidationResult, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554575" />
+    <entry java-name="androidx/room/RoomRawQuery" managed-name="AndroidX.Room.RoomRawQuery, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554507" />
+    <entry java-name="androidx/room/RoomSQLiteQuery" managed-name="AndroidX.Room.RoomSQLiteQuery, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554508" />
+    <entry java-name="androidx/room/RoomSQLiteQuery$Companion" managed-name="AndroidX.Room.RoomSQLiteQuery+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554576" />
+    <entry java-name="androidx/room/SharedSQLiteStatement" managed-name="AndroidX.Room.SharedSQLiteStatement, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554509" />
+    <entry java-name="androidx/room/SharedSQLiteStatement" managed-name="AndroidX.Room.SharedSQLiteStatementInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554510" />
+    <entry java-name="androidx/room/TransactorKt" managed-name="AndroidX.Room.TransactorKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554511" />
+    <entry java-name="androidx/room/util/ByteArrayWrapper" managed-name="AndroidX.Room.Util.ByteArrayWrapper, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554512" />
+    <entry java-name="androidx/room/util/CursorUtil" managed-name="AndroidX.Room.Util.CursorUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554513" />
+    <entry java-name="androidx/room/util/DBUtil" managed-name="AndroidX.Room.Util.DBUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554514" />
+    <entry java-name="androidx/room/util/FileUtil" managed-name="AndroidX.Room.Util.FileUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554515" />
+    <entry java-name="androidx/room/util/FtsTableInfo" managed-name="AndroidX.Room.Util.FtsTableInfo, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554516" />
+    <entry java-name="androidx/room/util/FtsTableInfo$Companion" managed-name="AndroidX.Room.Util.FtsTableInfo+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554577" />
+    <entry java-name="androidx/room/util/FtsTableInfoKt" managed-name="AndroidX.Room.Util.FtsTableInfoKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554517" />
+    <entry java-name="androidx/room/util/KClassUtil" managed-name="AndroidX.Room.Util.KClassUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554518" />
+    <entry java-name="androidx/room/util/MigrationUtil" managed-name="AndroidX.Room.Util.MigrationUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554519" />
+    <entry java-name="androidx/room/util/RelationUtil" managed-name="AndroidX.Room.Util.RelationUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554520" />
+    <entry java-name="androidx/room/util/SchemaInfoUtilKt" managed-name="AndroidX.Room.Util.SchemaInfoUtilKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554521" />
+    <entry java-name="androidx/room/util/SQLiteConnectionUtil" managed-name="AndroidX.Room.Util.SQLiteConnectionUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554522" />
+    <entry java-name="androidx/room/util/SQLiteStatementUtil" managed-name="AndroidX.Room.Util.SQLiteStatementUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554523" />
+    <entry java-name="androidx/room/util/StringUtil" managed-name="AndroidX.Room.Util.StringUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554524" />
+    <entry java-name="androidx/room/util/TableInfo" managed-name="AndroidX.Room.Util.TableInfo, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554525" />
+    <entry java-name="androidx/room/util/TableInfo$Column" managed-name="AndroidX.Room.Util.TableInfo+Column, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554578" />
+    <entry java-name="androidx/room/util/TableInfo$Column$Companion" managed-name="AndroidX.Room.Util.TableInfo+Column+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554584" />
+    <entry java-name="androidx/room/util/TableInfo$Companion" managed-name="AndroidX.Room.Util.TableInfo+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554579" />
+    <entry java-name="androidx/room/util/TableInfo$ForeignKey" managed-name="AndroidX.Room.Util.TableInfo+ForeignKey, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554580" />
+    <entry java-name="androidx/room/util/TableInfo$Index" managed-name="AndroidX.Room.Util.TableInfo+Index, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554581" />
+    <entry java-name="androidx/room/util/TableInfo$Index$Companion" managed-name="AndroidX.Room.Util.TableInfo+Index+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554585" />
+    <entry java-name="androidx/room/util/TableInfoKt" managed-name="AndroidX.Room.Util.TableInfoKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554526" />
+    <entry java-name="androidx/room/util/UUIDUtil" managed-name="AndroidX.Room.Util.UUIDUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554527" />
+    <entry java-name="androidx/room/util/ViewInfo" managed-name="AndroidX.Room.Util.ViewInfo, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554528" />
+    <entry java-name="androidx/room/util/ViewInfo$Companion" managed-name="AndroidX.Room.Util.ViewInfo+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554582" />
+    <entry java-name="androidx/room/util/ViewInfoKt" managed-name="AndroidX.Room.Util.ViewInfoKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554529" />
+    <entry java-name="androidx/room/paging/CursorSQLiteStatement" managed-name="AndroidX.Room.Paging.CursorSQLiteStatement, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554530" />
+    <entry java-name="androidx/room/paging/CursorSQLiteStatement$Companion" managed-name="AndroidX.Room.Paging.CursorSQLiteStatement+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554583" />
+    <entry java-name="androidx/room/migration/AutoMigrationSpec" managed-name="AndroidX.Room.Migration.IAutoMigrationSpec, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554531" />
+    <entry java-name="androidx/room/migration/AutoMigrationSpec" managed-name="AndroidX.Room.Migration.IAutoMigrationSpecInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554532" />
+    <entry java-name="androidx/room/migration/Migration" managed-name="AndroidX.Room.Migration.Migration, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554533" />
+    <entry java-name="androidx/room/migration/Migration" managed-name="AndroidX.Room.Migration.MigrationInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554534" />
+    <entry java-name="androidx/room/migration/MigrationKt" managed-name="AndroidX.Room.Migration.MigrationKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554535" />
+    <entry java-name="androidx/room/coroutines/ConnectionPoolImplKt" managed-name="AndroidX.Room.Coroutines.ConnectionPoolImplKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554536" />
+    <entry java-name="androidx/room/coroutines/ConnectionPoolKt" managed-name="AndroidX.Room.Coroutines.ConnectionPoolKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554537" />
+    <entry java-name="androidx/room/coroutines/FlowUtil" managed-name="AndroidX.Room.Coroutines.FlowUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554538" />
+    <entry java-name="androidx/room/coroutines/PassthroughConnectionPoolKt" managed-name="AndroidX.Room.Coroutines.PassthroughConnectionPoolKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554539" />
+    <entry java-name="androidx/room/coroutines/RunBlockingUninterruptible_androidKt" managed-name="AndroidX.Room.Coroutines.RunBlockingUninterruptible_androidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554540" />
+    <entry java-name="androidx/room/concurrent/AtomicsKt" managed-name="AndroidX.Room.Concurrent.AtomicsKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554541" />
+    <entry java-name="androidx/room/concurrent/Atomics_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.Atomics_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554542" />
+    <entry java-name="androidx/room/concurrent/CloseBarrierKt" managed-name="AndroidX.Room.Concurrent.CloseBarrierKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554543" />
+    <entry java-name="androidx/room/concurrent/ReentrantLockKt" managed-name="AndroidX.Room.Concurrent.ReentrantLockKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554544" />
+    <entry java-name="androidx/room/concurrent/ReentrantLock_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.ReentrantLock_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554545" />
+    <entry java-name="androidx/room/concurrent/Synchronized_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.Synchronized_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554546" />
+    <entry java-name="androidx/room/concurrent/ThreadLocal_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.ThreadLocal_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554547" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/room/BaseRoomConnectionManager" managed-name="AndroidX.Room.BaseRoomConnectionManager, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554456" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager$Companion" managed-name="AndroidX.Room.BaseRoomConnectionManager+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554549" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager$DriverWrapper" managed-name="AndroidX.Room.BaseRoomConnectionManager+DriverWrapper, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554550" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager$WhenMappings" managed-name="AndroidX.Room.BaseRoomConnectionManager+WhenMappings, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554551" />
+    <entry java-name="androidx/room/BaseRoomConnectionManager" managed-name="AndroidX.Room.BaseRoomConnectionManagerInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554457" />
+    <entry java-name="androidx/room/CoroutinesRoom" managed-name="AndroidX.Room.CoroutinesRoom, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554458" />
+    <entry java-name="androidx/room/CoroutinesRoom$Companion" managed-name="AndroidX.Room.CoroutinesRoom+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554552" />
+    <entry java-name="androidx/room/DatabaseConfiguration" managed-name="AndroidX.Room.DatabaseConfiguration, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554459" />
+    <entry java-name="androidx/room/EntityDeleteOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeleteOrUpdateAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554460" />
+    <entry java-name="androidx/room/EntityDeleteOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeleteOrUpdateAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554461" />
+    <entry java-name="androidx/room/EntityDeletionOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeletionOrUpdateAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554462" />
+    <entry java-name="androidx/room/EntityDeletionOrUpdateAdapter" managed-name="AndroidX.Room.EntityDeletionOrUpdateAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554463" />
+    <entry java-name="androidx/room/EntityInsertAdapter" managed-name="AndroidX.Room.EntityInsertAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554464" />
+    <entry java-name="androidx/room/EntityInsertAdapter" managed-name="AndroidX.Room.EntityInsertAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554465" />
+    <entry java-name="androidx/room/EntityInsertionAdapter" managed-name="AndroidX.Room.EntityInsertionAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554466" />
+    <entry java-name="androidx/room/EntityInsertionAdapter" managed-name="AndroidX.Room.EntityInsertionAdapterInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554467" />
+    <entry java-name="androidx/room/EntityUpsertAdapter" managed-name="AndroidX.Room.EntityUpsertAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554468" />
+    <entry java-name="androidx/room/EntityUpsertAdapter$Companion" managed-name="AndroidX.Room.EntityUpsertAdapter+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554553" />
+    <entry java-name="androidx/room/EntityUpsertionAdapter" managed-name="AndroidX.Room.EntityUpsertionAdapter, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554469" />
+    <entry java-name="androidx/room/EntityUpsertionAdapter_androidKt" managed-name="AndroidX.Room.EntityUpsertionAdapter_androidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554470" />
+    <entry java-name="androidx/room/ExperimentalRoomApi" managed-name="AndroidX.Room.IExperimentalRoomApi, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554472" />
+    <entry java-name="androidx/room/ExperimentalRoomApi" managed-name="AndroidX.Room.IExperimentalRoomApiInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554473" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback$Default" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackDefault, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554474" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackStub, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554475" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackStubInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554476" />
+    <entry java-name="mono/internal/androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.MultiInstanceInvalidationCallback, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554477" />
+    <entry java-name="mono/internal/androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.MultiInstanceInvalidationCallbackConsts, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554478" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.IMultiInstanceInvalidationCallback, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554479" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationCallback" managed-name="AndroidX.Room.IMultiInstanceInvalidationCallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554480" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService$Default" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceDefault, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554481" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceStub, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554482" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService$Stub" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceStubInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554483" />
+    <entry java-name="mono/internal/androidx/room/IMultiInstanceInvalidationService" managed-name="AndroidX.Room.MultiInstanceInvalidationServiceInterfaceConsts, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554484" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService" managed-name="AndroidX.Room.IMultiInstanceInvalidationServiceInterface, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554485" />
+    <entry java-name="androidx/room/IMultiInstanceInvalidationService" managed-name="AndroidX.Room.IMultiInstanceInvalidationServiceInterfaceInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554486" />
+    <entry java-name="androidx/room/InvalidationTracker" managed-name="AndroidX.Room.InvalidationTracker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554487" />
+    <entry java-name="androidx/room/InvalidationTracker$Companion" managed-name="AndroidX.Room.InvalidationTracker+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554558" />
+    <entry java-name="androidx/room/InvalidationTracker$Observer" managed-name="AndroidX.Room.InvalidationTracker+Observer, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554559" />
+    <entry java-name="androidx/room/InvalidationTracker$Observer" managed-name="AndroidX.Room.InvalidationTracker+ObserverInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554560" />
+    <entry java-name="androidx/room/PooledConnection" managed-name="AndroidX.Room.IPooledConnection, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554488" />
+    <entry java-name="androidx/room/PooledConnection" managed-name="AndroidX.Room.IPooledConnectionInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554489" />
+    <entry java-name="androidx/room/RoomDatabaseConstructor" managed-name="AndroidX.Room.IRoomDatabaseConstructor, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554490" />
+    <entry java-name="androidx/room/RoomDatabaseConstructor" managed-name="AndroidX.Room.IRoomDatabaseConstructorInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554491" />
+    <entry java-name="androidx/room/RoomOpenDelegateMarker" managed-name="AndroidX.Room.IRoomOpenDelegateMarker, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554492" />
+    <entry java-name="androidx/room/RoomOpenDelegateMarker" managed-name="AndroidX.Room.IRoomOpenDelegateMarkerInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554493" />
+    <entry java-name="androidx/room/TransactionScope" managed-name="AndroidX.Room.ITransactionScope, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554494" />
+    <entry java-name="androidx/room/TransactionScope" managed-name="AndroidX.Room.ITransactionScopeInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554495" />
+    <entry java-name="androidx/room/Transactor$SQLiteTransactionType" managed-name="AndroidX.Room.TransactorSQLiteTransactionType, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554496" />
+    <entry java-name="androidx/room/Transactor" managed-name="AndroidX.Room.ITransactor, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554497" />
+    <entry java-name="androidx/room/Transactor" managed-name="AndroidX.Room.ITransactorInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554498" />
+    <entry java-name="androidx/room/MultiInstanceInvalidationService" managed-name="AndroidX.Room.MultiInstanceInvalidationService, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554499" />
+    <entry java-name="androidx/room/Room" managed-name="AndroidX.Room.Room, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554500" />
+    <entry java-name="androidx/room/RoomDatabase" managed-name="AndroidX.Room.RoomDatabase, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554501" />
+    <entry java-name="androidx/room/RoomDatabase$Builder" managed-name="AndroidX.Room.RoomDatabase+Builder, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554561" />
+    <entry java-name="androidx/room/RoomDatabase$Callback" managed-name="AndroidX.Room.RoomDatabase+Callback, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554562" />
+    <entry java-name="androidx/room/RoomDatabase$Callback" managed-name="AndroidX.Room.RoomDatabase+CallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554563" />
+    <entry java-name="androidx/room/RoomDatabase$Companion" managed-name="AndroidX.Room.RoomDatabase+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554564" />
+    <entry java-name="androidx/room/RoomDatabase$JournalMode" managed-name="AndroidX.Room.RoomDatabase+JournalMode, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554565" />
+    <entry java-name="androidx/room/RoomDatabase$MigrationContainer" managed-name="AndroidX.Room.RoomDatabase+MigrationContainer, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554566" />
+    <entry java-name="androidx/room/RoomDatabase$PrepackagedDatabaseCallback" managed-name="AndroidX.Room.RoomDatabase+PrepackagedDatabaseCallback, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554567" />
+    <entry java-name="androidx/room/RoomDatabase$PrepackagedDatabaseCallback" managed-name="AndroidX.Room.RoomDatabase+PrepackagedDatabaseCallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554568" />
+    <entry java-name="androidx/room/RoomDatabase$QueryCallback" managed-name="AndroidX.Room.RoomDatabase+IQueryCallback, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554569" />
+    <entry java-name="androidx/room/RoomDatabase$QueryCallback" managed-name="AndroidX.Room.RoomDatabase+IQueryCallbackInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554570" />
+    <entry java-name="androidx/room/RoomDatabase" managed-name="AndroidX.Room.RoomDatabaseInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554502" />
+    <entry java-name="androidx/room/RoomDatabaseKt" managed-name="AndroidX.Room.RoomDatabaseKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554503" />
+    <entry java-name="androidx/room/RoomOpenDelegate" managed-name="AndroidX.Room.RoomOpenDelegate, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554504" />
+    <entry java-name="androidx/room/RoomOpenDelegate$ValidationResult" managed-name="AndroidX.Room.RoomOpenDelegate+ValidationResult, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554571" />
+    <entry java-name="androidx/room/RoomOpenDelegate" managed-name="AndroidX.Room.RoomOpenDelegateInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554505" />
+    <entry java-name="androidx/room/RoomOpenHelper" managed-name="AndroidX.Room.RoomOpenHelper, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554506" />
+    <entry java-name="androidx/room/RoomOpenHelper$Companion" managed-name="AndroidX.Room.RoomOpenHelper+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554572" />
+    <entry java-name="androidx/room/RoomOpenHelper$Delegate" managed-name="AndroidX.Room.RoomOpenHelper+CallbackDelegate, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554573" />
+    <entry java-name="androidx/room/RoomOpenHelper$Delegate" managed-name="AndroidX.Room.RoomOpenHelper+CallbackDelegateInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554574" />
+    <entry java-name="androidx/room/RoomOpenHelper$ValidationResult" managed-name="AndroidX.Room.RoomOpenHelper+ValidationResult, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554575" />
+    <entry java-name="androidx/room/RoomRawQuery" managed-name="AndroidX.Room.RoomRawQuery, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554507" />
+    <entry java-name="androidx/room/RoomSQLiteQuery" managed-name="AndroidX.Room.RoomSQLiteQuery, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554508" />
+    <entry java-name="androidx/room/RoomSQLiteQuery$Companion" managed-name="AndroidX.Room.RoomSQLiteQuery+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554576" />
+    <entry java-name="androidx/room/SharedSQLiteStatement" managed-name="AndroidX.Room.SharedSQLiteStatement, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554509" />
+    <entry java-name="androidx/room/SharedSQLiteStatement" managed-name="AndroidX.Room.SharedSQLiteStatementInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554510" />
+    <entry java-name="androidx/room/TransactorKt" managed-name="AndroidX.Room.TransactorKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554511" />
+    <entry java-name="androidx/room/util/ByteArrayWrapper" managed-name="AndroidX.Room.Util.ByteArrayWrapper, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554512" />
+    <entry java-name="androidx/room/util/CursorUtil" managed-name="AndroidX.Room.Util.CursorUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554513" />
+    <entry java-name="androidx/room/util/DBUtil" managed-name="AndroidX.Room.Util.DBUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554514" />
+    <entry java-name="androidx/room/util/FileUtil" managed-name="AndroidX.Room.Util.FileUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554515" />
+    <entry java-name="androidx/room/util/FtsTableInfo" managed-name="AndroidX.Room.Util.FtsTableInfo, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554516" />
+    <entry java-name="androidx/room/util/FtsTableInfo$Companion" managed-name="AndroidX.Room.Util.FtsTableInfo+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554577" />
+    <entry java-name="androidx/room/util/FtsTableInfoKt" managed-name="AndroidX.Room.Util.FtsTableInfoKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554517" />
+    <entry java-name="androidx/room/util/KClassUtil" managed-name="AndroidX.Room.Util.KClassUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554518" />
+    <entry java-name="androidx/room/util/MigrationUtil" managed-name="AndroidX.Room.Util.MigrationUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554519" />
+    <entry java-name="androidx/room/util/RelationUtil" managed-name="AndroidX.Room.Util.RelationUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554520" />
+    <entry java-name="androidx/room/util/SchemaInfoUtilKt" managed-name="AndroidX.Room.Util.SchemaInfoUtilKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554521" />
+    <entry java-name="androidx/room/util/SQLiteConnectionUtil" managed-name="AndroidX.Room.Util.SQLiteConnectionUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554522" />
+    <entry java-name="androidx/room/util/SQLiteStatementUtil" managed-name="AndroidX.Room.Util.SQLiteStatementUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554523" />
+    <entry java-name="androidx/room/util/StringUtil" managed-name="AndroidX.Room.Util.StringUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554524" />
+    <entry java-name="androidx/room/util/TableInfo" managed-name="AndroidX.Room.Util.TableInfo, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554525" />
+    <entry java-name="androidx/room/util/TableInfo$Column" managed-name="AndroidX.Room.Util.TableInfo+Column, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554578" />
+    <entry java-name="androidx/room/util/TableInfo$Column$Companion" managed-name="AndroidX.Room.Util.TableInfo+Column+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554584" />
+    <entry java-name="androidx/room/util/TableInfo$Companion" managed-name="AndroidX.Room.Util.TableInfo+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554579" />
+    <entry java-name="androidx/room/util/TableInfo$ForeignKey" managed-name="AndroidX.Room.Util.TableInfo+ForeignKey, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554580" />
+    <entry java-name="androidx/room/util/TableInfo$Index" managed-name="AndroidX.Room.Util.TableInfo+Index, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554581" />
+    <entry java-name="androidx/room/util/TableInfo$Index$Companion" managed-name="AndroidX.Room.Util.TableInfo+Index+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554585" />
+    <entry java-name="androidx/room/util/TableInfoKt" managed-name="AndroidX.Room.Util.TableInfoKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554526" />
+    <entry java-name="androidx/room/util/UUIDUtil" managed-name="AndroidX.Room.Util.UUIDUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554527" />
+    <entry java-name="androidx/room/util/ViewInfo" managed-name="AndroidX.Room.Util.ViewInfo, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554528" />
+    <entry java-name="androidx/room/util/ViewInfo$Companion" managed-name="AndroidX.Room.Util.ViewInfo+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554582" />
+    <entry java-name="androidx/room/util/ViewInfoKt" managed-name="AndroidX.Room.Util.ViewInfoKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554529" />
+    <entry java-name="androidx/room/paging/CursorSQLiteStatement" managed-name="AndroidX.Room.Paging.CursorSQLiteStatement, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554530" />
+    <entry java-name="androidx/room/paging/CursorSQLiteStatement$Companion" managed-name="AndroidX.Room.Paging.CursorSQLiteStatement+Companion, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554583" />
+    <entry java-name="androidx/room/migration/AutoMigrationSpec" managed-name="AndroidX.Room.Migration.IAutoMigrationSpec, Xamarin.AndroidX.Room.Runtime.Android" skip-in-java-to-managed="True" managed-type-token-id="33554531" />
+    <entry java-name="androidx/room/migration/AutoMigrationSpec" managed-name="AndroidX.Room.Migration.IAutoMigrationSpecInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554532" />
+    <entry java-name="androidx/room/migration/Migration" managed-name="AndroidX.Room.Migration.Migration, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554533" />
+    <entry java-name="androidx/room/migration/Migration" managed-name="AndroidX.Room.Migration.MigrationInvoker, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554534" />
+    <entry java-name="androidx/room/migration/MigrationKt" managed-name="AndroidX.Room.Migration.MigrationKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554535" />
+    <entry java-name="androidx/room/coroutines/ConnectionPoolImplKt" managed-name="AndroidX.Room.Coroutines.ConnectionPoolImplKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554536" />
+    <entry java-name="androidx/room/coroutines/ConnectionPoolKt" managed-name="AndroidX.Room.Coroutines.ConnectionPoolKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554537" />
+    <entry java-name="androidx/room/coroutines/FlowUtil" managed-name="AndroidX.Room.Coroutines.FlowUtil, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554538" />
+    <entry java-name="androidx/room/coroutines/PassthroughConnectionPoolKt" managed-name="AndroidX.Room.Coroutines.PassthroughConnectionPoolKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554539" />
+    <entry java-name="androidx/room/coroutines/RunBlockingUninterruptible_androidKt" managed-name="AndroidX.Room.Coroutines.RunBlockingUninterruptible_androidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554540" />
+    <entry java-name="androidx/room/concurrent/AtomicsKt" managed-name="AndroidX.Room.Concurrent.AtomicsKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554541" />
+    <entry java-name="androidx/room/concurrent/Atomics_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.Atomics_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554542" />
+    <entry java-name="androidx/room/concurrent/CloseBarrierKt" managed-name="AndroidX.Room.Concurrent.CloseBarrierKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554543" />
+    <entry java-name="androidx/room/concurrent/ReentrantLockKt" managed-name="AndroidX.Room.Concurrent.ReentrantLockKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554544" />
+    <entry java-name="androidx/room/concurrent/ReentrantLock_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.ReentrantLock_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554545" />
+    <entry java-name="androidx/room/concurrent/Synchronized_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.Synchronized_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554546" />
+    <entry java-name="androidx/room/concurrent/ThreadLocal_jvmAndroidKt" managed-name="AndroidX.Room.Concurrent.ThreadLocal_jvmAndroidKt, Xamarin.AndroidX.Room.Runtime.Android" managed-type-token-id="33554547" />
+  </managed-to-java>
+</api>

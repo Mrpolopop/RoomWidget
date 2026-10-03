@@ -48,7 +48,7 @@ namespace RoomWidget.Models
 
         public async Task<CalendarEvent?> GetNextEvent()
         {
-            var downloadedCalendar = await GetCalendarFromHttp(this.url);
+            var downloadedCalendar = await GetCalendarFromHttp(this.url, TimeSpan.FromSeconds(7));
             var time = DateTime.Now;
 
             var targetEvent = downloadedCalendar.Events
@@ -86,12 +86,16 @@ namespace RoomWidget.Models
             return null;
         }
 
-        private async Task<Calendar> GetCalendarFromHttp(string url)
+        private async Task<Calendar> GetCalendarFromHttp(string url, TimeSpan? timeout = null)
         {
             using (HttpClient client = new HttpClient())
             {
+                if (timeout.HasValue)
+                {
+                    client.Timeout = timeout.Value;
+                }
+        
                 string content = await client.GetStringAsync(url);
-
                 return Calendar.Load(content);
             }
         }
