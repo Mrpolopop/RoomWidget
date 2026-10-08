@@ -7,6 +7,8 @@
         <member name="T:RoomWidget.ViewModels.HomeViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:RoomWidget.ViewModels.HomeViewModel.OnGoingEvents">
             <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.onGoingEvents"/>
@@ -14,11 +16,46 @@
         <member name="P:RoomWidget.ViewModels.HomeViewModel.IsBusy">
             <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.isBusy"/>
         </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.CalendarName">
+            <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.calendarName"/>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.CalendarUrl">
+            <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.calendarUrl"/>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.ErrorOccured">
+            <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.errorOccured"/>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.ErrorMessage">
+            <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.errorMessage"/>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.PickerCalendars">
+            <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.pickerCalendars"/>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.SelectedCalendar">
+            <inheritdoc cref="F:RoomWidget.ViewModels.HomeViewModel.selectedCalendar"/>
+        </member>
+        <member name="M:RoomWidget.ViewModels.HomeViewModel.OnSelectedCalendarChanged(RoomWidget.Models.CalendarModel)">
+            <summary>Executes the logic for when <see cref="P:RoomWidget.ViewModels.HomeViewModel.SelectedCalendar"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:RoomWidget.ViewModels.HomeViewModel.SelectedCalendar"/> is changed.</remarks>
+        </member>
         <member name="F:RoomWidget.ViewModels.HomeViewModel.updateContentCommand">
             <summary>The backing field for <see cref="P:RoomWidget.ViewModels.HomeViewModel.UpdateContentCommand"/>.</summary>
         </member>
         <member name="P:RoomWidget.ViewModels.HomeViewModel.UpdateContentCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:RoomWidget.ViewModels.HomeViewModel.UpdateContent"/>.</summary>
+        </member>
+        <member name="F:RoomWidget.ViewModels.HomeViewModel.addCalendarCommand">
+            <summary>The backing field for <see cref="P:RoomWidget.ViewModels.HomeViewModel.AddCalendarCommand"/>.</summary>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.AddCalendarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:RoomWidget.ViewModels.HomeViewModel.AddCalendar"/>.</summary>
+        </member>
+        <member name="F:RoomWidget.ViewModels.HomeViewModel.deleteCalendarCommand">
+            <summary>The backing field for <see cref="P:RoomWidget.ViewModels.HomeViewModel.DeleteCalendarCommand"/>.</summary>
+        </member>
+        <member name="P:RoomWidget.ViewModels.HomeViewModel.DeleteCalendarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:RoomWidget.ViewModels.HomeViewModel.DeleteCalendar(System.String)"/>.</summary>
         </member>
         <member name="T:RoomWidget.Resource">
             <summary>
@@ -38,6 +75,24 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBusy">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBusy" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CalendarName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CalendarName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CalendarUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CalendarUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorOccured">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorOccured" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PickerCalendars">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PickerCalendars" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCalendar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCalendar" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -49,6 +104,24 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBusy">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBusy" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CalendarName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CalendarName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CalendarUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CalendarUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorOccured">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorOccured" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ErrorMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ErrorMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PickerCalendars">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PickerCalendars" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCalendar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCalendar" generated properties.</summary>
         </member>
     </members>
 </doc>
