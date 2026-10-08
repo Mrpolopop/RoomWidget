@@ -430,9 +430,6 @@ mono.androidx.appcompat.widget.Toolbar_OnMenuItemClickListenerImplementor;mono.a
 AndroidX.AppCompat.Widget.Toolbar+NavigationOnClickEventDispatcher, Xamarin.AndroidX.AppCompat;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
 AndroidX.AppCompat.Widget.Toolbar.NavigationOnClickEventDispatcher;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
 androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher;androidx.appcompat.widget.Toolbar_NavigationOnClickEventDispatcher
-AndroidX.Arch.Core.Util.IFunction, Xamarin.AndroidX.Arch.Core.Common;androidx.arch.core.util.Function
-AndroidX.Arch.Core.Util.IFunction;androidx.arch.core.util.Function
-androidx.arch.core.util.Function;androidx.arch.core.util.Function
 AndroidX.Core.App.SharedElementCallback+IOnSharedElementsReadyListener, Xamarin.AndroidX.Core;androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
 AndroidX.Core.App.SharedElementCallback.IOnSharedElementsReadyListener;androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
 androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener;androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
@@ -631,30 +628,6 @@ androidx.viewpager2.adapter.FragmentStateAdapter$FragmentTransactionCallback$OnP
 AndroidX.ViewPager2.Widget.ViewPager2+IPageTransformer, Xamarin.AndroidX.ViewPager2;androidx.viewpager2.widget.ViewPager2$PageTransformer
 AndroidX.ViewPager2.Widget.ViewPager2.IPageTransformer;androidx.viewpager2.widget.ViewPager2$PageTransformer
 androidx.viewpager2.widget.ViewPager2$PageTransformer;androidx.viewpager2.widget.ViewPager2$PageTransformer
-AndroidX.Work.IClock, Xamarin.AndroidX.Work.Runtime;androidx.work.Clock
-AndroidX.Work.IClock;androidx.work.Clock
-androidx.work.Clock;androidx.work.Clock
-AndroidX.Work.IForegroundUpdater, Xamarin.AndroidX.Work.Runtime;androidx.work.ForegroundUpdater
-AndroidX.Work.IForegroundUpdater;androidx.work.ForegroundUpdater
-androidx.work.ForegroundUpdater;androidx.work.ForegroundUpdater
-AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutor, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.utils.taskexecutor.SerialExecutor
-AndroidX.Work.Impl.Utils.TaskExecutor.ISerialExecutor;androidx.work.impl.utils.taskexecutor.SerialExecutor
-androidx.work.impl.utils.taskexecutor.SerialExecutor;androidx.work.impl.utils.taskexecutor.SerialExecutor
-AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor, Xamarin.AndroidX.Work.Runtime;androidx.work.impl.utils.taskexecutor.TaskExecutor
-AndroidX.Work.Impl.Utils.TaskExecutor.ITaskExecutor;androidx.work.impl.utils.taskexecutor.TaskExecutor
-androidx.work.impl.utils.taskexecutor.TaskExecutor;androidx.work.impl.utils.taskexecutor.TaskExecutor
-AndroidX.Work.IOperation, Xamarin.AndroidX.Work.Runtime;androidx.work.Operation
-AndroidX.Work.IOperation;androidx.work.Operation
-androidx.work.Operation;androidx.work.Operation
-AndroidX.Work.IProgressUpdater, Xamarin.AndroidX.Work.Runtime;androidx.work.ProgressUpdater
-AndroidX.Work.IProgressUpdater;androidx.work.ProgressUpdater
-androidx.work.ProgressUpdater;androidx.work.ProgressUpdater
-AndroidX.Work.IRunnableScheduler, Xamarin.AndroidX.Work.Runtime;androidx.work.RunnableScheduler
-AndroidX.Work.IRunnableScheduler;androidx.work.RunnableScheduler
-androidx.work.RunnableScheduler;androidx.work.RunnableScheduler
-AndroidX.Work.ITracer, Xamarin.AndroidX.Work.Runtime;androidx.work.Tracer
-AndroidX.Work.ITracer;androidx.work.Tracer
-androidx.work.Tracer;androidx.work.Tracer
 Google.Android.Material.AppBar.AppBarLayout+ILiftOnScrollListener, Xamarin.Google.Android.Material;com.google.android.material.appbar.AppBarLayout$LiftOnScrollListener
 Google.Android.Material.AppBar.AppBarLayout.ILiftOnScrollListener;com.google.android.material.appbar.AppBarLayout$LiftOnScrollListener
 com.google.android.material.appbar.AppBarLayout$LiftOnScrollListener;com.google.android.material.appbar.AppBarLayout$LiftOnScrollListener
@@ -733,9 +706,6 @@ mono.com.google.android.material.tabs.TabLayout_BaseOnTabSelectedListenerImpleme
 Google.Android.Material.Tabs.TabLayoutMediator+ITabConfigurationStrategy, Xamarin.Google.Android.Material;com.google.android.material.tabs.TabLayoutMediator$TabConfigurationStrategy
 Google.Android.Material.Tabs.TabLayoutMediator.ITabConfigurationStrategy;com.google.android.material.tabs.TabLayoutMediator$TabConfigurationStrategy
 com.google.android.material.tabs.TabLayoutMediator$TabConfigurationStrategy;com.google.android.material.tabs.TabLayoutMediator$TabConfigurationStrategy
-Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
-Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
-com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
 Java.IO.ICloseable, Mono.Android;java.io.Closeable
 Java.IO.ICloseable;java.io.Closeable
 java.io.Closeable;java.io.Closeable
@@ -1495,9 +1465,6 @@ roomwidget.MainActivity;crc647a63b22ff57ccb32.MainActivity
 RoomWidget.MainApplication, RoomWidget;crc647a63b22ff57ccb32.MainApplication
 RoomWidget.MainApplication;crc647a63b22ff57ccb32.MainApplication
 roomwidget.MainApplication;crc647a63b22ff57ccb32.MainApplication
-RoomWidget.Platforms.Android.CalendarWorker, RoomWidget;crc6497da801d5190a566.CalendarWorker
-RoomWidget.Platforms.Android.CalendarWorker;crc6497da801d5190a566.CalendarWorker
-roomwidget.platforms.android.CalendarWorker;crc6497da801d5190a566.CalendarWorker
 RoomWidget.Platforms.Android.MyWidget, RoomWidget;crc6497da801d5190a566.MyWidget
 RoomWidget.Platforms.Android.MyWidget;crc6497da801d5190a566.MyWidget
 roomwidget.platforms.android.MyWidget;crc6497da801d5190a566.MyWidget

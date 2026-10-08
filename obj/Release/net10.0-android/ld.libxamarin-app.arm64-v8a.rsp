@@ -15,10 +15,10 @@
 --fix-cortex-a53-843419
 -m aarch64linux
 -z max-page-size=16384
--L "C:\Program Files\dotnet\packs\Microsoft.Android.Runtime.Mono.36.android-arm64\36.1.30\runtimes\android-arm64\native"
-obj\Release\net10.0-android\android\typemaps.arm64-v8a.o
-obj\Release\net10.0-android\android\environment.arm64-v8a.o
-obj\Release\net10.0-android\android\compressed_assemblies.arm64-v8a.o
-obj\Release\net10.0-android\android\marshal_methods.arm64-v8a.o
-obj\Release\net10.0-android\android\jni_remap.arm64-v8a.o
+-L /home/paul/.dotnet/packs/Microsoft.Android.Runtime.Mono.36.android-arm64/36.1.69/runtimes/android-arm64/native
+obj/Release/net10.0-android/android/typemaps.arm64-v8a.o
+obj/Release/net10.0-android/android/environment.arm64-v8a.o
+obj/Release/net10.0-android/android/compressed_assemblies.arm64-v8a.o
+obj/Release/net10.0-android/android/marshal_methods.arm64-v8a.o
+obj/Release/net10.0-android/android/jni_remap.arm64-v8a.o
 -lc

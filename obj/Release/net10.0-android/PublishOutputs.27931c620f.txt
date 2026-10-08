@@ -1,0 +1,4 @@
+/home/paul/Documents/Projets/RoomWidget/bin/Release/net10.0-android/publish/com.companyname.roomwidget-Signed.aab
+/home/paul/Documents/Projets/RoomWidget/bin/Release/net10.0-android/publish/com.companyname.roomwidget.aab
+/home/paul/Documents/Projets/RoomWidget/bin/Release/net10.0-android/publish/com.companyname.roomwidget-Signed.apk
+/home/paul/Documents/Projets/RoomWidget/bin/Release/net10.0-android/publish/_Microsoft.Android.Resource.Designer.dll

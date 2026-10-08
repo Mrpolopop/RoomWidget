@@ -1,5 +1,5 @@
-<api type="release" assembly-name="Xamarin.Kotlin.StdLib" mvid="c3c5fb5cd4834e3b8572da382ef2cc67">
-  <module assembly-name="Xamarin.Kotlin.StdLib" mvid="c3c5fb5cd4834e3b8572da382ef2cc67" mvid-bytes="XPvFw4PUO06Fcto4LvLMZw==">
+<api type="release" assembly-name="Xamarin.Kotlin.StdLib" mvid="3d067bbe0bcd4a3eaacb622d547c60b2">
+  <module assembly-name="Xamarin.Kotlin.StdLib" mvid="3d067bbe0bcd4a3eaacb622d547c60b2" mvid-bytes="vnsGPc0LPkqqy2ItVHxgsg==">
     <duplicates>
       <entry java-name="kotlin/Function" managed-type-name="Kotlin.IFunctionInvoker" token="33554449" />
       <entry java-name="kotlin/sequences/Sequence" managed-type-name="Kotlin.Sequences.ISequenceInvoker" token="33554451" />
@@ -17,10 +17,9 @@
       <entry java-name="kotlin/jvm/functions/Function1" managed-type-name="Kotlin.Jvm.Functions.IFunction1Invoker" token="33554480" />
       <entry java-name="kotlin/jvm/functions/Function2" managed-type-name="Kotlin.Jvm.Functions.IFunction2Invoker" token="33554482" />
       <entry java-name="kotlin/enums/EnumEntries" managed-type-name="Kotlin.Enums.IEnumEntriesInvoker" token="33554484" />
-      <entry java-name="kotlin/coroutines/AbstractCoroutineContextElement" managed-type-name="Kotlin.Coroutines.AbstractCoroutineContextElementInvoker" token="33554486" />
-      <entry java-name="kotlin/coroutines/Continuation" managed-type-name="Kotlin.Coroutines.IContinuationInvoker" token="33554488" />
-      <entry java-name="kotlin/coroutines/CoroutineContext$Key" managed-type-name="Kotlin.Coroutines.ICoroutineContextKeyInvoker" token="33554490" />
-      <entry java-name="kotlin/coroutines/CoroutineContext" managed-type-name="Kotlin.Coroutines.ICoroutineContextInvoker" token="33554492" />
+      <entry java-name="kotlin/coroutines/Continuation" managed-type-name="Kotlin.Coroutines.IContinuationInvoker" token="33554486" />
+      <entry java-name="kotlin/coroutines/CoroutineContext$Key" managed-type-name="Kotlin.Coroutines.ICoroutineContextKeyInvoker" token="33554488" />
+      <entry java-name="kotlin/coroutines/CoroutineContext" managed-type-name="Kotlin.Coroutines.ICoroutineContextInvoker" token="33554490" />
     </duplicates>
     <types-scratch>
       <entry key="kotlin/Function" java-name="kotlin/Function" managed-type-name="Kotlin.IFunction" token="33554448" skip-in-java-to-managed="True" />
@@ -44,10 +43,9 @@
       <entry key="kotlin/jvm/functions/Function1" java-name="kotlin/jvm/functions/Function1" managed-type-name="Kotlin.Jvm.Functions.IFunction1" token="33554479" skip-in-java-to-managed="True" />
       <entry key="kotlin/jvm/functions/Function2" java-name="kotlin/jvm/functions/Function2" managed-type-name="Kotlin.Jvm.Functions.IFunction2" token="33554481" skip-in-java-to-managed="True" />
       <entry key="kotlin/enums/EnumEntries" java-name="kotlin/enums/EnumEntries" managed-type-name="Kotlin.Enums.IEnumEntries" token="33554483" skip-in-java-to-managed="True" />
-      <entry key="kotlin/coroutines/AbstractCoroutineContextElement" java-name="kotlin/coroutines/AbstractCoroutineContextElement" managed-type-name="Kotlin.Coroutines.AbstractCoroutineContextElement" token="33554485" />
-      <entry key="kotlin/coroutines/Continuation" java-name="kotlin/coroutines/Continuation" managed-type-name="Kotlin.Coroutines.IContinuation" token="33554487" skip-in-java-to-managed="True" />
-      <entry key="kotlin/coroutines/CoroutineContext$Key" java-name="kotlin/coroutines/CoroutineContext$Key" managed-type-name="Kotlin.Coroutines.ICoroutineContextKey" token="33554489" skip-in-java-to-managed="True" />
-      <entry key="kotlin/coroutines/CoroutineContext" java-name="kotlin/coroutines/CoroutineContext" managed-type-name="Kotlin.Coroutines.ICoroutineContext" token="33554491" skip-in-java-to-managed="True" />
+      <entry key="kotlin/coroutines/Continuation" java-name="kotlin/coroutines/Continuation" managed-type-name="Kotlin.Coroutines.IContinuation" token="33554485" skip-in-java-to-managed="True" />
+      <entry key="kotlin/coroutines/CoroutineContext$Key" java-name="kotlin/coroutines/CoroutineContext$Key" managed-type-name="Kotlin.Coroutines.ICoroutineContextKey" token="33554487" skip-in-java-to-managed="True" />
+      <entry key="kotlin/coroutines/CoroutineContext" java-name="kotlin/coroutines/CoroutineContext" managed-type-name="Kotlin.Coroutines.ICoroutineContext" token="33554489" skip-in-java-to-managed="True" />
     </types-scratch>
   </module>
 </api>
